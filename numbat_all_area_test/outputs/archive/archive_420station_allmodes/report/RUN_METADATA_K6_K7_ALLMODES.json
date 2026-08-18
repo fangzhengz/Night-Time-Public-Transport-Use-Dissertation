@@ -1,0 +1,57 @@
+{
+  "experiment_id": "rail-allmodes-k6-k7-20260722-234008",
+  "started_at": "2026-07-22T22:39:02.658321+00:00",
+  "finished_at": "2026-07-22T22:40:08.527159+00:00",
+  "duration_seconds": 65.86885240000265,
+  "command": "C:\\Users\\fangz\\AppData\\Local\\Programs\\Python\\Python313\\python.exe D:\\SDS2025_workspace\\CASA_FYP\\FYP\\numbat_all_area_test\\src\\07_stability_allmodes.py",
+  "working_directory": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\numbat_all_area_test",
+  "script": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\numbat_all_area_test\\src\\07_stability_allmodes.py",
+  "n_stations": 420,
+  "n_features": 344,
+  "k_low": 6,
+  "k_high": 7,
+  "parameters": {
+    "bootstrap": 200,
+    "seed_runs": 20,
+    "reference_n_init": 20,
+    "bootstrap_n_init": 3,
+    "seed_n_init": 20,
+    "random_state": 42,
+    "reg_covar": 1e-06,
+    "max_iter": 300,
+    "covariance_type": "diag"
+  },
+  "environment": {
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "pyarrow": "24.0.0",
+    "scipy": "1.16.3",
+    "scikit_learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "inputs": {
+    "features": {
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\numbat_all_area_test\\outputs\\data\\X_rail_allmodes.parquet",
+      "sha256": "3abcdf32c4ce9c4b052e92785b14f66fdcd16763b742816ac4fba719611f2e51"
+    },
+    "labels_k6": {
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\numbat_all_area_test\\outputs\\data\\rail_allmodes_k6_labels.csv",
+      "sha256": "575284771dff20d255e0b4404a15ee09c47b4c51c91e89b62a28098d1001711f"
+    },
+    "labels_k7": {
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\numbat_all_area_test\\outputs\\data\\rail_allmodes_k7_labels.csv",
+      "sha256": "498bdbc98c61dbad3bcabededb87ec92037d340f68596175c15cefe6dd799286"
+    },
+    "original_kdiag": {
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\numbat_all_area_test\\outputs\\data\\rail_allmodes_kdiag.csv",
+      "sha256": "8d22ee2f29c3b213c89ae8683baf800fddd398b99dbe2f5b1b09cca86f750e45"
+    }
+  },
+  "transition_summary": {
+    "adjusted_rand_index": 0.6454309988739312,
+    "best_match_count": 308,
+    "best_match_share": 0.7333333333333333
+  }
+}

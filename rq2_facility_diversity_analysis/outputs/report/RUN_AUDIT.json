@@ -1,0 +1,22 @@
+{
+  "source": {
+    "source_path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rq2_facility_diversity_analysis\\data\\source\\poi_6438516\\poi_6438516.gpkg",
+    "source_sha256": "223fc9d9d821cf5197fea7d93f2799f89c50ab99948d25a19b83af2cd85aef5c",
+    "source_layer": null,
+    "valid_unique_poi_rows": 393530,
+    "invalid_classification_rows": 0,
+    "duplicate_identifier_rows_removed": 0,
+    "observed_group_count": 9,
+    "observed_category_count": 52
+  },
+  "bus": {
+    "analysis_units": 3383,
+    "assigned_unique_poi": 280194
+  },
+  "rail": {
+    "fixed_cluster_rows": 404,
+    "analysis_units": 387,
+    "assigned_unique_poi": 198513,
+    "duplicate_boundary_allocations_removed": 0
+  }
+}

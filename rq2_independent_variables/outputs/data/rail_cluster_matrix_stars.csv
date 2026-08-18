@@ -1,0 +1,21 @@
+variable,C0 outer arrival-oriented,C1 central departure-oriented,"C2 central interchange, direction-balanced","C3 late-night, extended-duration persistent",C4 inner-middle ring mixed
+imd_education,,,,**,
+imd_health,***,,*,***,
+deprived_1plus_share,,*,,,
+social_rented_share,***,,***,***,
+no_car_household_share,***,***,***,**,*
+age_20_34_share,***,***,***,***,
+dependent_children_share,***,***,***,,*
+private_rented_share,***,***,***,,
+asian_share,,,*,,
+black_share,,***,,*,
+unemployed_share,***,**,,***,*
+accom_food_share,***,,,**,*
+transport_storage_share,***,***,***,,
+admin_support_share,*,***,***,,**
+wholesale_retail_share,***,***,***,,*
+health_social_share,***,***,**,,
+manufacturing_share,***,**,**,***,
+log1p_poi_count,***,***,***,,***
+shannon_group,***,,*,***,
+population_density,***,**,***,***,

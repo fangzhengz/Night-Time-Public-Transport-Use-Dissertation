@@ -1,0 +1,2 @@
+n,chi_square,degrees_of_freedom,asymptotic_p,permutation_p,distance_band_conditional_p,cramers_v,expected_cells_lt5_fraction,minimum_expected_count,n_permutations
+3383,556.7089746440511,33,2.0562391372546323e-96,0.001,0.001,0.23420840961692493,0.0,6.129470883830919,999

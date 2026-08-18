@@ -1,0 +1,6 @@
+canonical_k5_cluster,matched_allmodes_cluster,intersection,canonical_size,allmodes_subset_size,jaccard
+0,3,98,119,123,0.6805555555555556
+1,2,7,15,7,0.4666666666666667
+2,1,9,44,10,0.2
+3,4,38,38,57,0.6666666666666666
+4,0,52,54,73,0.6933333333333334

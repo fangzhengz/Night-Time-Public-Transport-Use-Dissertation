@@ -1,0 +1,36 @@
+{
+  "input_long": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\data_processing\\bus_stoparea\\outputs\\preprocessed\\bus_lsoa_night_long.parquet",
+  "input_long_sha256": "176996bd263fa21410456b0bdabc36b5ea367c613499caec0e1d6d04a09364f9",
+  "sample_metrics_sha256": "861ab0d7d8fe03ddc2e26d85455f7a92ce18075944a19ad0af3ab1762dd7b082",
+  "n_base_sample": 3372,
+  "n_strict_sample": 2493,
+  "strict_dropped": 879,
+  "block_count_median": 133.16091999999998,
+  "block_count_p05": 19.710603000000003,
+  "blocks_below_36_share": 0.147143139580862,
+  "blocks_below_20_share": 0.05209568999604587,
+  "zero_bin_share_mean": 0.1252141821536839,
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "daytype_raw_share_shape": [
+    3372,
+    72
+  ],
+  "daytype_clr_a1_shape": [
+    3372,
+    72
+  ],
+  "daytype_clr_a033_shape": [
+    3372,
+    72
+  ],
+  "daytype_raw_share_strict_shape": [
+    2493,
+    72
+  ],
+  "fullweek_raw_share_strict_shape": [
+    2493,
+    72
+  ],
+  "fullweek_anchor_max_abs_diff_vs_canonical": 0.0
+}

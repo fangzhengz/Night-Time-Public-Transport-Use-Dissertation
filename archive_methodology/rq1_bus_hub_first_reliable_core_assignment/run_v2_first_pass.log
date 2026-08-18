@@ -1,0 +1,113 @@
+Loaded 3593 LSOAs x 72 features; thresholds=[0.0, 50.0, 70.0, 90.0, 100.0, 110.0, 125.0, 150.0]; K scan=[2, 3, 4, 5, 6, 7, 8, 9, 10]; scan_n_init=5; deepdive_n_init=20
+threshold=0: n_core=3593 (100.0%) -- exploratory scan
+  [scan] K=2: BIC=-2040103.3 activity_eta2=0.4456 timing_mean_eta2=0.0712 pass=False
+  [scan] K=3: BIC=-2061869.2 activity_eta2=0.5222 timing_mean_eta2=0.2837 pass=False
+  [scan] K=4: BIC=-2051863.8 activity_eta2=0.5659 timing_mean_eta2=0.2915 pass=False
+  [scan] K=5: BIC=-2037251.1 activity_eta2=0.6388 timing_mean_eta2=0.3101 pass=False
+  [scan] K=6: BIC=-2018959.4 activity_eta2=0.6038 timing_mean_eta2=0.3215 pass=False
+  [scan] K=7: BIC=-2003971.8 activity_eta2=0.6405 timing_mean_eta2=0.3772 pass=False
+  [scan] K=8: BIC=-1987689.5 activity_eta2=0.6041 timing_mean_eta2=0.4310 pass=False
+  [scan] K=9: BIC=-1968154.7 activity_eta2=0.6229 timing_mean_eta2=0.4091 pass=False
+  [scan] K=10: BIC=-1951143.3 activity_eta2=0.6195 timing_mean_eta2=0.4348 pass=False
+  threshold=0: bic_best_K=3 -- confirmatory deep dive
+  [deepdive] K=3 (bic_best=True): activity_eta2=0.5222 timing_mean_eta2=0.2840 pass=False; 4.76s
+threshold=50: n_core=3228 (89.8%) -- exploratory scan
+  [scan] K=2: BIC=-1868508.1 activity_eta2=0.2736 timing_mean_eta2=0.0004 pass=False
+  [scan] K=3: BIC=-1874694.4 activity_eta2=0.4913 timing_mean_eta2=0.2745 pass=False
+  [scan] K=4: BIC=-1862804.3 activity_eta2=0.5416 timing_mean_eta2=0.3033 pass=False
+  [scan] K=5: BIC=-1845011.5 activity_eta2=0.5520 timing_mean_eta2=0.3138 pass=False
+  [scan] K=6: BIC=-1830726.6 activity_eta2=0.6014 timing_mean_eta2=0.3244 pass=False
+  [scan] K=7: BIC=-1813922.1 activity_eta2=0.5464 timing_mean_eta2=0.4117 pass=False
+  [scan] K=8: BIC=-1794346.6 activity_eta2=0.5801 timing_mean_eta2=0.3774 pass=False
+  [scan] K=9: BIC=-1779149.0 activity_eta2=0.5696 timing_mean_eta2=0.4398 pass=False
+  [scan] K=10: BIC=-1757462.1 activity_eta2=0.5891 timing_mean_eta2=0.4375 pass=False
+  threshold=50: bic_best_K=3 -- confirmatory deep dive
+  [deepdive] K=3 (bic_best=True): activity_eta2=0.4913 timing_mean_eta2=0.2745 pass=False; 7.68s
+threshold=70: n_core=3028 (84.3%) -- exploratory scan
+  [scan] K=2: BIC=-1761417.7 activity_eta2=0.4647 timing_mean_eta2=0.0376 pass=False
+  [scan] K=3: BIC=-1765758.9 activity_eta2=0.4579 timing_mean_eta2=0.2693 pass=False
+  [scan] K=4: BIC=-1753018.0 activity_eta2=0.4990 timing_mean_eta2=0.3248 pass=False
+  [scan] K=5: BIC=-1736556.0 activity_eta2=0.5399 timing_mean_eta2=0.3390 pass=False
+  [scan] K=6: BIC=-1720630.4 activity_eta2=0.5268 timing_mean_eta2=0.3651 pass=False
+  [scan] K=7: BIC=-1702654.7 activity_eta2=0.5271 timing_mean_eta2=0.3732 pass=False
+  [scan] K=8: BIC=-1686099.6 activity_eta2=0.5658 timing_mean_eta2=0.4493 pass=False
+  [scan] K=9: BIC=-1667496.8 activity_eta2=0.5469 timing_mean_eta2=0.3871 pass=False
+  [scan] K=10: BIC=-1648435.5 activity_eta2=0.5449 timing_mean_eta2=0.4413 pass=False
+  threshold=70: bic_best_K=3 -- confirmatory deep dive
+  [deepdive] K=3 (bic_best=True): activity_eta2=0.4583 timing_mean_eta2=0.2691 pass=False; 6.44s
+threshold=90: n_core=2848 (79.3%) -- exploratory scan
+  [scan] K=2: BIC=-1668041.2 activity_eta2=0.4409 timing_mean_eta2=0.0272 pass=False
+  [scan] K=3: BIC=-1654390.2 activity_eta2=0.0409 timing_mean_eta2=0.3358 pass=True
+  [scan] K=4: BIC=-1654296.9 activity_eta2=0.4948 timing_mean_eta2=0.3428 pass=False
+  [scan] K=5: BIC=-1637102.1 activity_eta2=0.4982 timing_mean_eta2=0.3355 pass=False
+  [scan] K=6: BIC=-1620583.5 activity_eta2=0.5507 timing_mean_eta2=0.3489 pass=False
+  [scan] K=7: BIC=-1603876.9 activity_eta2=0.5017 timing_mean_eta2=0.4386 pass=False
+  [scan] K=8: BIC=-1586210.7 activity_eta2=0.5087 timing_mean_eta2=0.4348 pass=False
+  [scan] K=9: BIC=-1568448.1 activity_eta2=0.5079 timing_mean_eta2=0.4511 pass=False
+  [scan] K=10: BIC=-1549155.5 activity_eta2=0.5200 timing_mean_eta2=0.4246 pass=False
+  threshold=90: bic_best_K=2 -- confirmatory deep dive
+  [deepdive] K=2 (bic_best=True): activity_eta2=0.4409 timing_mean_eta2=0.0272 pass=False; 3.13s
+  [deepdive] K=3 (bic_best=False): activity_eta2=0.0411 timing_mean_eta2=0.3240 pass=True; 3.09s
+threshold=100: n_core=2761 (76.8%) -- exploratory scan
+  [scan] K=2: BIC=-1621738.0 activity_eta2=0.4118 timing_mean_eta2=0.0067 pass=False
+  [scan] K=3: BIC=-1608092.1 activity_eta2=0.0785 timing_mean_eta2=0.2674 pass=True
+  [scan] K=4: BIC=-1605696.7 activity_eta2=0.4822 timing_mean_eta2=0.3243 pass=False
+  [scan] K=5: BIC=-1588551.7 activity_eta2=0.4906 timing_mean_eta2=0.3545 pass=False
+  [scan] K=6: BIC=-1571988.5 activity_eta2=0.4975 timing_mean_eta2=0.4536 pass=False
+  [scan] K=7: BIC=-1555127.5 activity_eta2=0.4989 timing_mean_eta2=0.4351 pass=False
+  [scan] K=8: BIC=-1537025.7 activity_eta2=0.4910 timing_mean_eta2=0.4742 pass=False
+  [scan] K=9: BIC=-1520258.3 activity_eta2=0.5230 timing_mean_eta2=0.4731 pass=False
+  [scan] K=10: BIC=-1498330.2 activity_eta2=0.5237 timing_mean_eta2=0.4275 pass=False
+  threshold=100: bic_best_K=2 -- confirmatory deep dive
+  [deepdive] K=2 (bic_best=True): activity_eta2=0.4118 timing_mean_eta2=0.0067 pass=False; 3.54s
+  [deepdive] K=3 (bic_best=False): activity_eta2=0.0928 timing_mean_eta2=0.2477 pass=True; 2.33s
+threshold=110: n_core=2697 (75.1%) -- exploratory scan
+  [scan] K=2: BIC=-1586475.4 activity_eta2=0.3928 timing_mean_eta2=0.0045 pass=False
+  [scan] K=3: BIC=-1572919.6 activity_eta2=0.0592 timing_mean_eta2=0.2920 pass=True
+  [scan] K=4: BIC=-1569578.3 activity_eta2=0.4736 timing_mean_eta2=0.3285 pass=False
+  [scan] K=5: BIC=-1553591.2 activity_eta2=0.4893 timing_mean_eta2=0.3533 pass=False
+  [scan] K=6: BIC=-1536365.0 activity_eta2=0.4921 timing_mean_eta2=0.4685 pass=False
+  [scan] K=7: BIC=-1518663.6 activity_eta2=0.4934 timing_mean_eta2=0.4283 pass=False
+  [scan] K=8: BIC=-1500359.4 activity_eta2=0.5058 timing_mean_eta2=0.4206 pass=False
+  [scan] K=9: BIC=-1484456.2 activity_eta2=0.5092 timing_mean_eta2=0.4477 pass=False
+  [scan] K=10: BIC=-1464237.5 activity_eta2=0.4917 timing_mean_eta2=0.4808 pass=False
+  threshold=110: bic_best_K=2 -- confirmatory deep dive
+  [deepdive] K=2 (bic_best=True): activity_eta2=0.3928 timing_mean_eta2=0.0045 pass=False; 5.64s
+  [deepdive] K=3 (bic_best=False): activity_eta2=0.0592 timing_mean_eta2=0.2920 pass=True; 2.72s
+threshold=125: n_core=2582 (71.9%) -- exploratory scan
+  [scan] K=2: BIC=-1524535.8 activity_eta2=0.0231 timing_mean_eta2=0.0640 pass=True
+  [scan] K=3: BIC=-1519161.7 activity_eta2=0.4639 timing_mean_eta2=0.1178 pass=False
+  [scan] K=4: BIC=-1505239.3 activity_eta2=0.4647 timing_mean_eta2=0.3770 pass=False
+  [scan] K=5: BIC=-1488669.6 activity_eta2=0.4889 timing_mean_eta2=0.3732 pass=False
+  [scan] K=6: BIC=-1471699.5 activity_eta2=0.4908 timing_mean_eta2=0.3558 pass=False
+  [scan] K=7: BIC=-1453691.6 activity_eta2=0.4805 timing_mean_eta2=0.4050 pass=False
+  [scan] K=8: BIC=-1436133.2 activity_eta2=0.4872 timing_mean_eta2=0.3932 pass=False
+  [scan] K=9: BIC=-1418825.4 activity_eta2=0.4904 timing_mean_eta2=0.4965 pass=True
+  [scan] K=10: BIC=-1398700.1 activity_eta2=0.4964 timing_mean_eta2=0.4708 pass=False
+  threshold=125: bic_best_K=2 -- confirmatory deep dive
+  [deepdive] K=2 (bic_best=True): activity_eta2=0.0231 timing_mean_eta2=0.0640 pass=True; 6.29s
+  [deepdive] K=3 (bic_best=False): activity_eta2=0.4639 timing_mean_eta2=0.1178 pass=False; 9.28s
+threshold=150: n_core=2427 (67.5%) -- exploratory scan
+  [scan] K=2: BIC=-1436752.8 activity_eta2=0.0006 timing_mean_eta2=0.0667 pass=True
+  [scan] K=3: BIC=-1425503.3 activity_eta2=0.0854 timing_mean_eta2=0.2614 pass=True
+  [scan] K=4: BIC=-1417909.6 activity_eta2=0.4540 timing_mean_eta2=0.3490 pass=False
+  [scan] K=5: BIC=-1400024.1 activity_eta2=0.4875 timing_mean_eta2=0.3819 pass=False
+  [scan] K=6: BIC=-1383417.7 activity_eta2=0.4757 timing_mean_eta2=0.4205 pass=False
+  [scan] K=7: BIC=-1365129.2 activity_eta2=0.4645 timing_mean_eta2=0.4615 pass=False
+  [scan] K=8: BIC=-1347591.4 activity_eta2=0.4889 timing_mean_eta2=0.4375 pass=False
+  [scan] K=9: BIC=-1328758.6 activity_eta2=0.4687 timing_mean_eta2=0.4444 pass=False
+  [scan] K=10: BIC=-1309924.4 activity_eta2=0.4825 timing_mean_eta2=0.4641 pass=False
+  threshold=150: bic_best_K=2 -- confirmatory deep dive
+  [deepdive] K=2 (bic_best=True): activity_eta2=0.0006 timing_mean_eta2=0.0667 pass=True; 5.96s
+  [deepdive] K=3 (bic_best=False): activity_eta2=0.4507 timing_mean_eta2=0.1184 pass=False; 6.04s
+
+ threshold  n_core   pct_core  bic_best_k  bic_best_k_activity_eta2  bic_best_k_timing_mean_eta2  bic_best_k_activity_to_timing_ratio  gate_pass_at_bic_best_k  bic_best_k_min_cluster_pct  bic_best_k_converged  reference_k3_activity_eta2  reference_k3_gate_pass  bic_best_k_differs_from_reference  part_of_consecutive_pass_run            coverage_band  strict_candidate
+       0.0    3593 100.000000           3                  0.522216                     0.283973                             1.838966                    False                   13.748956                  True                    0.522216                   False                              False                         False preferred_at_least_75pct             False
+      50.0    3228  89.841358           3                  0.491284                     0.274461                             1.789995                    False                   13.816605                  True                    0.491284                   False                              False                         False preferred_at_least_75pct             False
+      70.0    3028  84.274979           3                  0.458252                     0.269116                             1.702804                    False                   11.063408                  True                    0.458252                   False                              False                         False preferred_at_least_75pct             False
+      90.0    2848  79.265238           2                  0.440852                     0.027211                            16.201113                    False                   43.750000                  True                    0.041100                    True                               True                         False preferred_at_least_75pct             False
+     100.0    2761  76.843863           2                  0.411835                     0.006670                            61.744569                    False                   38.536762                  True                    0.092774                    True                               True                         False preferred_at_least_75pct             False
+     110.0    2697  75.062622           2                  0.392832                     0.004468                            87.928402                    False                   37.226548                  True                    0.059212                    True                               True                         False preferred_at_least_75pct             False
+     125.0    2582  71.861954           2                  0.023125                     0.063995                             0.361351                     True                   17.157242                  True                    0.463860                   False                               True                          True     fallback_70_to_75pct             False
+     150.0    2427  67.548010           2                  0.000562                     0.066675                             0.008431                     True                   16.646065                  True                    0.450697                   False                               True                          True       stress_below_70pct             False
+Completed in 294.41s

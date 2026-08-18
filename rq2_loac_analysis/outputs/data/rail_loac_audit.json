@@ -1,0 +1,10 @@
+{
+  "input_rows":403.0,
+  "stations_eligible_for_loac_analysis":387.0,
+  "stations_outside_loac_extent":16.0,
+  "stations_inside_without_loac_coverage":0.0,
+  "mean_loac_coverage_ratio":0.9741773538,
+  "minimum_loac_coverage_ratio":0.5113723716,
+  "lowest_eligibility_cluster":0.0,
+  "clusters":5.0
+}

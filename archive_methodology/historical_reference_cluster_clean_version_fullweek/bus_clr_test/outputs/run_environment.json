@@ -1,0 +1,16 @@
+{
+  "allocation": "point_in_polygon_pre_stoparea",
+  "input_source": "FYP/\u65e7\u5206\u6790\u5f52\u6863/cluster_clean_version_grouped/outputs/preprocessed/bus_lsoa_night_long.parquet (frozen copy 2026-07-29)",
+  "n_input_lsoas": 4111,
+  "n_retained_lsoas": 3596,
+  "elapsed_seconds": 440.5070233345032,
+  "seed": 42,
+  "n_init": 20,
+  "clr_pseudocount_alpha": 1.0,
+  "min_direction": 36.0,
+  "reporting_covariance": "full",
+  "global_bic_covariance": "full",
+  "global_bic_k": 3,
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0"
+}

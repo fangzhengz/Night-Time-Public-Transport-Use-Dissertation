@@ -1,0 +1,5 @@
+tier,n_lsoa,pct_of_all_london_lsoa
+0_no_recorded_activity,813,16.3
+1_matched_stop_no_activity,88,1.8
+2_below_reliable_threshold,1644,32.9
+3_reliable_core,2449,49.0

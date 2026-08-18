@@ -1,0 +1,71 @@
+[1/8] Rebuilding fixed sample and raw counts
+      Verified exact sample match: 3365 LSOAs
+[2/8] Building Helmert ILR and exact-rank fitted coordinates
+      n=3365, ILR70 -> retained rank=58, distance error=9.237e-14
+[3/8] Running 4-covariance x K=2..12 BIC grid
+      spherical K= 2 BIC=558698.5 min_n=1612
+      spherical K= 3 BIC=522635.5 min_n= 942
+      spherical K= 4 BIC=510331.4 min_n= 633
+      spherical K= 5 BIC=498839.6 min_n= 514
+      spherical K= 6 BIC=489232.5 min_n= 325
+      spherical K= 7 BIC=483298.2 min_n= 320
+      spherical K= 8 BIC=478282.5 min_n= 308
+      spherical K= 9 BIC=474021.8 min_n= 214
+      spherical K=10 BIC=471092.4 min_n= 165
+      spherical K=11 BIC=469109.3 min_n= 144
+      spherical K=12 BIC=466802.8 min_n= 156
+      diag      K= 2 BIC=254443.2 min_n=1124
+      diag      K= 3 BIC=239089.9 min_n= 794
+      diag      K= 4 BIC=235430.9 min_n= 654
+      diag      K= 5 BIC=232360.5 min_n= 359
+      diag      K= 6 BIC=228965.8 min_n= 361
+      diag      K= 7 BIC=227697.7 min_n= 253
+      diag      K= 8 BIC=226382.2 min_n= 153
+      diag      K= 9 BIC=225822.2 min_n= 162
+      diag      K=10 BIC=225047.0 min_n= 162
+      diag      K=11 BIC=224978.8 min_n= 160
+      diag      K=12 BIC=224708.0 min_n=  54
+      tied      K= 2 BIC=312949.2 min_n=1247
+      tied      K= 3 BIC=309016.1 min_n= 410
+      tied      K= 4 BIC=306106.4 min_n= 404
+      tied      K= 5 BIC=304362.7 min_n= 217
+      tied      K= 6 BIC=302776.7 min_n= 215
+      tied      K= 7 BIC=302002.9 min_n= 171
+      tied      K= 8 BIC=300927.7 min_n=  87
+      tied      K= 9 BIC=300192.1 min_n=  87
+      tied      K=10 BIC=299582.4 min_n=  90
+      tied      K=11 BIC=298783.4 min_n=  62
+      tied      K=12 BIC=298706.9 min_n=  34
+      full      K= 2 BIC=268032.3 min_n=1432
+      full      K= 3 BIC=160956.6 min_n= 944
+      full      K= 4 BIC=136320.9 min_n= 558
+      full      K= 5 BIC=145283.7 min_n= 235
+      full      K= 6 BIC=146731.2 min_n=  43
+      full      K= 7 BIC=153968.8 min_n=  60
+      full      K= 8 BIC=158659.9 min_n=  63
+      full      K= 9 BIC=164267.2 min_n=  46
+      full      K=10 BIC=181770.0 min_n=  67
+      full      K=11 BIC=180253.4 min_n=  44
+      full      K=12 BIC=194095.1 min_n=  41
+      Global BIC minimum family used directly; no override needed.
+[4/8] K diagnostics at covariance=full
+      K= 2 sil=0.262 activity_eta2=0.510 zero_eta2=0.497
+      K= 3 sil=0.193 activity_eta2=0.559 zero_eta2=0.828
+      K= 4 sil=0.149 activity_eta2=0.574 zero_eta2=0.918
+      K= 5 sil=0.143 activity_eta2=0.578 zero_eta2=0.928
+      K= 6 sil=0.135 activity_eta2=0.590 zero_eta2=0.929
+      K= 7 sil=0.069 activity_eta2=0.622 zero_eta2=0.942
+      K= 8 sil=0.075 activity_eta2=0.627 zero_eta2=0.949
+      K= 9 sil=0.070 activity_eta2=0.654 zero_eta2=0.944
+      K=10 sil=0.049 activity_eta2=0.628 zero_eta2=0.945
+      K=11 sil=0.055 activity_eta2=0.643 zero_eta2=0.947
+      K=12 sil=0.060 activity_eta2=0.639 zero_eta2=0.944
+[5/8] Bootstrap stability for K=[2, 3, 4, 5], n=20
+      K=2: ARI=0.382, min Jaccard=0.657
+      K=3: ARI=0.862, min Jaccard=0.873
+      K=4: ARI=0.788, min Jaccard=0.427
+      K=5: ARI=0.771, min Jaccard=0.125
+[6/8] Per-cluster diagnostics and CLR label comparison
+      [{'K': 3, 'ARI_ilr_vs_clr': 1.0}, {'K': 4, 'ARI_ilr_vs_clr': 1.0}]
+[7/8] Writing primary figures and report
+[8/8] Complete in 412.2s: D:\SDS2025_workspace\CASA_FYP\FYP\rq1_bus_ilr_transform\outputs\report\ILR_RESULTS.md

@@ -1,0 +1,18 @@
+{
+  "parent_cluster": 1,
+  "parent_n": 1145,
+  "chosen_sub_k": 3,
+  "seed_ari_mean": 1.0,
+  "stability_threshold": 0.9,
+  "nested_sizes": {
+    "-1": 425,
+    "0": 610,
+    "2": 1058,
+    "3": 559,
+    "10": 498,
+    "11": 390,
+    "12": 257
+  },
+  "feature_source": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rq1_bus_stoparea_clustering\\outputs\\features\\X_bus_stoparea_clr_min36.parquet",
+  "covariance": "full"
+}

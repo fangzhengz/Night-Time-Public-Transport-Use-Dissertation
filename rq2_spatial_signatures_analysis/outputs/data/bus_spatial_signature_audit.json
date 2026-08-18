@@ -1,0 +1,12 @@
+{
+  "fixed_cluster_rows":3383,
+  "matched_rows":3383,
+  "unmatched_rows":0,
+  "coverage_rate":1.0,
+  "rare_dominant_codes_collapsed":[
+    "COA",
+    "DIU",
+    "GRQ",
+    "HDU"
+  ]
+}

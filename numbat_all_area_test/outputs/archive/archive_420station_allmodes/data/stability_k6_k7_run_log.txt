@@ -1,0 +1,31 @@
+[load] validating inputs
+[diagnostics] reference refit and silhouettes
+[transition] K=6 versus K=7 membership
+[bootstrap] starting 200 paired replicates
+[bootstrap] 10/200
+[bootstrap] 20/200
+[bootstrap] 30/200
+[bootstrap] 40/200
+[bootstrap] 50/200
+[bootstrap] 60/200
+[bootstrap] 70/200
+[bootstrap] 80/200
+[bootstrap] 90/200
+[bootstrap] 100/200
+[bootstrap] 110/200
+[bootstrap] 120/200
+[bootstrap] 130/200
+[bootstrap] 140/200
+[bootstrap] 150/200
+[bootstrap] 160/200
+[bootstrap] 170/200
+[bootstrap] 180/200
+[bootstrap] 190/200
+[bootstrap] 200/200
+[seed stability] starting 20 full-data refits
+[seed stability] 5/20
+[seed stability] 10/20
+[seed stability] 15/20
+[seed stability] 20/20
+[figures] rendering
+[complete] 65.9s

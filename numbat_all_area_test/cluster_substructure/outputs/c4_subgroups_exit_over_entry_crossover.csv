@@ -1,0 +1,11 @@
+day,group,exit_over_entry_from
+MON,C4 sub1 inner hub (n=59),21:00
+MON,C4 sub0 outer (n=108),21:00
+TWT,C4 sub1 inner hub (n=59),21:00
+TWT,C4 sub0 outer (n=108),21:00
+FRI,C4 sub1 inner hub (n=59),21:00
+FRI,C4 sub0 outer (n=108),21:15
+SAT,C4 sub1 inner hub (n=59),21:00
+SAT,C4 sub0 outer (n=108),22:00
+SUN,C4 sub1 inner hub (n=59),21:00
+SUN,C4 sub0 outer (n=108),21:30

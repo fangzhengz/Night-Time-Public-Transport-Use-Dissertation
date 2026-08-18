@@ -1,0 +1,73 @@
+[1/7] Loading fixed hub-first alpha=0 sample and raw metrics
+      Bottom 20% cutoff (total_activity) = 243.44; excluded=719 (20.0%); retained=2874 (80.0%)
+[2/7] Full BIC grid: 4 covariance families x K=2..12, n_init=20 (matching config.py)
+      spherical K= 2 BIC=-1306882.3 min_n=1313 (4.0s)
+      spherical K= 3 BIC=-1327875.0 min_n= 831 (0.5s)
+      spherical K= 4 BIC=-1346612.3 min_n= 397 (0.9s)
+      spherical K= 5 BIC=-1356074.3 min_n= 346 (1.2s)
+      spherical K= 6 BIC=-1363671.3 min_n= 316 (1.2s)
+      spherical K= 7 BIC=-1369399.0 min_n= 297 (1.1s)
+      spherical K= 8 BIC=-1373808.2 min_n= 154 (1.4s)
+      spherical K= 9 BIC=-1377694.2 min_n= 149 (1.7s)
+      spherical K=10 BIC=-1380838.5 min_n= 135 (2.0s)
+      spherical K=11 BIC=-1383535.0 min_n= 144 (1.9s)
+      spherical K=12 BIC=-1386533.0 min_n= 105 (1.9s)
+      diag      K= 2 BIC=-1499673.4 min_n= 848 (0.8s)
+      diag      K= 3 BIC=-1530282.1 min_n= 384 (1.2s)
+      diag      K= 4 BIC=-1549204.0 min_n= 320 (1.2s)
+      diag      K= 5 BIC=-1558150.7 min_n= 286 (2.4s)
+      diag      K= 6 BIC=-1564740.9 min_n= 242 (1.5s)
+      diag      K= 7 BIC=-1569659.1 min_n= 173 (1.3s)
+      diag      K= 8 BIC=-1574474.3 min_n= 117 (1.4s)
+      diag      K= 9 BIC=-1578379.7 min_n= 109 (1.5s)
+      diag      K=10 BIC=-1581230.8 min_n= 108 (1.5s)
+      diag      K=11 BIC=-1583807.7 min_n=  75 (2.0s)
+      diag      K=12 BIC=-1585875.3 min_n=  77 (1.8s)
+      tied      K= 2 BIC=-1674501.6 min_n= 242 (2.2s)
+      tied      K= 3 BIC=-1674005.9 min_n= 254 (2.7s)
+      tied      K= 4 BIC=-1676519.9 min_n=  41 (6.5s)
+      tied      K= 5 BIC=-1676424.9 min_n=  41 (7.1s)
+      tied      K= 6 BIC=-1677491.8 min_n=  41 (8.3s)
+      tied      K= 7 BIC=-1677756.4 min_n=  59 (9.3s)
+      tied      K= 8 BIC=-1678490.6 min_n=   1 (11.0s)
+      tied      K= 9 BIC=-1679250.8 min_n=   1 (12.3s)
+      tied      K=10 BIC=-1678981.6 min_n=  10 (13.2s)
+      tied      K=11 BIC=-1679352.4 min_n=   1 (15.5s)
+      tied      K=12 BIC=-1680375.5 min_n=   1 (16.5s)
+      full      K= 2 BIC=-1677864.9 min_n=1322 (3.2s)
+      full      K= 3 BIC=-1667665.8 min_n= 302 (3.1s)
+      full      K= 4 BIC=-1667459.2 min_n= 224 (5.6s)
+      full      K= 5 BIC=-1650211.2 min_n= 159 (6.1s)
+      full      K= 6 BIC=-1634328.6 min_n= 134 (8.1s)
+      full      K= 7 BIC=-1616577.1 min_n= 119 (14.2s)
+      full      K= 8 BIC=-1599171.7 min_n=  76 (16.6s)
+      full      K= 9 BIC=-1581722.7 min_n=  84 (21.2s)
+      full      K=10 BIC=-1562967.6 min_n=  74 (21.6s)
+      full      K=11 BIC=-1544577.0 min_n=  57 (26.8s)
+      full      K=12 BIC=-1525807.7 min_n=  57 (23.2s)
+      Global BIC minimum: covariance=tied, K=12
+[3/7] K diagnostics at BIC-best covariance=tied (reusing cached fits)
+      K= 2 sil=0.226 activity_eta2=0.058 timing_mean_eta2=0.012 pass=False
+      K= 3 sil=0.099 activity_eta2=0.166 timing_mean_eta2=0.164 pass=False
+      K= 4 sil=0.074 activity_eta2=0.076 timing_mean_eta2=0.212 pass=True
+      K= 5 sil=0.068 activity_eta2=0.106 timing_mean_eta2=0.245 pass=True
+      K= 6 sil=0.072 activity_eta2=0.108 timing_mean_eta2=0.245 pass=True
+      K= 7 sil=0.068 activity_eta2=0.103 timing_mean_eta2=0.318 pass=True
+      K= 8 sil=0.070 activity_eta2=0.162 timing_mean_eta2=0.264 pass=True
+      K= 9 sil=0.073 activity_eta2=0.154 timing_mean_eta2=0.284 pass=True
+      K=10 sil=0.051 activity_eta2=0.144 timing_mean_eta2=0.301 pass=True
+      K=11 sil=0.044 activity_eta2=0.151 timing_mean_eta2=0.345 pass=True
+      K=12 sil=0.075 activity_eta2=0.130 timing_mean_eta2=0.286 pass=True
+[4/7] Adjacent-K structure at covariance=tied
+[5/7] Bootstrap stability, K=[2, 3, 4, 5, 6, 7, 8], n=20, n_init=3
+      K=2: ARI mean=0.767; min-cluster Jaccard mean=0.708
+      K=3: ARI mean=0.330; min-cluster Jaccard mean=0.353
+      K=4: ARI mean=0.486; min-cluster Jaccard mean=0.108
+      K=5: ARI mean=0.488; min-cluster Jaccard mean=0.132
+      K=6: ARI mean=0.543; min-cluster Jaccard mean=0.187
+      K=7: ARI mean=0.485; min-cluster Jaccard mean=0.047
+      K=8: ARI mean=0.568; min-cluster Jaccard mean=0.013
+[6/7] Historical/no-exclusion comparison and figures
+[7/7] Writing report
+Completed in 418.3s
+D:\SDS2025_workspace\CASA_FYP\FYP\rq1_bus_hub_first_reliable_core_assignment\outputs\report\BOTTOM20_EXCLUDED_RESULTS.md

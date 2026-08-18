@@ -1,0 +1,14 @@
+{
+  "command": "python -u src\\run_fullweek_first_pass.py --alpha 5 --min-total 50 --bootstrap 20",
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "numpy": "2.3.5",
+  "pandas": "2.3.3",
+  "scikit_learn": "1.8.0",
+  "seed": 42,
+  "n_init": 20,
+  "bootstrap_n_init": 3,
+  "reg_covar": 1e-06,
+  "max_iter": 300,
+  "elapsed_seconds": 739.6395161151886
+}

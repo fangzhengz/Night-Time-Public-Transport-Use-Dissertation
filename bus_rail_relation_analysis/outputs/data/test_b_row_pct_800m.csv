@@ -1,0 +1,5 @@
+bus_cluster_name,C0 outer arrival-oriented,C1 central departure-oriented,"C2 central interchange, direction-balanced","C3 late-night, extended-duration persistent",C4 inner–middle ring mixed
+"C0 low activity, weak night-persistence",38.3,2.3,14.0,3.6,41.9
+"C1 relatively high activity, stronger night-persistence",12.9,3.9,24.3,8.7,50.3
+"C2 moderate activity and persistence, transitional",18.4,1.1,15.3,6.9,58.2
+C3 moderate activity with destination characteristics,35.1,1.3,13.8,6.7,43.1

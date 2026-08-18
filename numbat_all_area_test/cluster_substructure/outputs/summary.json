@@ -1,0 +1,30 @@
+{
+  "parent_cluster": 1,
+  "parent_n": 26,
+  "sub_k": 3,
+  "n_init": 100,
+  "seeds": [
+    42,
+    7,
+    123,
+    2026,
+    999,
+    55,
+    808,
+    1234,
+    31337,
+    64
+  ],
+  "anchors_coclustered_seeds": 10,
+  "consensus_threshold": 0.8,
+  "core_n": 12,
+  "nested_sizes": {
+    "0": 89,
+    "1": 14,
+    "2": 90,
+    "3": 31,
+    "4": 167,
+    "5": 12
+  },
+  "feature_source": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\numbat_all_area_test\\outputs\\data\\X_rail_allmodes.parquet"
+}

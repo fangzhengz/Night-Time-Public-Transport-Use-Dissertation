@@ -1,0 +1,4 @@
+cluster,n_lsoa,incident_edges,within_cluster_edges,within_share_of_incident_edges
+0,1701,5837,2190,0.37519273599451775
+1,1398,4732,1540,0.3254437869822485
+2,494,2021,260,0.12864918357248886

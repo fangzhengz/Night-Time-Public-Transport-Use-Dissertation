@@ -1,0 +1,16 @@
+{
+  "source_lsoa11_rows":41729,
+  "london_exact_fit_rows":5016,
+  "london_lookup_unique_lsoa11":4835,
+  "london_lookup_unique_lsoa21":4994,
+  "change_indicator_counts":{
+    "U":4659,
+    "S":313,
+    "M":44
+  },
+  "london_lsoa21_rows":4994,
+  "matched_lsoa21_rows":4994,
+  "unmatched_lsoa21_rows":0,
+  "lsoa21_with_multiple_lsoa11_sources":22,
+  "coverage_rate":1.0
+}

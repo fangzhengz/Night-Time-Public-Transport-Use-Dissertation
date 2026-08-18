@@ -1,0 +1,6 @@
+﻿cluster,role,name_en,name_zh,short,n,post_0100_share,direction_balance,km_to_centre,mean_silhouette,example_stations
+0,outer_arrival,C0 outer arrival-oriented,C0 外围到达倾向型,outer arrival,89,0.0113,-0.5235,17.76,0.0248,"Wimbledon, Richmond, Southall, Forest Hill"
+1,central_departure,C1 central departure-oriented,C1 中心区出发倾向型,central departure,26,0.0141,0.322,4.95,-0.0626,"Tottenham Court Road, Oxford Circus, Leicester Square, Piccadilly Circus"
+2,central_balanced,"C2 central interchange, direction-balanced",C2 中心换乘与方向相对均衡型,central balanced,90,0.0051,0.0235,5.75,0.0264,"Liverpool Street LU, King's Cross St. Pancras, Waterloo LU, Victoria LU"
+3,night_persistent,"C3 late-night, extended-duration persistent",C3 深夜长时间持续型,late-night persistent,31,0.0247,-0.1341,8.4,0.0164,"Brixton LU, Camden Town, Highbury & Islington, Wembley Park"
+4,inner_arrival,C4 inner-middle ring mixed,C4 内-中圈混合型,inner-middle mixed,167,0.0203,-0.3631,9.9,0.2303,"Stratford, Finsbury Park LU, Vauxhall LU, Earl's Court"

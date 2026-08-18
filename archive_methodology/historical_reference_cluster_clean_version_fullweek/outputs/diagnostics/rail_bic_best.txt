@@ -1,0 +1,7 @@
+=== rail: X (270, 344) ===
+BIC-best: covariance=diag, K=6, BIC=-975013.5
+  spherical: best K=12 (BIC -954831.4)
+  diag: best K=6 (BIC -975013.5)
+  tied: best K=2 (BIC -732247.4)
+  full: best K=2 (BIC -406271.5)
+kdiag (cov=diag) silhouette: K2=0.316, K3=0.160, K4=0.183, K5=0.142, K6=0.141, K7=0.112, K8=0.104, K9=0.110, K10=0.119, K11=0.109, K12=0.121

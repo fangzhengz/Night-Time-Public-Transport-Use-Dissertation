@@ -1,0 +1,81 @@
+cluster_name,variable,n,median,mean,vs_overall_median
+"C0 low activity, weak night-persistence",imd_education,604,13.269,15.589749999999999,-0.02200000000000024
+"C1 relatively high activity, stronger night-persistence",imd_education,1134,14.9495,16.47835185185185,1.6585
+"C2 moderate activity and persistence, transitional",imd_education,1069,11.539,13.726747427502339,-1.7520000000000007
+C3 moderate activity with destination characteristics,imd_education,576,13.614,15.429477430555558,0.3230000000000004
+"C0 low activity, weak night-persistence",imd_health,604,-0.2865,-0.34688079470198674,-0.13349999999999998
+"C1 relatively high activity, stronger night-persistence",imd_health,1134,0.06,-0.03219929453262787,0.213
+"C2 moderate activity and persistence, transitional",imd_health,1069,-0.253,-0.31746117867165574,-0.1
+C3 moderate activity with destination characteristics,imd_health,576,-0.281,-0.2964201388888889,-0.12800000000000003
+"C0 low activity, weak night-persistence",deprived_1plus_share,604,0.5135231626610937,0.5238663933025877,-0.015428324036871888
+"C1 relatively high activity, stronger night-persistence",deprived_1plus_share,1134,0.552608349612908,0.5481900104943123,0.0236568629149424
+"C2 moderate activity and persistence, transitional",deprived_1plus_share,1069,0.5061295971978984,0.5098190226383208,-0.02282188950006714
+C3 moderate activity with destination characteristics,deprived_1plus_share,576,0.5234426993211766,0.5253390838112666,-0.005508787376788948
+"C0 low activity, weak night-persistence",social_rented_share,604,0.14179666556029305,0.20093463145953025,-0.04217959556730336
+"C1 relatively high activity, stronger night-persistence",social_rented_share,1134,0.240977223802057,0.27361781525565776,0.05700096267446059
+"C2 moderate activity and persistence, transitional",social_rented_share,1069,0.1638330757341576,0.21790924344832566,-0.020143185393438817
+C3 moderate activity with destination characteristics,social_rented_share,576,0.154259528079014,0.2085848275102876,-0.02971673304858241
+"C0 low activity, weak night-persistence",no_car_household_share,604,0.2729898467107868,0.3032693121997178,-0.12701015328921322
+"C1 relatively high activity, stronger night-persistence",no_car_household_share,1134,0.5498774233639946,0.5289950859900419,0.14987742336399457
+"C2 moderate activity and persistence, transitional",no_car_household_share,1069,0.3647234678624813,0.39316308085139945,-0.035276532137518746
+C3 moderate activity with destination characteristics,no_car_household_share,576,0.318469803313649,0.3459240220599947,-0.08153019668635103
+"C0 low activity, weak night-persistence",age_20_34_share,604,0.20004587321378786,0.20717416528100494,-0.026594285831937736
+"C1 relatively high activity, stronger night-persistence",age_20_34_share,1134,0.27129304901436857,0.29294038853828974,0.04465288996864297
+"C2 moderate activity and persistence, transitional",age_20_34_share,1069,0.2206137811233352,0.2398589433653435,-0.006026377922390386
+C3 moderate activity with destination characteristics,age_20_34_share,576,0.20758031866657234,0.22410630371566023,-0.01905984037915326
+"C0 low activity, weak night-persistence",dependent_children_share,604,0.3512457957160559,0.35208334076061887,0.02613023331235792
+"C1 relatively high activity, stronger night-persistence",dependent_children_share,1134,0.2894218999364725,0.29203338548216573,-0.035693662467225495
+"C2 moderate activity and persistence, transitional",dependent_children_share,1069,0.3203007518796992,0.31601950636262494,-0.0048148105239987915
+C3 moderate activity with destination characteristics,dependent_children_share,576,0.34449171583474847,0.33940078491913517,0.01937615343105048
+"C0 low activity, weak night-persistence",private_rented_share,604,0.21479168206568605,0.2317587643721638,-0.07298502630774995
+"C1 relatively high activity, stronger night-persistence",private_rented_share,1134,0.3597209272068868,0.3657231568201301,0.07194421883345081
+"C2 moderate activity and persistence, transitional",private_rented_share,1069,0.281437125748503,0.29020617755464534,-0.0063395826249330045
+C3 moderate activity with destination characteristics,private_rented_share,576,0.2380892827810712,0.2546113958810513,-0.0496874255923648
+"C0 low activity, weak night-persistence",asian_share,604,0.14718226702981155,0.2031325428960537,0.004233958159358453
+"C1 relatively high activity, stronger night-persistence",asian_share,1134,0.15882687024513945,0.21324623565329004,0.01587856137468635
+"C2 moderate activity and persistence, transitional",asian_share,1069,0.129071170084439,0.17616352038363944,-0.013877138786014098
+C3 moderate activity with destination characteristics,asian_share,576,0.13566332403550174,0.1958132713110508,-0.007284984834951352
+"C0 low activity, weak night-persistence",black_share,604,0.09149958148219686,0.1339923804728434,-0.013656456509661935
+"C1 relatively high activity, stronger night-persistence",black_share,1134,0.12495289870705151,0.1566004989008849,0.01979686071519271
+"C2 moderate activity and persistence, transitional",black_share,1069,0.0948419301164725,0.1220429602896686,-0.010314107875386294
+C3 moderate activity with destination characteristics,black_share,576,0.09825779203723385,0.132843119217117,-0.006898245954624946
+"C0 low activity, weak night-persistence",unemployed_share,604,0.03689742356875435,0.038355717578662206,-0.00327299639472705
+"C1 relatively high activity, stronger night-persistence",unemployed_share,1134,0.0443101711983887,0.04544426579680389,0.004139751234907299
+"C2 moderate activity and persistence, transitional",unemployed_share,1069,0.0386940749697702,0.03998392096041992,-0.001476344993711201
+C3 moderate activity with destination characteristics,unemployed_share,576,0.03790352194233735,0.03890765951415799,-0.002266898021144048
+"C0 low activity, weak night-persistence",accom_food_share,604,0.0443849134345986,0.047131008027030435,-0.008396826936300103
+"C1 relatively high activity, stronger night-persistence",accom_food_share,1134,0.0615904208647242,0.06542019858326158,0.0088086804938255
+"C2 moderate activity and persistence, transitional",accom_food_share,1069,0.0502369668246445,0.05338090157536816,-0.0025447735462542018
+C3 moderate activity with destination characteristics,accom_food_share,576,0.0474110623781676,0.05042100620573884,-0.005370677992731103
+"C0 low activity, weak night-persistence",transport_storage_share,604,0.049974933436045046,0.0538626281748005,0.006541634573583845
+"C1 relatively high activity, stronger night-persistence",transport_storage_share,1134,0.039976498237367805,0.04701234428464292,-0.0034568006250933966
+"C2 moderate activity and persistence, transitional",transport_storage_share,1069,0.0411255411255411,0.04664210803914581,-0.002307757736920102
+C3 moderate activity with destination characteristics,transport_storage_share,576,0.048214239229467645,0.05093169569447422,0.0047809403670064435
+"C0 low activity, weak night-persistence",admin_support_share,604,0.0582144290060338,0.061237397383666854,0.0003509275223542996
+"C1 relatively high activity, stronger night-persistence",admin_support_share,1134,0.06179782023477895,0.06520563775881702,0.003934318751099453
+"C2 moderate activity and persistence, transitional",admin_support_share,1069,0.0551248923341946,0.05785935735076821,-0.0027386091494848996
+C3 moderate activity with destination characteristics,admin_support_share,576,0.0573601953601953,0.06061842361773527,-0.0005033061234841971
+"C0 low activity, weak night-persistence",wholesale_retail_share,604,0.1240620146335073,0.1280732700320166,0.004292894864387595
+"C1 relatively high activity, stronger night-persistence",wholesale_retail_share,1134,0.11830531443603065,0.12400305236777717,-0.001463805333089055
+"C2 moderate activity and persistence, transitional",wholesale_retail_share,1069,0.1157232704402515,0.11947546387724126,-0.004045849328868201
+C3 moderate activity with destination characteristics,wholesale_retail_share,576,0.12385823323323315,0.1266700101547464,0.0040891134641134474
+"C0 low activity, weak night-persistence",health_social_share,604,0.1327130852340936,0.137074579728749,0.0042600465600604875
+"C1 relatively high activity, stronger night-persistence",health_social_share,1134,0.125,0.13014780123219513,-0.0034530386740330987
+"C2 moderate activity and persistence, transitional",health_social_share,1069,0.1263467189030362,0.12881154638948525,-0.0021063197709969006
+C3 moderate activity with destination characteristics,health_social_share,576,0.1324691925430155,0.13522511610223723,0.004016153868982408
+"C0 low activity, weak night-persistence",manufacturing_share,604,0.0311224149710876,0.03157975380852385,0.002310890361243701
+"C1 relatively high activity, stronger night-persistence",manufacturing_share,1134,0.0269254307504001,0.029039905954857826,-0.0018860938594437993
+"C2 moderate activity and persistence, transitional",manufacturing_share,1069,0.0287009063444108,0.030080099435318402,-0.00011061826543309894
+C3 moderate activity with destination characteristics,manufacturing_share,576,0.02998277445706035,0.0313746627333263,0.0011712498472164524
+"C0 low activity, weak night-persistence",log1p_poi_count,604,3.610917912644224,3.661322636742412,-0.3209077200801018
+"C1 relatively high activity, stronger night-persistence",log1p_poi_count,1134,4.442651256490317,4.45517290713684,0.5108256237659909
+"C2 moderate activity and persistence, transitional",log1p_poi_count,1069,3.828641396489095,3.8600558880795175,-0.10318423623523065
+C3 moderate activity with destination characteristics,log1p_poi_count,576,3.713572066704308,3.7607942023275536,-0.21825356602001778
+"C0 low activity, weak night-persistence",shannon_group,604,1.679208243681743,1.6474716096168025,-0.06580057563229302
+"C1 relatively high activity, stronger night-persistence",shannon_group,1134,1.7840370045699552,1.7679528109650242,0.03902818525591911
+"C2 moderate activity and persistence, transitional",shannon_group,1069,1.731916999425649,1.71051878261694,-0.013091819888387146
+C3 moderate activity with destination characteristics,shannon_group,576,1.7332678289326955,1.6916303176196352,-0.011740990381340577
+"C0 low activity, weak night-persistence",population_density,604,6524.452027944299,8185.9132774084255,-1925.1934123858136
+"C1 relatively high activity, stronger night-persistence",population_density,1134,10275.599439358919,11664.469775928881,1825.9539990288067
+"C2 moderate activity and persistence, transitional",population_density,1069,8434.04962331755,10073.383235004205,-15.595817012561383
+C3 moderate activity with destination characteristics,population_density,576,7411.46021049782,9098.65738424869,-1038.185229832292

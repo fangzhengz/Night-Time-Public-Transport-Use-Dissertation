@@ -1,0 +1,10 @@
+mode_group,0,1,2,3,4,total
+LU only,66,10,4,104,44,228
+LU + other mode (interchange),7,0,3,19,13,42
+DLR-only,3,14,2,14,5,38
+Overground-only,36,1,2,15,20,74
+Elizabeth line-only,9,0,1,8,0,18
+"other non-LU mix (DLR,EZL)",0,0,0,1,0,1
+"other non-LU mix (DLR,LO)",0,0,0,1,0,1
+"other non-LU mix (EZL,LO)",0,0,0,1,0,1
+"other non-LU mix (LO,TRM)",1,0,0,0,0,1

@@ -1,0 +1,2 @@
+Filtered raw long table to 404 Greater-London-eligible NLCs (of 404 expected).
+RAIL all-modes London-only full-week (days ['MON', 'TWT', 'FRI', 'SAT', 'SUN']): X (404, 344) | dropped<1: 0 | per-direction row-sum 2.00/2.00 (expect 2.00)

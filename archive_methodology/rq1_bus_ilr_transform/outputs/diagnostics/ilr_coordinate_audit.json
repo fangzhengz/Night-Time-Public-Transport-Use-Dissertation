@@ -1,0 +1,11 @@
+{
+  "n_lsoa": 3365,
+  "clr_columns": 72,
+  "ilr_columns": 70,
+  "centered_ilr_rank": 58,
+  "retained_variance_fraction": 0.9999999999999998,
+  "max_sampled_distance_error_clr_vs_ilr70": 7.105427357601002e-15,
+  "max_sampled_distance_error_ilr70_vs_rank": 9.237055564881302e-14,
+  "min_retained_explained_variance": 0.00773610428616636,
+  "max_abs_rebuilt_clr_vs_saved_clr": 0.0
+}

@@ -1,0 +1,5 @@
+bus_cluster_name,n,dist_rail_median_m,dist_rail_q25_m,dist_rail_q75_m,dist_rail_min_median_m,dist_centre_median_m
+"C1 relatively high activity, stronger night-persistence",1134,546.8,240.1,1121.5,445.1,9649.4
+"C2 moderate activity and persistence, transitional",1069,916.5,492.5,2093.9,823.3,12317.6
+C3 moderate activity with destination characteristics,576,1112.6,586.1,2252.4,984.2,13900.4
+"C0 low activity, weak night-persistence",604,1223.2,703.7,2573.4,1085.3,15794.3

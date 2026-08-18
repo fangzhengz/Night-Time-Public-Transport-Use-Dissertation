@@ -1,0 +1,21 @@
+day,direction,group,mean_post_0100_share_of_week
+MON,entry,C1b night-origin core (n=12),3.0027298837667637e-05
+MON,entry,C1a remainder (n=14),6.829430919850325e-05
+MON,exit,C1b night-origin core (n=12),5.516946065976742e-05
+MON,exit,C1a remainder (n=14),0.0003660062179803142
+TWT,entry,C1b night-origin core (n=12),4.816564882530958e-05
+TWT,entry,C1a remainder (n=14),0.00012032707155109323
+TWT,exit,C1b night-origin core (n=12),9.900382595182785e-05
+TWT,exit,C1a remainder (n=14),0.00044941960698886987
+FRI,entry,C1b night-origin core (n=12),0.009730911704654841
+FRI,entry,C1a remainder (n=14),0.0033599099485969275
+FRI,exit,C1b night-origin core (n=12),0.004719802433633568
+FRI,exit,C1a remainder (n=14),0.005294634345569059
+SAT,entry,C1b night-origin core (n=12),0.013299286989646173
+SAT,entry,C1a remainder (n=14),0.0033930787006741887
+SAT,exit,C1b night-origin core (n=12),0.005445020265957501
+SAT,exit,C1a remainder (n=14),0.0071032146910337286
+SUN,entry,C1b night-origin core (n=12),3.100250420236477e-05
+SUN,entry,C1a remainder (n=14),4.9646840237825916e-05
+SUN,exit,C1b night-origin core (n=12),1.5227026933780605e-05
+SUN,exit,C1a remainder (n=14),0.0007549694978418027

@@ -1,0 +1,3 @@
+Mode,Eligible sample,chi-square,Cramer's V,p,Brief bounded interpretation
+Bus,3383,647.4974087251892,0.2525849041000049,7.668312435153431e-126,Exploratory area-level association; no spatial-autocorrelation adjustment.
+Rail,389,259.38122119022523,0.4082859817876549,2.2650661226334452e-41,Exploratory area-level association; no spatial-autocorrelation adjustment.

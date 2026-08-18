@@ -1,0 +1,46 @@
+{
+  "fyp_root": "D:\\SDS2025_workspace\\CASA_FYP\\FYP",
+  "rail_data_dir": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\\u5730\u94c1\u8fdb\u51fa\u7ad9\u6570\u636e",
+  "output_dir": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\data_processing\\rail_allmodes\\outputs\\data",
+  "day_types": [
+    "MON",
+    "TWT",
+    "FRI",
+    "SAT",
+    "SUN"
+  ],
+  "long_output": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\data_processing\\rail_allmodes\\outputs\\data\\numbat_allmodes_station_qhr_all_daytypes.parquet",
+  "meta_output": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\data_processing\\rail_allmodes\\outputs\\data\\numbat_allmodes_station_meta.csv",
+  "audit_output": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\data_processing\\rail_allmodes\\outputs\\data\\numbat_allmodes_multiday_audit.csv",
+  "long_shape": [
+    452160,
+    13
+  ],
+  "station_count": 471,
+  "day_type_counts": {
+    "MON": 90432,
+    "TWT": 90432,
+    "FRI": 90432,
+    "SAT": 90432,
+    "SUN": 90432
+  },
+  "direction_counts": {
+    "entry": 226080,
+    "exit": 226080
+  },
+  "mode_label_counts": {
+    "DLR": 41,
+    "DLR,EZL,LO,LU": 1,
+    "DLR,LU": 3,
+    "EZL": 33,
+    "EZL,LO": 2,
+    "EZL,LO,LU": 1,
+    "EZL,LU": 6,
+    "LO": 86,
+    "LO,LU": 22,
+    "LU": 237,
+    "TRM": 39
+  },
+  "has_lu_count": 270,
+  "without_lu_count": 201
+}

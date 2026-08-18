@@ -1,0 +1,25 @@
+{
+  "raw_long_sha256": "8a0c6bffb0153c5c84bbe5ec2cdee1cab91619f33a4e5e45d18173b69a7fe867",
+  "n_stations": 404,
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "fullweek_unpadded_shape": [
+    404,
+    344
+  ],
+  "daytype_unpadded_shape": [
+    404,
+    344
+  ],
+  "fullweek_padded_shape": [
+    404,
+    440
+  ],
+  "daytype_padded_shape": [
+    404,
+    440
+  ],
+  "fullweek_unpadded_max_abs_diff_vs_canonical": 0.0,
+  "zero_bin_share_mean": 0.2612623762376238,
+  "zero_bin_share_max": 0.6272727272727273
+}

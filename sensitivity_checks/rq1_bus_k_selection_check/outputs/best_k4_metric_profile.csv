@@ -1,0 +1,5 @@
+cluster,n,log_total_activity_mean,log_total_activity_median,total_activity_mean,total_activity_median,direction_balance_mean,direction_balance_median,post_midnight_share_mean,post_midnight_share_median,deep_night_share_mean,deep_night_share_median,post_midnight_persistence_mean,post_midnight_persistence_median,weekend_ratio_mean,weekend_ratio_median
+0,412,6.3715,6.3269,851.6927,558.407,-0.1592,-0.1771,0.0926,0.087,0.0607,0.0542,0.1478,0.1355,0.7688,0.7515
+1,1143,8.0112,7.8669,4706.4159,2608.5153,-0.0709,-0.0865,0.1346,0.1269,0.0774,0.0724,0.2363,0.2123,0.8237,0.8167
+2,1061,6.439,6.436,812.1269,622.8957,-0.125,-0.1474,0.1142,0.105,0.0706,0.061,0.1917,0.1684,0.7935,0.778
+3,756,5.7076,5.6194,405.9999,274.7304,-0.1941,-0.2082,0.0645,0.0593,0.0417,0.036,0.0997,0.0884,0.7462,0.7375

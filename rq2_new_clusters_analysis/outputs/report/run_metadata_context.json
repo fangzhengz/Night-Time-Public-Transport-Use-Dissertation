@@ -1,0 +1,11 @@
+{
+  "generated_utc": "2026-08-12T21:28:53.994843+00:00",
+  "duration_seconds": 1.9510104656219482,
+  "command": "py -3 src/run_context_metrics.py",
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "parameters": {
+    "rail_k": 5,
+    "bus_k": 4
+  }
+}

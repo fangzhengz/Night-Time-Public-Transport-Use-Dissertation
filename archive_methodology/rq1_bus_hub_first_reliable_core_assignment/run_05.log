@@ -1,0 +1,9 @@
+n_core=2874 (cutoff=243.44); grand-mean distance to overall centroid=0.0890
+K=3: overall silhouette mean=0.0989
+  relative compactness by cluster: C0=0.902, C1=1.166, C2=0.949
+  silhouette by cluster: C0=0.124, C1=-0.041, C2=0.088
+K=4: overall silhouette mean=0.0305
+  relative compactness by cluster: C0=1.280, C1=0.721, C2=1.025, C3=1.090
+  silhouette by cluster: C0=-0.183, C1=0.220, C2=-0.047, C3=-0.108
+Writing boxplot figures
+D:\SDS2025_workspace\CASA_FYP\FYP\rq1_bus_hub_first_reliable_core_assignment\outputs\report\CLUSTER_HOMOGENEITY_BOTTOM20.md

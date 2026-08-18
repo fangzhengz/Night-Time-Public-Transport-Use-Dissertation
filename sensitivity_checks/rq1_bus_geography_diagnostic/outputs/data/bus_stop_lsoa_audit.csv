@@ -1,0 +1,5 @@
+item,value
+n_stops_matched_to_lsoa,18449.0
+n_lsoa_with_at_least_one_stop,4110.0
+median_stops_per_lsoa,4.0
+n_lsoa_with_exactly_1_stop,593.0

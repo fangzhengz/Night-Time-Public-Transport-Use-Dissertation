@@ -1,0 +1,4 @@
+threshold,stage,k,cluster,n_units,pct_of_core
+36.0,deepdive,3,0,1283,38.12778603268945
+36.0,deepdive,3,1,1621,48.17236255572065
+36.0,deepdive,3,2,461,13.699851411589895

@@ -1,0 +1,47 @@
+[1/6] Rebuilding the fixed 3,593-LSOA hub-first sample
+[2/6] Exploratory full-covariance BIC scan, K=2..12, n_init=5
+      alpha=5 scan done
+      alpha=20 scan done
+      alpha=50 scan done
+      alpha=100 scan done
+      alpha=200 scan done
+      BIC-best K by alpha:
+        alpha=5: bic_best_K=3
+        alpha=20: bic_best_K=3
+        alpha=50: bic_best_K=2
+        alpha=100: bic_best_K=2
+        alpha=200: bic_best_K=2
+[3/6] Adjacent-K structure at each alpha (from the exploratory scan)
+[4/6] Confirmatory refit at n_init=20 for K=3 and each alpha's BIC-best K
+      alpha=5 K=3: BIC=-2079512.1 sil=0.050 activity_eps2=0.583 timing_mean_eta2=0.299 min_share=0.137
+      alpha=20 K=3: BIC=-2113134.3 sil=0.036 activity_eps2=0.530 timing_mean_eta2=0.295 min_share=0.120
+      alpha=50 K=2: BIC=-2163787.2 sil=0.128 activity_eps2=0.010 timing_mean_eta2=0.267 min_share=0.164
+      alpha=50 K=3: BIC=-2160809.4 sil=0.035 activity_eps2=0.284 timing_mean_eta2=0.346 min_share=0.087
+      alpha=100 K=2: BIC=-2229187.1 sil=0.159 activity_eps2=0.024 timing_mean_eta2=0.216 min_share=0.137
+      alpha=100 K=3: BIC=-2221382.9 sil=0.065 activity_eps2=0.077 timing_mean_eta2=0.403 min_share=0.094
+      alpha=200 K=2: BIC=-2314196.8 sil=0.227 activity_eps2=0.049 timing_mean_eta2=0.188 min_share=0.124
+      alpha=200 K=3: BIC=-2303762.9 sil=0.108 activity_eps2=0.085 timing_mean_eta2=0.400 min_share=0.094
+[5/6] Conditional multinomial resampling at each deep-dive (alpha, K), n=20
+      replicate 1/20
+      replicate 2/20
+      replicate 3/20
+      replicate 4/20
+      replicate 5/20
+      replicate 6/20
+      replicate 7/20
+      replicate 8/20
+      replicate 9/20
+      replicate 10/20
+      replicate 11/20
+      replicate 12/20
+      replicate 13/20
+      replicate 14/20
+      replicate 15/20
+      replicate 16/20
+      replicate 17/20
+      replicate 18/20
+      replicate 19/20
+      replicate 20/20
+[6/6] Applying the pre-declared decision rule and writing the report
+Completed in 294.0s
+D:\SDS2025_workspace\CASA_FYP\FYP\rq1_bus_hub_first_alpha_grid_screen\outputs\report\BIC_K_SEARCH_BY_ALPHA.md

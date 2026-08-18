@@ -1,0 +1,7 @@
+component,metric,value
+bus,analysis_rows,4100.0
+bus,lnwc_groups,7.0
+bus,missing_primary_values,0.0
+rail,eligible_stations,254.0
+rail,share_sum_max_error,4.440892098500626e-16
+rail,missing_primary_values,0.0

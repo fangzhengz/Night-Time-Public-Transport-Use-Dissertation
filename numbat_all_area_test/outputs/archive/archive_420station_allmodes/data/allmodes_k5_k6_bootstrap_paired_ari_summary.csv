@@ -1,0 +1,2 @@
+﻿replicates,ARI_difference_K5_minus_K6_mean,ARI_difference_K5_minus_K6_sd,ARI_difference_K5_minus_K6_median,ARI_difference_K5_minus_K6_q025,ARI_difference_K5_minus_K6_q975,ARI_difference_K5_minus_K6_min,ARI_difference_K5_minus_K6_max,share_K5_greater_than_K6,share_K6_greater_than_K5,share_equal
+200,-0.001846886778638559,0.1778433769788465,-0.004448800345396159,-0.3167484269919621,0.311410242150924,-0.5598365137267416,0.5622643140699328,0.485,0.515,0.0

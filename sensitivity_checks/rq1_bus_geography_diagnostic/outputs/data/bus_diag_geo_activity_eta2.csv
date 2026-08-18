@@ -1,0 +1,3 @@
+K,is_bic_best_for_diag,n_units,geo_eta2_distance,activity_eta2_log_total
+3,False,4100,0.07586494001722971,0.332094126717583
+12,True,4100,0.18565934510091334,0.616220406256043

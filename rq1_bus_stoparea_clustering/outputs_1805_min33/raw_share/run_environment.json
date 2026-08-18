@@ -1,0 +1,122 @@
+{
+  "variant": "raw_share",
+  "elapsed_seconds": 778.3648133277893,
+  "n_lsoas": 3383,
+  "n_features": 66,
+  "seed": 42,
+  "n_init": 20,
+  "final_refit": {
+    "candidate_ks": [
+      3,
+      4
+    ],
+    "n_init": 100,
+    "seeds": [
+      42,
+      7,
+      123,
+      2026,
+      999
+    ],
+    "per_k": [
+      {
+        "K": 3,
+        "n_init": 100,
+        "seeds": [
+          42,
+          7,
+          123,
+          2026,
+          999
+        ],
+        "best_seed": 7,
+        "best_BIC": -1781394.8469527627,
+        "worst_BIC": -1781317.377335958,
+        "BIC_range_across_seeds": 77.4696168047376,
+        "improvement_over_scan_BIC": 79.43163276929408,
+        "ari_vs_scan": 0.9812836393197837,
+        "per_seed": [
+          {
+            "seed": 42,
+            "BIC": -1781317.377335958,
+            "converged": true
+          },
+          {
+            "seed": 7,
+            "BIC": -1781394.8469527627,
+            "converged": true
+          },
+          {
+            "seed": 123,
+            "BIC": -1781318.0614817587,
+            "converged": true
+          },
+          {
+            "seed": 2026,
+            "BIC": -1781347.6769931961,
+            "converged": true
+          },
+          {
+            "seed": 999,
+            "BIC": -1781347.6769931961,
+            "converged": true
+          }
+        ],
+        "scan_BIC": -1781315.4153199934
+      },
+      {
+        "K": 4,
+        "n_init": 100,
+        "seeds": [
+          42,
+          7,
+          123,
+          2026,
+          999
+        ],
+        "best_seed": 7,
+        "best_BIC": -1773672.2847021257,
+        "worst_BIC": -1772320.7946941892,
+        "BIC_range_across_seeds": 1351.4900079364888,
+        "improvement_over_scan_BIC": 1469.7647154114675,
+        "ari_vs_scan": 0.7744037844659099,
+        "per_seed": [
+          {
+            "seed": 42,
+            "BIC": -1772320.7946941892,
+            "converged": true
+          },
+          {
+            "seed": 7,
+            "BIC": -1773672.2847021257,
+            "converged": true
+          },
+          {
+            "seed": 123,
+            "BIC": -1773113.3253215107,
+            "converged": true
+          },
+          {
+            "seed": 2026,
+            "BIC": -1773280.8309822828,
+            "converged": true
+          },
+          {
+            "seed": 999,
+            "BIC": -1773672.2847021257,
+            "converged": true
+          }
+        ],
+        "scan_BIC": -1772202.5199867142
+      }
+    ]
+  },
+  "bootstrap_replicates": 20,
+  "reporting_covariance": "full",
+  "global_bic_covariance": "full",
+  "global_bic_k": 3,
+  "k3_deterministic_exact_labels": true,
+  "k3_deterministic_ari": 1.0,
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0"
+}

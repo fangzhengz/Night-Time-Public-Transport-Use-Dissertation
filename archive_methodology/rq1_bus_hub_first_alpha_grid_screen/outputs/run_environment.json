@@ -1,0 +1,18 @@
+{
+  "command": "py -3 src\\run_alpha_grid_screen.py --alphas 0 5 20 50 100 200 --k 3 --covariance full --n-init 20 --seed 42 --replicates 20",
+  "started_utc": "2026-07-20T14:01:06.402474+00:00",
+  "elapsed_seconds": 37.79854607582092,
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "numpy": "2.3.5",
+  "pandas": "2.3.3",
+  "scipy": "1.16.3",
+  "scikit_learn": "1.8.0",
+  "seed": 42,
+  "fixed_k": 3,
+  "covariance": "full",
+  "n_init": 20,
+  "replicates": 20,
+  "reg_covar": 1e-06,
+  "max_iter": 300
+}

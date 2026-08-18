@@ -1,0 +1,10 @@
+n_core=2874 (cutoff=243.44); n_excluded=719
+K=3: sizes=[1939, 302, 633] (6.1s)
+K=4: sizes=[224, 1191, 399, 1060] (5.6s)
+Building temporal profile figures
+  wrote bottom20_full_profiles_k3.png
+  wrote bottom20_full_profiles_k4.png
+Building spatial maps
+  wrote bottom20_full_map_k3.png
+  wrote bottom20_full_map_k4.png
+Done

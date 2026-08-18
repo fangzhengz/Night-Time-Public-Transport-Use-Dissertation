@@ -1,0 +1,39 @@
+# Raw data (>10MB, never upload)
+/巴士数据/
+/地铁进出站数据/
+/参考文献/
+/往期和参考论文/
+*/data/source/
+**/*.parquet
+**/*.pkl
+**/*.pickle
+NaPTAN_data/*.xml
+
+# Tool caches and build artifacts
+.codex_review*/
+.codex_tmp/
+.codex_doc_review*/
+.agents/
+.claude/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+*.inspect.ndjson
+
+# Broken symlinks (must be explicitly removed before git)
+# None should remain after cleanup, but flag if found
+
+# Large regenerable intermediates
+**/outputs/preprocessed/*.parquet
+**/outputs/**/*.xlsx
+**/outputs_*/**/preprocessed/
+
+# Draft versions (keep only current docx in dissertation/)
+dissertation_working/qa_*/
+dissertation_working/*backup*
+dissertation_working/*_tmp/
+dissertation_working/Main_body_part*.docx
+dissertation_working/main_body_V[4-9]*.docx
+dissertation_working/legacy_reference/

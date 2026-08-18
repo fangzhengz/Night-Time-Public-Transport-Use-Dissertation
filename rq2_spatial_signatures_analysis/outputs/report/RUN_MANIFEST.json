@@ -1,0 +1,35 @@
+{
+  "fixed_bus_labels": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rq1_bus_stoparea_clustering\\outputs_1805_min33\\clr\\labels\\k4_labels.csv",
+  "fixed_rail_labels": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\numbat_all_area_test\\outputs\\data\\rail_allmodes_k5_labels.csv",
+  "signature_source": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rq2_spatial_signatures_analysis\\data\\source\\lsoa_estimates.csv",
+  "lsoa11_lsoa21_exact_fit_lookup": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rq2_spatial_signatures_analysis\\data\\source\\ons_lsoa11_lsoa21_exact_fit_v3.csv",
+  "validated_source_md5": {
+    "lsoa_estimates.csv": "8be04235026ce44fb5f2f5170eaef6ae",
+    "type_code.csv": "db46749d1cc951c78366e9a61187ea8a",
+    "meta.txt": "ab8e4a1baf31f3acbd792846c24cb1ac",
+    "ons_lsoa11_lsoa21_exact_fit_v3.csv": "78e5d3fac243d5282b653ce6a77c1c4e"
+  },
+  "signature_source_doi": "10.6084/m9.figshare.16691575.v3",
+  "signature_temporal_coverage": 2020,
+  "signature_license": "OGL",
+  "rail_catchment_metres": 800,
+  "n_permutations": 999,
+  "seed": 42,
+  "active_signature_codes": [
+    "COA",
+    "ACS",
+    "OPS",
+    "WAL",
+    "GRQ",
+    "URB",
+    "DIS",
+    "DRN",
+    "CRN",
+    "DUN",
+    "LOU",
+    "DIU",
+    "REU",
+    "MEU",
+    "HDU"
+  ]
+}

@@ -1,0 +1,5 @@
+variant,bic_best_K,runner_up_K,margin_over_runner_up,spread_of_best_5
+fullweek_unpadded,5,8,256.28138854936697,1721.5018493619282
+daytype_unpadded,9,8,253.1866249393206,2559.633886494674
+fullweek_padded,5,6,595.1808354568202,2649.547019898193
+daytype_padded,9,10,2199.179179996485,2926.268561714096

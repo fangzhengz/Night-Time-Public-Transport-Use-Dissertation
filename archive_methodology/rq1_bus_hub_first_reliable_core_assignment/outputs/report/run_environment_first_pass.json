@@ -1,0 +1,78 @@
+{
+  "created_utc": "2026-07-20T16:23:21.353204+00:00",
+  "command": [
+    "C:\\Users\\fangz\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "src/01_threshold_screen.py",
+    "--thresholds",
+    "0",
+    "50",
+    "70",
+    "90",
+    "100",
+    "110",
+    "125",
+    "150",
+    "--k-scan-min",
+    "2",
+    "--k-scan-max",
+    "10",
+    "--scan-n-init",
+    "5",
+    "--deepdive-n-init",
+    "20",
+    "--seed",
+    "42",
+    "--tag",
+    "first_pass"
+  ],
+  "working_directory": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rq1_bus_hub_first_reliable_core_assignment",
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit_learn": "1.8.0"
+  },
+  "parameters": {
+    "thresholds": [
+      0.0,
+      50.0,
+      70.0,
+      90.0,
+      100.0,
+      110.0,
+      125.0,
+      150.0
+    ],
+    "k_scan_min": 2,
+    "k_scan_max": 10,
+    "scan_n_init": 5,
+    "deepdive_n_init": 20,
+    "seed": 42,
+    "tag": "first_pass"
+  },
+  "inputs": [
+    {
+      "role": "alpha0_features",
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rq1_bus_hub_first_reclustering_alpha_sensitivity\\outputs\\features\\X_bus_fullweek_alpha0_fixed_sample.parquet",
+      "size_bytes": 2224841,
+      "modified_utc": "2026-07-20T03:30:16.364607+00:00",
+      "sha256": "02d0478bbe8c74355b738d69d587e8c8d29faf50ad0138deecf766c1a0aae530"
+    },
+    {
+      "role": "hub_first_direction_totals",
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rq1_bus_hub_first_reclustering\\outputs\\features\\bus_fullweek_meta_alpha5.csv",
+      "size_bytes": 655139,
+      "modified_utc": "2026-07-20T02:52:51.722459+00:00",
+      "sha256": "1fe228d85d863f1cd616f62053113dc61616e822219a41e83b48443a593a8733"
+    },
+    {
+      "role": "hub_first_raw_metrics",
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rq1_bus_hub_first_alpha_grid_screen\\outputs\\data\\hub_first_raw_metrics.csv",
+      "size_bytes": 541687,
+      "modified_utc": "2026-07-20T14:01:06.911939+00:00",
+      "sha256": "10630ea73192c76ea260a35104cbc332a6ee5c941a55bc84cb8074b7116b5451"
+    }
+  ]
+}

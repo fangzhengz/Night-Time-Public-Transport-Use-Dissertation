@@ -1,0 +1,21 @@
+variable,"C0 low activity, weak night-persistence","C1 relatively high activity, stronger night-persistence","C2 moderate activity and persistence, transitional",C3 moderate activity with destination characteristics
+imd_education,,***,***,
+imd_health,***,***,***,**
+deprived_1plus_share,,***,***,
+social_rented_share,***,***,***,***
+no_car_household_share,***,***,***,***
+age_20_34_share,***,***,***,***
+dependent_children_share,***,***,,***
+private_rented_share,***,***,*,***
+asian_share,,***,***,
+black_share,*,***,***,
+unemployed_share,***,***,***,***
+accom_food_share,***,***,***,***
+transport_storage_share,***,***,***,**
+admin_support_share,,***,***,
+wholesale_retail_share,***,,***,**
+health_social_share,***,**,**,***
+manufacturing_share,***,***,,*
+log1p_poi_count,***,***,***,***
+shannon_group,***,***,,**
+population_density,***,***,,***

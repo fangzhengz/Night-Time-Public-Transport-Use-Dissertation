@@ -1,0 +1,5 @@
+threshold,n_core,pct_core,pct_excluded_from_fit,ks_completed,all_expected_ks_completed,n_k_activity_below_timing,all_k_activity_below_timing,all_converged,max_activity_eta2_across_k,min_timing_mean_eta2_across_k,max_activity_kw_epsilon2_across_k,min_cluster_size_across_k,fit_seconds_total,part_of_consecutive_all_k_run,coverage_band,strict_first_pass_candidate
+175.0,2281,63.4845532980796,36.5154467019204,"2,3,4,5",True,2,False,True,0.4494465322194333,0.20635002199411936,0.4657725000428001,131,8.4991603999988,False,stress_below_70pct,False
+200.0,2147,59.75507932090175,40.24492067909825,"2,3,4,5",True,2,False,True,0.42911673383321886,0.1772695582708117,0.45181078009718806,131,5.068984500003353,False,stress_below_70pct,False
+250.0,1924,53.548566657389365,46.451433342610635,"2,3,4,5",True,2,False,True,0.3953009995213747,0.23853354757126755,0.434048778697616,105,6.049427099997047,False,stress_below_70pct,False
+300.0,1736,48.31617033119956,51.68382966880044,"2,3,4,5",True,4,True,True,0.3224465978991516,0.2824284115901006,0.3286096297847867,105,3.327112600001783,False,stress_below_70pct,False

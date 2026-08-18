@@ -1,0 +1,70 @@
+{
+  "test_a_centrality_check": {
+    "spearman_rho_rail_vs_centre": 0.525148581553651,
+    "spearman_p": 3.363751125372649e-239,
+    "epsilon2_rail_distance": 0.09627395401253172,
+    "epsilon2_centre_distance": 0.11792972312663899
+  },
+  "test_b": {
+    "800m": {
+      "n_lsoas": 1757,
+      "n_stations_used": 368,
+      "cramers_v": 0.15832518699753653,
+      "chi_square": 132.1274445600697,
+      "naive_chi2_p": 2.307497567019671e-22,
+      "permutation_p": 0.0001,
+      "null_v_mean": 0.058521250917382986,
+      "null_v_p95": 0.07914328340005981,
+      "n_permutations": 9999,
+      "radius_m": 800,
+      "coverage": 0.5193615134496009,
+      "stratified_by_centrality": [
+        {
+          "centre_tercile": "inner",
+          "n": 586,
+          "cramers_v": 0.1202
+        },
+        {
+          "centre_tercile": "middle",
+          "n": 585,
+          "cramers_v": 0.1056
+        },
+        {
+          "centre_tercile": "outer",
+          "n": 586,
+          "cramers_v": 0.1715
+        }
+      ]
+    },
+    "1200m": {
+      "n_lsoas": 2251,
+      "n_stations_used": 368,
+      "cramers_v": 0.1542235236971102,
+      "chi_square": 160.61939770126816,
+      "naive_chi2_p": 3.9277555584587547e-28,
+      "permutation_p": 0.0001,
+      "null_v_mean": 0.055926536314817726,
+      "null_v_p95": 0.07573090559609441,
+      "n_permutations": 9999,
+      "radius_m": 1200,
+      "coverage": 0.665385752290866,
+      "stratified_by_centrality": [
+        {
+          "centre_tercile": "inner",
+          "n": 750,
+          "cramers_v": 0.1167
+        },
+        {
+          "centre_tercile": "middle",
+          "n": 751,
+          "cramers_v": 0.1148
+        },
+        {
+          "centre_tercile": "outer",
+          "n": 750,
+          "cramers_v": 0.1443
+        }
+      ]
+    }
+  }
+}

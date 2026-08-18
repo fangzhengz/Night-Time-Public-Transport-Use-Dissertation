@@ -1,0 +1,12 @@
+{
+  "alpha": 5.0,
+  "min_total": 50.0,
+  "n_input_lsoas": 3790,
+  "n_fullweek_total_ge_min": 3597,
+  "n_exception_union": 14,
+  "n_exception_union_ge_min": 4,
+  "n_retained": 3593,
+  "n_features": 72,
+  "feature_row_sum_min": 1.999999999999998,
+  "feature_row_sum_max": 2.0000000000000018
+}

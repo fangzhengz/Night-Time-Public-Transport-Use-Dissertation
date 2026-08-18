@@ -1,0 +1,9 @@
+component,metric,value
+bus,input_rows,3383.0
+bus,matched_imd_rows,3383.0
+bus,unmatched_imd_rows,0.0
+bus,match_rate,1.0
+rail,input_rows,403.0
+rail,lnwc_eligible_stations,387.0
+rail,imd_matched_stations,389.0
+rail,both_eligible,387.0

@@ -1,0 +1,17 @@
+NLC,Station,cluster,lon,lat,station_in_lnwc_extent,lnwc_coverage_ratio,exclusion_reason
+506,Amersham,4,-0.6077052134228341,51.674145407023566,False,,station point outside Greater London/LNWC extent
+531,Buckhurst Hill,4,0.0468240751565627,51.625982897027,False,,station point outside Greater London/LNWC extent
+539,Chalfont & Latimer,4,-0.5607234520464773,51.66803142622906,False,,station point outside Greater London/LNWC extent
+543,Chesham,4,-0.6109804023947352,51.70522161796168,False,,station point outside Greater London/LNWC extent
+544,Chigwell,4,0.0755949749891976,51.61765286220907,False,,station point outside Greater London/LNWC extent
+546,Chorleywood,4,-0.5185530310182181,51.65429398451199,False,,station point outside Greater London/LNWC extent
+554,Croxley,4,-0.4417680549234005,51.6470771785801,False,,station point outside Greater London/LNWC extent
+557,Debden,4,0.0837668965623632,51.6453918793904,False,,station point outside Greater London/LNWC extent
+572,Epping,4,0.1139996191841897,51.69356092525262,False,,station point outside Greater London/LNWC extent
+587,Grange Hill,4,0.0923218422133414,51.61319815416051,False,0.21936414756802042,station point outside Greater London/LNWC extent
+636,Loughton,0,0.055338101699993,51.64131224348847,False,,station point outside Greater London/LNWC extent
+646,Moor Park,4,-0.4322869639728746,51.62986629669337,False,0.000553424909145446,station point outside Greater London/LNWC extent
+687,Rickmansworth,4,-0.4737058106627786,51.64028836634988,False,,station point outside Greater London/LNWC extent
+688,Roding Valley,4,0.0437096502446484,51.61707861416649,False,0.5305876873099608,station point outside Greater London/LNWC extent
+725,Theydon Bois,4,0.1033276639997498,51.671832474283256,False,,station point outside Greater London/LNWC extent
+748,Watford,4,-0.4174120635262017,51.65748010048808,False,,station point outside Greater London/LNWC extent

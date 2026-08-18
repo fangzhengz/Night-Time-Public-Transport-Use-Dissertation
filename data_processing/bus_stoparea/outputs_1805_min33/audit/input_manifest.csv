@@ -1,0 +1,5 @@
+input,path,bytes,sha256,rows,detail
+naptan_xml,D:\SDS2025_workspace\CASA_FYP\FYP\巴士数据\NaPTAN_data\490.xml,36012754,043688b1bfd63bc17759c5c97fa04a2b55c22fd53a9d3e6943b29725870e80eb,,FileName=NaPTAN490.xml; CreationDateTime=2026-07-16T15:54:51.8267018+01:00; SchemaVersion=2.1
+bus_stops,D:\SDS2025_workspace\CASA_FYP\FYP\巴士数据\Bus_Stops.csv,4262275,f5bbcb300d022e13d66539272d93b2e57277fe6f41024a9152a124f9bd649b41,21515.0,
+stop_level_night_flow,D:\SDS2025_workspace\CASA_FYP\FYP\outputs\preprocessed_busto_1805_min33\busto_stop_qhr_night.parquet,25613540,78124f650a1992d90f1689605a2b3175ba9ec604348afe297ebcca20666e1ad5,1873645.0,
+lsoa21_boundaries,D:\SDS2025_workspace\CASA_FYP\FYP\map\London_LSOA_2021_Boundaries.geojson,2866758,659c31995fe687563a93179875b10cd0f107064e55cf510faee480e69dd85887,,

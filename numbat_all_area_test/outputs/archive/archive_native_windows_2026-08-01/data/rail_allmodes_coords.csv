@@ -1,0 +1,405 @@
+﻿unit,Station,mode_label,is_lu,easting,northing,lon,lat,matched_name,coord_source
+1022,Haggerston,LO,False,533561.0,183929.0,-0.07559,51.53847,Haggerston Station,naptan_rse_tmu
+1023,Hoxton,LO,False,533569.5,183101.0,-0.07578,51.531025,Hoxton Station,naptan_rse_tmu
+1024,Shoreditch High Street,LO,False,533616.0,182263.0,-0.07543,51.52348,Shoreditch High Street Station,naptan_rse_tmu
+1039,Rotherhithe,LO,False,535302.0,179778.0,-0.05209,51.50075,Rotherhithe Station,naptan_rse_tmu
+1082,Shadwell LO,"DLR,LO",False,534988.5,180957.5,-0.056155,51.511425,Shadwell Rail Station,naptan_rse_tmu
+1083,Surrey Quays,LO,False,535603.0,178978.5,-0.048065,51.493495,Surrey Quays Station,naptan_rse_tmu
+1085,Wapping,LO,False,535021.0,180174.0,-0.05599,51.50438,Wapping Station,naptan_rse_tmu
+1335,Barking Riverside,LO,False,546928.5,182180.5,0.116295,51.51944,Barking Riverside Station,naptan_rse_tmu
+1398,Hatch End,LO,False,513048.0,191312.0,-0.36885,51.6093,Hatch End,naptan_rse_tmu
+1404,Acton Central,LO,False,520639.0,180301.5,-0.26305500000000004,51.50877,Acton Central Station,naptan_rse_tmu
+1409,Gospel Oak,LO,False,528285.0,185645.0,-0.151,51.55511,Gospel Oak Station,naptan_rse_tmu
+1413,Hampstead Heath,LO,False,527263.0,185652.0,-0.16573,51.55541,Hampstead Heath Station,naptan_rse_tmu
+1415,Kilburn High Road,LO,False,525448.0,183602.0,-0.19262,51.53739,Kilburn High Road Station,naptan_rse_tmu
+1429,Dalston Kingsland,LO,False,533525.0,185013.0,-0.0757,51.54822,Dalston Kingsland Station,naptan_rse_tmu
+1434,Headstone Lane,LO,False,513890.5,190580.0,-0.356925,51.60255,Headstone Lane Station,naptan_rse_tmu
+1437,Brondesbury,LO,False,524781.0,184460.0,-0.20193,51.54525,Brondesbury Station,naptan_rse_tmu
+1438,Brondesbury Park,LO,False,524240.0,183966.0,-0.2099,51.54093,Brondesbury Park Station,naptan_rse_tmu
+1439,Caledonian Road & Barnsbury,LO,False,530771.0,184379.0,-0.11563,51.54317,Caledonian Road & Barnsbury Station,naptan_rse_tmu
+1440,Camden Road,LO,False,529182.0,184174.0,-0.1386,51.54169,Camden Road Station,naptan_rse_tmu
+1441,Canonbury,LO,False,532397.0,185039.0,-0.09195,51.54872,Canonbury Station,naptan_rse_tmu
+1443,Dalston Junction,LO,False,533562.0,184744.5,-0.075265,51.545795,Dalston Junction Station,naptan_rse_tmu
+1445,Finchley Road & Frognal,LO,False,526094.0,185044.0,-0.1828,51.5502,Finchley Road & Frognal Station,naptan_rse_tmu
+1448,Kensal Rise,LO,False,523571.0,183243.0,-0.2198,51.534575000000004,Kensal Rise Station,naptan_rse_tmu
+1449,Kentish Town West,LO,False,528620.0,184687.0,-0.14652,51.54643,Kentish Town West Station,naptan_rse_tmu
+1451,South Hampstead,LO,False,526356.0,184079.0,-0.17937,51.54147,South Hampstead Station,naptan_rse_tmu
+1452,South Acton,LO,False,520149.5,179240.5,-0.27046499999999996,51.499345,South Acton Station,naptan_rse_tmu
+1524,Upper Holloway,LO,False,529751.5,186655.5,-0.12948,51.56386,Upper Holloway Station,naptan_rse_tmu
+3000,Acton Main Line,EZL,False,520341.5,181216.5,-0.26702499999999996,51.51706,Acton Main Line Station,naptan_rse_tmu
+3087,Paddington NR,EZL,False,526639.0,181331.44444444444,-0.17627444444444446,51.51671888888889,Paddington Station,naptan_rse_tmu
+3174,West Drayton,EZL,False,506117.0,180097.0,-0.472285,51.509845,West Drayton Station,naptan_rse_tmu
+3186,Hayes & Harlington,EZL,False,509734.5,179436.0,-0.42038,51.503215,Hayes & Harlington Station,naptan_rse_tmu
+3187,Southall,EZL,False,512618.0,179793.0,-0.37874,51.50586,Southall Station,naptan_rse_tmu
+3188,West Ealing,EZL,False,516679.0,180744.0,-0.31994,51.51358,West Ealing Station,naptan_rse_tmu
+3191,Hanwell,EZL,False,515403.0,180515.5,-0.338395,51.51179,Hanwell Station,naptan_rse_tmu
+500,Acton Town,LU,True,519477.6064,179592.1471,-0.28002176408560275,51.50264555083834,Acton Town,underground_stations_csv
+501,Barbican,LU,True,532004.2025,181856.329700001,-0.09879996291215272,51.520208600153815,Barbican,underground_stations_csv
+502,Aldgate,LU,True,533613.1509,181262.295499999,-0.07584896688802757,51.51449244157986,Aldgate,underground_stations_csv
+503,Aldgate East,LU,True,533936.1921,181374.788000001,-0.07115364166807008,51.51542691621208,Aldgate East,underground_stations_csv
+504,Stratford International DLR,DLR,False,538214.2,184786.0,-0.008202000000000001,51.54505,Stratford International Station,naptan_rse_tmu
+505,Alperton,LU,True,517996.164,183795.164000001,-0.299949349972513,51.540730963558445,Alperton,underground_stations_csv
+506,Amersham,LU,True,496371.5781,198181.3279,-0.6077052134228341,51.674145407023566,Amersham,underground_stations_csv
+507,Angel,LU,True,531560.5615,183099.9257,-0.10472643840232035,51.53148758749647,Angel,underground_stations_csv
+508,Archway,LU,True,529363.5176,186721.2423,-0.13505202452388373,51.56453819250787,Archway,underground_stations_csv
+509,Arnos Grove,LU,True,529355.1742,192497.914799999,-0.1330451742909319,51.61645247794506,Arnos Grove,underground_stations_csv
+510,Arsenal,LU,True,531305.0253,186112.096899999,-0.10728530327692844,51.55861585603557,Arsenal,underground_stations_csv
+511,Baker Street,LU,True,527954.6729,182063.567500001,-0.1570581597729946,51.5230020037108,Baker Street,underground_stations_csv
+512,Balham LU,LU,True,528480.3274,173244.480799999,-0.15269122947563088,51.44362737290878,Balham,underground_stations_csv
+513,Bank and Monument,"DLR,LU",True,532710.1551,181119.8978,-0.08890808727118107,51.513425435909184,Bank,underground_stations_csv
+5131,Abbey Wood,EZL,False,547351.3333333334,179059.66666666666,0.12107666666666667,51.49129,Abbey Wood Station,naptan_rse_tmu
+514,Barking,"LO,LU",True,544358.8052,184382.179,0.08018208014455507,51.539885097485445,Barking,underground_stations_csv
+515,Barkingside,LU,True,544798.7557,189493.9487,0.08862520423436726,51.58570377518845,Barkingside,underground_stations_csv
+5150,New Cross,LO,False,536756.0,177119.0,-0.03219,51.47651,New Cross Station,naptan_rse_tmu
+516,Barons Court,LU,True,524045.7583,178327.6646,-0.21468405012348488,51.49029837209941,Barons Court,underground_stations_csv
+517,Bayswater,LU,True,525842.957,180822.646199999,-0.1879225224209527,51.51232394663448,Bayswater,underground_stations_csv
+518,Becontree,LU,True,547627.5438,184527.341,0.1273417848283317,51.54034470776378,Becontree,underground_stations_csv
+519,Belsize Park,LU,True,527353.7983,185088.897399999,-0.16462098681641185,51.55032570077621,Belsize Park,underground_stations_csv
+520,Bethnal Green LU,"LO,LU",True,535043.5417,182718.410700001,-0.05469030192583057,51.527237667207054,Bethnal Green,underground_stations_csv
+521,Blackfriars LU,LU,True,531693.8776,180893.0855,-0.10362963813725404,51.51162476747557,Blackfriars,underground_stations_csv
+522,Blackhorse Road,"LO,LU",True,535760.6278,189370.2981,-0.041793873795219,51.586840594392974,Blackhorse Road,underground_stations_csv
+523,King George V,DLR,False,543247.0,180125.0,0.06243,51.501915,King George V.,naptan_rse_tmu
+524,Bond Street,"EZL,LU",True,528490.674,181117.635,-0.1496811425789451,51.51437958002913,Bond Street,underground_stations_csv
+525,Borough,LU,True,532439.9633,179751.461100001,-0.0933129512735988,51.5011913652754,Borough,underground_stations_csv
+526,Boston Manor,LU,True,516333.5188,178693.009,-0.3255952087308763,51.495219674970095,Boston Manor,underground_stations_csv
+527,Bounds Green,LU,True,529984.4864,191469.272600001,-0.12434197787111509,51.60706378685743,Bounds Green,underground_stations_csv
+528,Bow Road,LU,True,537089.8973,182735.951300001,-0.02520321216907312,51.526902665586434,Bow Road,underground_stations_csv
+529,Brent Cross,LU,True,523873.7006,187934.037,-0.21378475842151334,51.576668983672164,Brent Cross,underground_stations_csv
+530,Bromley-by-Bow,LU,True,538049.5634,182523.513599999,-0.0114614594625467,51.524760125717506,Bromley-by-Bow,underground_stations_csv
+5301,Clapham High Street,LO,False,529858.0,175666.0,-0.13199,51.46508,Clapham High Street,naptan_rse_tmu
+531,Buckhurst Hill,LU,True,541777.5666,193891.179,0.04682407515656278,51.625982897027,Buckhurst Hill,underground_stations_csv
+532,Burnt Oak,LU,True,520325.5892,190759.991599999,-0.26399369483295404,51.602834176714175,Burnt Oak,underground_stations_csv
+533,London City Airport,DLR,False,542325.0,180248.33333333334,0.04921,51.503256666666665,London City Airport,naptan_rse_tmu
+534,Caledonian Road,LU,True,530558.3633,184969.7784,-0.11847347641237985,51.54852353192346,Caledonian Road,underground_stations_csv
+5345,New Cross Gate,LO,False,536189.0,176946.0,-0.04041,51.47509,New Cross Gate Station,naptan_rse_tmu
+535,Camden Town,LU,True,528910.2525,183893.5725,-0.14262297026124665,51.53923059833878,Camden Town,underground_stations_csv
+5356,Crystal Palace,LO,False,534088.0,170540.0,-0.07307,51.41803,Crystal Palace Station,naptan_rse_tmu
+536,Cannon Street LU,LU,True,532611.4757,180900.064999999,-0.09041192056785469,51.511473069259,Cannon Street,underground_stations_csv
+5362,Forest Hill,LO,False,535400.25,172965.25,-0.0532875,51.439505,Forest Hill Station,naptan_rse_tmu
+537,Canons Park,LU,True,518186.8967,191252.07,-0.29469410620588665,51.60770907048488,Canons Park,underground_stations_csv
+5372,Wandsworth Road,LO,False,529397.0,176250.0,-0.13841,51.47043,Wandsworth Road Station,naptan_rse_tmu
+5376,Norwood Junction,LO,False,534090.6666666666,168267.0,-0.07389333333333332,51.397596666666665,Norwood Junction Station,naptan_rse_tmu
+5378,Penge West,LO,False,534920.0,170522.0,-0.06112,51.41767,Penge West Station,naptan_rse_tmu
+538,Pontoon Dock,DLR,False,541229.0,180131.0,0.03338,51.50248,Pontoon Dock Station DLR,naptan_rse_tmu
+539,Chalfont & Latimer,LU,True,499633.5338,197564.355,-0.5607234520464773,51.668031426229064,Chalfont & Latimer,underground_stations_csv
+5397,Anerley,LO,False,534606.5,169900.0,-0.065865,51.412155,Anerley Station,naptan_rse_tmu
+540,Chalk Farm,LU,True,528202.4569,184390.607000001,-0.15264214766916676,51.54385835909765,Chalk Farm,underground_stations_csv
+5404,Brockley,LO,False,536397.0,175762.0,-0.03788,51.4644,Brockley Station,naptan_rse_tmu
+541,Chancery Lane,LU,True,531123.9465,181615.465500001,-0.11156930260294359,51.51824890350831,Chancery Lane,underground_stations_csv
+5411,West Croydon NR,"LO,TRM",False,532169.0,166102.25,-0.10230500000000001,51.378595000000004,West Croydon Station,naptan_rse_tmu
+5418,Honor Oak Park,LO,False,535885.0,174138.0,-0.04587,51.44993,Honor Oak Park Station,naptan_rse_tmu
+542,Embankment,LU,True,530419.3254,180395.871400001,-0.12216953430795731,51.50745185655674,Embankment,underground_stations_csv
+5421,Denmark Hill,LO,False,532776.0,176086.0,-0.08985,51.46817,Denmark Hill Station,naptan_rse_tmu
+5423,Peckham Rye,LO,False,534191.0,176339.0,-0.0694,51.47011,Peckham Rye Station,naptan_rse_tmu
+5424,Queens Road Peckham,LO,False,535014.0,176773.0,-0.05739,51.47382,Queens Road Peckham Station,naptan_rse_tmu
+543,Chesham,LU,True,496079.3711,201633.0847,-0.6109804023947352,51.70522161796168,Chesham,underground_stations_csv
+5437,Sydenham,LO,False,535363.6666666666,171609.33333333334,-0.054329999999999996,51.42733333333333,Sydenham Station,naptan_rse_tmu
+544,Chigwell,LU,True,543795.2009,193021.039000001,0.0755949749891976,51.61765286220907,Chigwell,underground_stations_csv
+545,Chiswick Park,LU,True,520293.2801,178723.680199999,-0.26857152550054486,51.49466748590177,Chiswick Park,underground_stations_csv
+546,Chorleywood,LU,True,502580.7743,196094.9067,-0.5185530310182181,51.65429398451199,Chorleywood,underground_stations_csv
+547,Clapham Common,LU,True,529504.8104,175338.249199999,-0.13719253566731915,51.46221051259463,Clapham Common,underground_stations_csv
+548,Clapham North,LU,True,530038.9661,175743.4515,-0.12935895070321768,51.46572960060881,Clapham North,underground_stations_csv
+549,Clapham South,LU,True,528834.0334,174322.7074,-0.14721241263243376,51.45323695245536,Clapham South,underground_stations_csv
+550,Cockfosters,LU,True,528140.5216,196370.205600001,-0.14916314678277617,51.65152862765704,Cockfosters,underground_stations_csv
+551,Colindale,LU,True,521318.6301,189961.520300001,-0.24993805686952955,51.59544539419721,Colindale,underground_stations_csv
+552,Colliers Wood,LU,True,526787.9528,170368.2575,-0.17805799608697154,51.41815971696416,Colliers Wood,underground_stations_csv
+553,Covent Garden,LU,True,530250.6062,181025.0034,-0.12436702786860558,51.513144508444505,Covent Garden,underground_stations_csv
+554,Croxley,LU,True,507909.4599,195402.8332,-0.44176805492340054,51.6470771785801,Croxley,underground_stations_csv
+555,Dagenham East,LU,True,550293.9749,185030.270500001,0.16597604681459355,51.54416043622838,Dagenham East,underground_stations_csv
+556,Dagenham Heathway,LU,True,549022.5413,184709.7413,0.14751917346847765,51.54161732780605,Dagenham Heathway,underground_stations_csv
+557,Debden,LU,True,544272.9229,196121.782099999,0.08376689656236329,51.6453918793904,Debden,underground_stations_csv
+558,Dollis Hill,LU,True,522189.8506,185144.020099999,-0.23904076572437893,51.55196194099086,Dollis Hill,underground_stations_csv
+559,West Silvertown,DLR,False,540490.0,180152.0,0.02275,51.50285,West Silvertown DLR Station,naptan_rse_tmu
+5595,Clapham Junction,LO,False,527223.0,175527.66666666666,-0.16994999999999996,51.46443333333334,Clapham Junction Station,naptan_rse_tmu
+560,Ealing Broadway,"EZL,LU",True,517989.3481,180932.526699999,-0.301005548648285,51.51500454109758,Ealing Broadway,underground_stations_csv
+561,Ealing Common,LU,True,518895.9685,180345.996200001,-0.28814377331699453,51.50954325566993,Ealing Common,underground_stations_csv
+562,Earl's Court,LU,True,525534.3012,178551.8071,-0.19317540262977842,51.49198454803539,Earl's Court,underground_stations_csv
+563,East Acton,LU,True,521720.9991,181197.768999999,-0.2471625219934364,51.51659745054098,East Acton,underground_stations_csv
+564,Eastcote,LU,True,511153.3473,187621.8123,-0.39736801686353984,51.576511969832765,Eastcote,underground_stations_csv
+565,East Finchley,LU,True,527221.696,189183.6545,-0.1650441219039346,51.58715402026014,East Finchley,underground_stations_csv
+566,East Ham,LU,True,542463.3563,184275.4352,0.052826568311649,51.53940709913807,East Ham,underground_stations_csv
+567,East Putney,LU,True,524381.7165,174869.93,-0.2110636822805433,51.459149587092405,East Putney,underground_stations_csv
+568,Edgware,LU,True,519550.4974,191940.4673,-0.27477777123740055,51.61360827412279,Edgware,underground_stations_csv
+569,Edgware Road (DIS),LU,True,527220.0675,181696.8814,-0.16777316638890663,51.51987245129845,Edgware Road (Circle Line),underground_stations_csv
+570,Elephant & Castle LU,LU,True,531908.9646,179141.8869,-0.10118627610280032,51.49583746787788,Elephant & Castle,underground_stations_csv
+571,Elm Park,LU,True,552542.0054,185716.105799999,0.1986662037147443,51.549719886941844,Elm Park,underground_stations_csv
+572,Epping,LU,True,546209.4306,201538.4,0.11399961918418978,51.69356092525262,Epping,underground_stations_csv
+573,Woolwich Arsenal,DLR,False,543720.0,178850.66666666666,0.06872333333333334,51.49034666666666,Woolwich Arsenal Station,naptan_rse_tmu
+574,Euston LU,"LO,LU",True,529498.32,182668.2502,-0.13459860915117344,51.52808458451346,Euston,underground_stations_csv
+575,Euston Square,LU,True,529416.5999,182393.381999999,-0.13587687351584915,51.525633154752434,Euston Square,underground_stations_csv
+576,Fairlop,LU,True,544935.5979,190594.5734,0.09105309597165903,51.595558107334746,Fairlop,underground_stations_csv
+577,Farringdon,"EZL,LU",True,531559.9989,181873.9267,-0.10519198867818359,51.52047027577585,Farringdon,underground_stations_csv
+578,Finchley Central,LU,True,525278.0259,190668.344000001,-0.19255484880487297,51.60093175153773,Finchley Central,underground_stations_csv
+579,Finchley Road,LU,True,526220.4473,184716.2096,-0.18109153879636952,51.54723083836693,Finchley Road,underground_stations_csv
+580,Finsbury Park LU,LU,True,531329.8862,186775.332800001,-0.10667934765407905,51.56457021452156,Finsbury Park,underground_stations_csv
+581,Fulham Broadway,LU,True,525454.6092,177301.7324,-0.19476643999333534,51.48076777565934,Fulham Broadway,underground_stations_csv
+582,Gants Hill,LU,True,543273.6779,188430.207599999,0.06619413225561141,51.57653500920319,Gants Hill,underground_stations_csv
+583,Gloucester Road,LU,True,526182.7589,178846.489499999,-0.18373468987431105,51.49448863919927,Gloucester Road,underground_stations_csv
+584,Golders Green,LU,True,525255.0926,187480.2837,-0.19402225224523736,51.57228620318889,Golders Green,underground_stations_csv
+585,Goldhawk Road,LU,True,523183.913,179607.8456,-0.22664486415404567,51.50199179519617,Goldhawk Road,underground_stations_csv
+586,Goodge Street,LU,True,529537.2731,181836.5931,-0.13434290236565843,51.520601842773736,Goodge Street,underground_stations_csv
+587,Grange Hill,LU,True,544967.3103,192558.691299999,0.09232184221334147,51.61319815416051,Grange Hill,underground_stations_csv
+588,Great Portland Street,LU,True,528837.973,182179.857899999,-0.1442909711973862,51.52384645620309,Great Portland Street,underground_stations_csv
+589,Greenford,LU,True,514763.0955,183928.051899999,-0.3465040750206399,51.54259127112355,Greenford,underground_stations_csv
+590,Green Park,LU,True,529007.2306,180294.834799999,-0.14254189011089013,51.50686769929983,Green Park,underground_stations_csv
+591,Gunnersbury,"LO,LU",True,519845.2545,178387.583799999,-0.2751361823945699,51.491741910939425,Gunnersbury,underground_stations_csv
+592,Hainault,LU,True,545079.8923,191498.1822,0.09350819615879127,51.6036401975141,Hainault,underground_stations_csv
+593,Hammersmith (DIS),LU,True,523460.9489,178502.7234,-0.22304188389888033,51.49199951963806,Hammersmith (Dist&Picc Line),underground_stations_csv
+594,Hampstead,LU,True,526372.6132,185761.4121,-0.17852309354375814,51.5565898798849,Hampstead,underground_stations_csv
+595,Hanger Lane,LU,True,518527.3157,182634.1785,-0.2926845249496959,51.53018552933825,Hanger Lane,underground_stations_csv
+596,Harlesden,"LO,LU",True,520874.9265,183414.186899999,-0.2585901442236528,51.5366984829526,Harlesden,underground_stations_csv
+597,Harrow & Wealdstone,"LO,LU",True,515443.4908,189445.8062,-0.3348864548890388,51.59204382510434,Harrow & Wealdstone,underground_stations_csv
+598,Harrow-on-the-Hill,LU,True,515346.2006,188038.3989,-0.3367522322346986,51.57941460314498,Harrow-on-the-Hill,underground_stations_csv
+599,Wood Lane,LU,True,523373.9519,180519.177100001,-0.223589832503072,51.510140640931624,Wood Lane,underground_stations_csv
+601,Hendon Central,LU,True,522985.7318,188635.9596,-0.2263467398232382,51.58317142482077,Hendon Central,underground_stations_csv
+602,High Barnet,LU,True,525030.1427,196180.328199999,-0.19416624688190223,51.65052191222786,High Barnet,underground_stations_csv
+603,Highbury & Islington,"LO,LU",True,531583.269,184873.934800001,-0.10373671479788171,51.5474243924603,Highbury & Islington,underground_stations_csv
+604,Highgate,LU,True,528534.7964,188180.791099999,-0.14646788226539453,51.57784395375154,Highgate,underground_stations_csv
+605,High Street Kensington,LU,True,525578.3546,179494.316500001,-0.19220609592531968,51.500445098932744,High Street Kensington,underground_stations_csv
+606,Hillingdon,LU,True,507602.2269,185034.942299999,-0.44938394891092626,51.55394931648672,Hillingdon,underground_stations_csv
+607,Holborn,LU,True,530512.0615,181525.070900001,-0.12041642112778311,51.5175781351181,Holborn,underground_stations_csv
+608,Holland Park,LU,True,524626.2477,180217.3517,-0.20566045316838816,51.5071535735316,Holland Park,underground_stations_csv
+609,Holloway Road,LU,True,530907.4434,185449.7238,-0.11326351342118741,51.55275576448648,Holloway Road,underground_stations_csv
+610,Hornchurch,LU,True,553944.498,186240.2941,0.21910684007400003,51.55404895710733,Hornchurch,underground_stations_csv
+611,Hounslow Central,LU,True,513567.6962,175971.364700001,-0.3662939172379908,51.47131979963469,Hounslow Central,underground_stations_csv
+612,Hounslow East,LU,True,514254.5504,176202.929199999,-0.35633446056928547,51.47326292270873,Hounslow East,underground_stations_csv
+613,Hounslow West,LU,True,512207.7403,176196.9816,-0.38579398315426044,51.47361867347103,Hounslow West,underground_stations_csv
+614,Hyde Park Corner,LU,True,528213.2383,179816.724099999,-0.15414966922837586,51.5027515504957,Hyde Park Corner,underground_stations_csv
+615,Ickenham,LU,True,508092.3561,185937.6131,-0.44204013678137116,51.56196897211082,Ickenham,underground_stations_csv
+616,Kennington,LU,True,531598.8041,178299.556299999,-0.10596541286235016,51.48834003191997,Kennington,underground_stations_csv
+617,Kensal Green,"LO,LU",True,523257.1398,182789.7245,-0.2244787816465951,51.530571777558116,Kensal Green,underground_stations_csv
+618,Kensington (Olympia),"LO,LU",True,524341.6907,179162.423900001,-0.21012996310043217,51.49773548808454,Kensington (Olympia),underground_stations_csv
+619,Kentish Town,LU,True,529009.0105,185127.159,-0.1407479399821426,51.55029387744979,Kentish Town,underground_stations_csv
+620,Kenton,"LO,LU",True,516727.9918,188314.4716,-0.31672815541742494,51.58161162102015,Kenton,underground_stations_csv
+621,Kew Gardens,"LO,LU",True,519196.0695,176731.8028,-0.28504091647405505,51.47699774458654,Kew Gardens,underground_stations_csv
+622,Kilburn,LU,True,524583.2751,184644.8518,-0.20471489160119855,51.546953022454446,Kilburn,underground_stations_csv
+623,Kilburn Park,LU,True,525357.7486,183328.0363,-0.1940203229099902,51.534947545387965,Kilburn Park,underground_stations_csv
+624,Kingsbury,LU,True,519358.6236,188712.7984,-0.2786447440288867,51.584641087244194,Kingsbury,underground_stations_csv
+625,King's Cross St. Pancras,LU,True,530174.7976,182874.774700001,-0.12477613021792856,51.529785143075884,King's Cross St. Pancras,underground_stations_csv
+626,Knightsbridge,LU,True,527709.677,179635.9859,-0.16146611606618974,51.50124118729131,Knightsbridge,underground_stations_csv
+627,Ladbroke Grove,LU,True,524234.8749,181339.0615,-0.21090185775767434,51.51732053919889,Ladbroke Grove,underground_stations_csv
+628,Lambeth North,LU,True,531133.5815,179456.1932,-0.1122327661467621,51.498842228801465,Lambeth North,underground_stations_csv
+629,Lancaster Gate,LU,True,526710.5082,180773.3476,-0.17544510185673504,51.51168719578341,Lancaster Gate,underground_stations_csv
+630,Latimer Road,LU,True,523762.9916,180897.8333,-0.21785393577321283,51.513458663999614,Latimer Road,underground_stations_csv
+631,Leicester Square,LU,True,529980.4296,180824.482000001,-0.128332134429999,51.51140465728606,Leicester Square,underground_stations_csv
+632,Leyton,LU,True,538367.4374,186075.853599999,-0.00548715538242508,51.55660356521063,Leyton,underground_stations_csv
+633,Leytonstone,LU,True,539279.2763,187404.735400001,0.008183219874044318,51.568320494028455,Leytonstone,underground_stations_csv
+634,Liverpool Street LU,"EZL,LO,LU",True,533093.853,181566.9186,-0.08321330923554981,51.51735237101746,Liverpool Street,underground_stations_csv
+635,London Bridge LU,LU,True,532683.0478,180188.852299999,-0.08964851723570844,51.50506500549169,London Bridge,underground_stations_csv
+636,Loughton,LU,True,542318.8891,195612.3879,0.05533810169999307,51.64131224348847,Loughton,underground_stations_csv
+637,Maida Vale,LU,True,525940.2151,182761.773700001,-0.18582932871164548,51.529729085515065,Maida Vale,underground_stations_csv
+638,Manor House,LU,True,532047.6613,187481.789999999,-0.09606483069595965,51.57075126410129,Manor House,underground_stations_csv
+639,Mansion House,LU,True,532354.1684,180931.563200001,-0.094105792133622,51.51181640319618,Mansion House,underground_stations_csv
+640,Marble Arch,LU,True,527960.1312,181017.4747,-0.1573589906802929,51.51359976087709,Marble Arch,underground_stations_csv
+641,Marylebone LU,LU,True,527458.7894,181957.287599999,-0.16424026631880048,51.52215890700219,Marylebone,underground_stations_csv
+642,Mile End,LU,True,536500.7831,182534.4935,-0.033768063294587126,51.52523491887216,Mile End,underground_stations_csv
+643,Mill Hill East,LU,True,524045.7492,191450.480699999,-0.21006141993144073,51.608233232687525,Mill Hill East,underground_stations_csv
+645,Moorgate,LU,True,532667.8252,181668.244999999,-0.08931153515551986,51.51836305552553,Moorgate,underground_stations_csv
+646,Moor Park,LU,True,508606.4789,193502.849199999,-0.43228696397287464,51.62986629669337,Moor Park,underground_stations_csv
+647,Morden,LU,True,525669.7872,168602.371300001,-0.19475485350439264,51.40253820130652,Morden,underground_stations_csv
+648,Mornington Crescent,LU,True,529191.6489,183397.127499999,-0.13874979864115178,51.534704942339104,Mornington Crescent,underground_stations_csv
+649,Neasden,LU,True,521342.3348,185397.9068,-0.2511708953836603,51.554426400499004,Neasden,underground_stations_csv
+650,Newbury Park,LU,True,544920.2921,188384.718599999,0.08992082990646201,51.57570573751538,Newbury Park,underground_stations_csv
+653,North Acton,LU,True,520828.4021,181956.9398,-0.2597600781194744,51.523611766196794,North Acton,underground_stations_csv
+654,North Ealing,LU,True,518828.0459,181227.755999999,-0.2888251159580139,51.517482284384876,North Ealing,underground_stations_csv
+655,Northfields,LU,True,517196.8059,179206.2903,-0.31299492833767906,51.49965470504596,Northfields,underground_stations_csv
+656,North Harrow,LU,True,513541.1687,188613.229499999,-0.3626047009909967,51.58494710527484,North Harrow,underground_stations_csv
+6562,Woolwich EL,EZL,False,543832.0,179022.0,0.07041,51.49186,Woolwich Station,naptan_rse_tmu
+657,Northolt,LU,True,513213.3316,184523.897600001,-0.36865042407239057,51.548259260589994,Northolt,underground_stations_csv
+659,North Wembley,"LO,LU",True,517667.5472,186197.873500001,-0.3038826458342014,51.562393713680144,North Wembley,underground_stations_csv
+660,Northwick Park,LU,True,516643.3006,187963.523499999,-0.31806633884631424,51.57847500401296,Northwick Park,underground_stations_csv
+661,Northwood,LU,True,509229.7103,191418.7435,-0.4239354593141582,51.611014101617926,Northwood,underground_stations_csv
+662,Northwood Hills,LU,True,510307.602,190238.042400001,-0.4087463545441836,51.60019223372048,Northwood Hills,underground_stations_csv
+663,Notting Hill Gate,LU,True,525284.9146,180456.3574,-0.19608997336265582,51.509156012573975,Notting Hill Gate,underground_stations_csv
+664,Oakwood,LU,True,529390.306,195935.214400001,-0.13126893872170828,51.64733362819432,Oakwood,underground_stations_csv
+665,Old Street,LU,True,532764.4507,182418.811100001,-0.08763720259182553,51.52508527631206,Old Street,underground_stations_csv
+667,Osterley,LU,True,514520.2731,177096.8334,-0.3522207467968353,51.4812434687809,Osterley,underground_stations_csv
+668,Oval,LU,True,531170.2991,177564.9022,-0.1124062491167189,51.48183745351276,Oval,underground_stations_csv
+669,Oxford Circus,LU,True,529046.6139,181236.3369,-0.14163045969608393,51.515319726422334,Oxford Circus,underground_stations_csv
+670,Paddington TfL,"EZL,LU",True,526659.2098,181314.446900001,-0.17598969226411743,51.51656148278404,Paddington,underground_stations_csv
+671,Park Royal,LU,True,519141.6075,182236.241800001,-0.28396753015599946,51.526479964901434,Park Royal,underground_stations_csv
+672,Parsons Green,LU,True,524984.5495,176646.7489,-0.20176352486363486,51.47498535708651,Parsons Green,underground_stations_csv
+673,Perivale,LU,True,516378.3501,183314.9891,-0.32342516922982106,51.5367509216631,Perivale,underground_stations_csv
+674,Piccadilly Circus,LU,True,529612.6446,180665.529899999,-0.1336873864316472,51.51006061519836,Piccadilly Circus,underground_stations_csv
+675,Pinner,LU,True,512236.1384,189460.7521,-0.38116191894249885,51.592825567877355,Pinner,underground_stations_csv
+676,Plaistow,LU,True,540003.2462,183297.1438,0.01698872064506072,51.53123134107084,Plaistow,underground_stations_csv
+677,Preston Road,LU,True,518249.3308,187281.8291,-0.295129262413792,51.572014075601594,Preston Road,underground_stations_csv
+678,Putney Bridge,LU,True,524519.2741,175886.505999999,-0.2087270375114135,51.46825546825846,Putney Bridge,underground_stations_csv
+679,Queensbury,LU,True,518808.7824,189763.2019,-0.2862217775472735,51.59419745209295,Queensbury,underground_stations_csv
+680,Queen's Park,"LO,LU",True,524547.4749,183200.2402,-0.2057416029735368,51.533978210095334,Queen's Park,underground_stations_csv
+681,Queensway,LU,True,525903.0798,180593.604,-0.18713829824007047,51.51025217607452,Queensway,underground_stations_csv
+682,Ravenscourt Park,LU,True,522571.1867,178722.460000001,-0.23577535697187463,51.494167735828476,Ravenscourt Park,underground_stations_csv
+683,Rayners Lane,LU,True,512952.7879,187515.078199999,-0.3714462140203309,51.575195361923186,Rayners Lane,underground_stations_csv
+684,Redbridge,LU,True,541834.4862,188358.000499999,0.04541027413893245,51.576249813818855,Redbridge,underground_stations_csv
+685,Regent's Park,LU,True,528699.2958,182113.1305,-0.14631312455288237,51.52327838474291,Regent's Park,underground_stations_csv
+686,Richmond,"LO,LU",True,518077.1529,175161.4717,-0.3016691259076597,51.463118722979786,Richmond,underground_stations_csv
+6867,Hackney Downs,LO,False,534560.5,185063.5,-0.060755,51.548425,Hackney Downs Station,naptan_rse_tmu
+687,Rickmansworth,LU,True,505715.6061,194601.2017,-0.47370581066277867,51.64028836634988,Rickmansworth,underground_stations_csv
+6874,Chadwell Heath,EZL,False,547701.0,187615.0,0.1297,51.56807,Chadwell Heath Station,naptan_rse_tmu
+6876,Forest Gate,EZL,False,540477.0,185355.0,0.024635,51.549605,Forest Gate Station,naptan_rse_tmu
+6877,Gidea Park,EZL,False,552909.5,189300.0,0.20551999999999998,51.58182,Gidea Park Station,naptan_rse_tmu
+6878,Goodmayes,EZL,False,546367.0,187311.0,0.11034,51.56568,Goodmayes Station,naptan_rse_tmu
+6879,Harold Wood,EZL,False,554786.5,190630.0,0.233175,51.59326,Harold Wood Station,naptan_rse_tmu
+688,Roding Valley,LU,True,541589.7031,192894.9639,0.04370965024464847,51.61707861416649,Roding Valley,underground_stations_csv
+6881,Ilford,EZL,False,543506.0,186465.0,0.06874333333333334,51.558816666666665,Ilford Station,naptan_rse_tmu
+6883,Manor Park,EZL,False,541975.0,185732.0,0.04638,51.55262,Manor Park Station,naptan_rse_tmu
+6886,Romford,"EZL,LO",False,551383.0,188474.5,0.18314999999999998,51.574815,Romford Station,naptan_rse_tmu
+6893,Seven Kings,EZL,False,545462.5,187083.0,0.097205,51.56387,Seven Kings Station,naptan_rse_tmu
+690,Royal Oak,LU,True,525833.8943,181570.6391,-0.18778627332991857,51.519048130119494,Royal Oak,underground_stations_csv
+691,Ruislip,LU,True,509473.5706,187004.4778,-0.4217906669062553,51.57129177940531,Ruislip,underground_stations_csv
+6913,Bush Hill Park,LO,False,533694.0,195397.5,-0.06931000000000001,51.641495000000006,Bush Hill Park Station,naptan_rse_tmu
+6914,Chingford,LO,False,539213.0,194655.0,0.0101,51.63349,Chingford Station,naptan_rse_tmu
+6919,Highams Park,LO,False,538553.6666666666,191823.0,-0.0005366666666666666,51.608200000000004,Highams Park Station,naptan_rse_tmu
+692,Ruislip Gardens,LU,True,510266.398,185851.599300001,-0.4107169346271762,51.56077549009729,Ruislip Gardens,underground_stations_csv
+6926,Clapton,LO,False,534768.0,186518.0,-0.05721,51.56145,Clapton Station,naptan_rse_tmu
+693,Ruislip Manor,LU,True,510159.7912,187262.366699999,-0.411812431756392,51.573476142150504,Ruislip Manor,underground_stations_csv
+6934,Stoke Newington,LO,False,533654.0,186919.0,-0.07311,51.56532,Stoke Newington Station,naptan_rse_tmu
+694,Russell Square,LU,True,530229.0927,182127.7234,-0.1242697810208252,51.52305918332612,Russell Square,underground_stations_csv
+6941,Edmonton Green,LO,False,534327.0,193570.0,-0.06087,51.62492,Edmonton Green Station,naptan_rse_tmu
+6947,Southbury,LO,False,534826.0,196248.0,-0.05263,51.64887,Southbury Station,naptan_rse_tmu
+695,St. James's Park,LU,True,529646.6061,179498.074100001,-0.1336270216533475,51.49956127784573,St. James's Park,underground_stations_csv
+6952,Turkey Street,LO,False,535140.0,198897.0,-0.04707,51.6726,Turkey Street Station,naptan_rse_tmu
+6954,Wood Street,LO,False,538476.0,189400.0,-0.00261,51.58645,Wood Street Station,naptan_rse_tmu
+6956,White Hart Lane,LO,False,533683.0,191373.0,-0.071,51.60533,White Hart Lane Station,naptan_rse_tmu
+6958,Bruce Grove,LO,False,533788.5,190131.0,-0.06995,51.59415,Bruce Grove Station,naptan_rse_tmu
+6959,Enfield Town,LO,False,532916.5,196603.0,-0.08008000000000001,51.652515,Enfield Town Station,naptan_rse_tmu
+696,St. John's Wood,LU,True,526735.2854,183390.8717,-0.17414757419359148,51.535204969887026,St. John's Wood,underground_stations_csv
+6962,Cambridge Heath,LO,False,534852.0,183286.0,-0.05723,51.53238,Cambridge Heath Station,naptan_rse_tmu
+6966,London Fields,LO,False,534774.5,184246.0,-0.057985,51.541025000000005,London Fields Station,naptan_rse_tmu
+6967,Rectory Road,LO,False,533989.0,186177.0,-0.06857,51.55857,Rectory Road Station,naptan_rse_tmu
+6968,Stamford Hill,LO,False,533377.0,187927.0,-0.07673,51.57444,Stamford Hill Station,naptan_rse_tmu
+697,St. Paul's,LU,True,532108.3512,181274.1885,-0.09751775310793301,51.514952875698356,St. Paul's,underground_stations_csv
+6970,Maryland,EZL,False,539172.0,184948.0,0.00566,51.54627,Maryland Station,naptan_rse_tmu
+6972,Silver Street,LO,False,533919.0,192426.0,-0.06719,51.61474,Silver Street Station,naptan_rse_tmu
+6973,St James Street,LO,False,536376.0,188743.0,-0.03316,51.58106,St James Street Station,naptan_rse_tmu
+6977,Hackney Central,LO,False,534878.75,184936.25,-0.0562175,51.547205,Hackney Central Station,naptan_rse_tmu
+6978,Hackney Wick,LO,False,537037.5,184567.0,-0.025245,51.543365,Hackney Wick Station,naptan_rse_tmu
+6979,Homerton,LO,False,535841.0,184936.0,-0.04235,51.54697,Homerton Station,naptan_rse_tmu
+698,Seven Sisters,"LO,LU",True,533642.8986,188930.9134,-0.0725100279127818,51.58339794718637,Seven Sisters,underground_stations_csv
+700,Shepherd's Bush LU,"LO,LU",True,523719.5706,179883.5582,-0.2188348749838903,51.50435277171325,Shepherd's Bush,underground_stations_csv
+702,Sloane Square,LU,True,528090.7172,178654.7576,-0.1563353394945677,51.49233693461083,Sloane Square,underground_stations_csv
+703,Snaresbrook,LU,True,540156.7713,188804.041300001,0.021393426338283436,51.58067707711797,Snaresbrook,underground_stations_csv
+704,South Ealing,LU,True,517574.6349,179353.532600001,-0.30750525770727977,51.50089966685759,South Ealing,underground_stations_csv
+705,Southfields,LU,True,524726.397,173312.818499999,-0.2066534771013345,51.44507985784133,Southfields,underground_stations_csv
+706,Southgate,LU,True,529675.8503,194264.9911,-0.1277625393853033,51.63225854371172,Southgate,underground_stations_csv
+707,South Harrow,LU,True,514320.5446,186361.227299999,-0.3520927569079474,51.564549549948175,South Harrow,underground_stations_csv
+708,South Kensington,LU,True,526917.564,178820.259,-0.17316504691138462,51.49408858708188,South Kensington,underground_stations_csv
+709,South Kenton,"LO,LU",True,517336.1598,187060.2129,-0.3083734923397721,51.570212909100526,South Kenton,underground_stations_csv
+710,South Ruislip,LU,True,511097.3834,185434.104699999,-0.39886613068870685,51.55686021118094,South Ruislip,underground_stations_csv
+711,South Wimbledon,LU,True,525736.3947,169989.4476,-0.19330652029319118,51.41498929257676,South Wimbledon,underground_stations_csv
+712,South Woodford,LU,True,540535.7362,190062.669600001,0.027362518469825348,51.591892453017074,South Woodford,underground_stations_csv
+713,Stamford Brook,LU,True,521859.3453,178788.8474,-0.24600122518353934,51.4949181050598,Stamford Brook,underground_stations_csv
+714,Stanmore,LU,True,517562.6021,192572.9608,-0.3032624771028668,51.61971092780402,Stanmore,underground_stations_csv
+715,Stepney Green,LU,True,535621.3116,182135.557,-0.04659090323887023,51.52186169216427,Stepney Green,underground_stations_csv
+716,Stockwell,LU,True,530460.3355,176432.887399999,-0.12304218836550214,51.47182845729258,Stockwell,underground_stations_csv
+717,Stonebridge Park,"LO,LU",True,519615.5138,184218.2261,-0.27646679490996795,51.54419264973252,Stonebridge Park,underground_stations_csv
+718,Charing Cross LU,LU,True,530057.6992,180378.381899999,-0.1273836832203838,51.50737795073341,Charing Cross,underground_stations_csv
+719,Stratford,"DLR,EZL,LO,LU",True,538530.0487,184394.6448,-0.0038044932283004124,51.541456474970374,Stratford,underground_stations_csv
+720,Sudbury Hill,LU,True,515411.8716,185542.0623,-0.3366239412564384,51.55696518658866,Sudbury Hill,underground_stations_csv
+721,Sudbury Town,LU,True,516874.9001,184890.216,-0.3157464873310852,51.550805806993615,Sudbury Town,underground_stations_csv
+723,Swiss Cottage,LU,True,526663.6914,184334.9639,-0.17483983477545229,51.54370542648981,Swiss Cottage,underground_stations_csv
+724,Temple,LU,True,530958.661,180802.829600001,-0.1142517165435635,51.51098440371512,Temple,underground_stations_csv
+725,Theydon Bois,LU,True,545541.5127,199100.828500001,0.10332766399974981,51.671832474283256,Theydon Bois,underground_stations_csv
+726,Tooting Bec,LU,True,528047.2745,172373.6505,-0.15923362533504307,51.43589927439103,Tooting Bec,underground_stations_csv
+727,Tooting Broadway,LU,True,527433.7399,171443.250700001,-0.16838983681417344,51.42767600459317,Tooting Broadway,underground_stations_csv
+728,Tottenham Court Road,"EZL,LU",True,529815.381,181382.496200001,-0.1305038755407188,51.51645724635473,Tottenham Court Road,underground_stations_csv
+729,Tottenham Hale LU,LU,True,534484.4517,189470.7161,-0.06016465065370944,51.588048703622064,Tottenham Hale,underground_stations_csv
+730,Totteridge & Whetstone,LU,True,526120.3494,193989.2184,-0.1792054604098072,51.63058779485697,Totteridge & Whetstone,underground_stations_csv
+731,Tower Hill,LU,True,533579.4477,180755.3849,-0.07652627141943263,51.50994511580925,Tower Hill,underground_stations_csv
+733,Tufnell Park,LU,True,529148.7021,185859.620100001,-0.13846565572304778,51.55684430975304,Tufnell Park,underground_stations_csv
+734,Turnham Green,LU,True,521265.8017,178779.0811,-0.2545503301237331,51.4949578319235,Turnham Green,underground_stations_csv
+735,Turnpike Lane,LU,True,531512.729,189637.9518,-0.10297211354184564,51.59025232853629,Turnpike Lane,underground_stations_csv
+736,Upminster,"LO,LU",True,556146.114,186868.406300001,0.25111551581131547,51.55908765486934,Upminster,underground_stations_csv
+737,Upminster Bridge,LU,True,555088.411,186770.1083,0.23582667980199254,51.558496054141195,Upminster Bridge,underground_stations_csv
+738,Upney,LU,True,545845.6808,184254.344900001,0.10155366360748233,51.53835457119145,Upney,underground_stations_csv
+739,Upton Park,LU,True,541254.2061,183793.485200001,0.03521015765496934,51.53538004104193,Upton Park,underground_stations_csv
+740,Uxbridge,LU,True,505661.0034,184161.1754,-0.4776347848292753,51.54646222722115,Uxbridge,underground_stations_csv
+7401,Harringay Green Lanes,LO,False,531840.0,188183.0,-0.098795,51.5771,Harringay Green Lanes Station,naptan_rse_tmu
+7402,Leyton Midland Road,LO,False,538144.5,187535.5,-0.008125,51.569775,Leyton Midland Road Station,naptan_rse_tmu
+7403,Leytonstone High Road,LO,False,539321.0,186851.0,0.00857,51.56333,Leytonstone High Road Station,naptan_rse_tmu
+7404,South Tottenham,LO,False,533637.0,188602.0,-0.07272,51.58044,South Tottenham Station,naptan_rse_tmu
+7406,Crouch Hill,LO,False,530586.0,187489.0,-0.11714,51.57116,Crouch Hill Station,naptan_rse_tmu
+7407,Walthamstow Queen's Road,LO,False,537002.0,188807.0,-0.02411,51.58148,Walthamstow Queens Road Station,naptan_rse_tmu
+7408,Wanstead Park,LO,False,540511.0,185612.0,0.02523,51.55191,Wanstead Park Station,naptan_rse_tmu
+741,Victoria LU,LU,True,528998.7715,179129.9345,-0.14308928980094832,51.49640097859263,Victoria,underground_stations_csv
+742,Walthamstow Central,"LO,LU",True,537176.4746,188994.332599999,-0.0215170203946605,51.58311960662003,Walthamstow Central,underground_stations_csv
+743,Wanstead,LU,True,540673.1526,188253.507300001,0.028620677765270462,51.57560161289604,Wanstead,underground_stations_csv
+745,Warren Street,LU,True,529248.7448,182266.0339,-0.13834177714005547,51.524527123997764,Warren Street,underground_stations_csv
+746,Warwick Avenue,LU,True,526112.4036,182039.408,-0.18360675558678705,51.52319886210523,Warwick Avenue,underground_stations_csv
+7467,Woodgrange Park,LO,False,541820.0,185370.0,0.044,51.5494,Woodgrange Park Station,naptan_rse_tmu
+747,Waterloo LU,LU,True,530968.1802,179961.9154,-0.11442663408154648,51.50342525720376,Waterloo,underground_stations_csv
+7473,Emerson Park,LO,False,553935.0,187909.0,0.2197,51.56904,Emerson Park Station,naptan_rse_tmu
+748,Watford,LU,True,509569.47,196595.9617,-0.4174120635262017,51.65748010048808,Watford,underground_stations_csv
+749,Stratford High Street,DLR,False,538776.5,184018.5,-0.0004,51.538015,Stratford High Street,naptan_rse_tmu
+750,Abbey Road,DLR,False,539082.5,183401.0,0.003765,51.532394999999994,Abbey Road DLR Station,naptan_rse_tmu
+751,Wembley Central,"LO,LU",True,518182.8112,185084.709899999,-0.2968265595489338,51.55228164027704,Wembley Central,underground_stations_csv
+752,Wembley Park,LU,True,519315.8795,186388.4845,-0.28005006150968614,51.56376083873252,Wembley Park,underground_stations_csv
+753,West Acton,LU,True,519372.862,181295.9254,-0.2809538703054756,51.517980197246935,West Acton,underground_stations_csv
+754,Westbourne Park,LU,True,524901.4238,181755.9263,-0.20115293263288994,51.52092006250626,Westbourne Park,underground_stations_csv
+755,West Brompton,"LO,LU",True,525380.8439,178024.490700001,-0.19557175970385998,51.487279564113926,West Brompton,underground_stations_csv
+756,West Finchley,LU,True,525546.1518,191626.9482,-0.18834268491450493,51.60948689407505,West Finchley,underground_stations_csv
+757,West Ham,"DLR,LU",True,539130.9809,182944.644300001,0.0042827258459676954,51.5282792316888,West Ham,underground_stations_csv
+758,West Hampstead LU,"LO,LU",True,525592.1984,184652.8993,-0.19016960275566852,51.546801915703966,West Hampstead,underground_stations_csv
+759,West Harrow,LU,True,514199.9396,188029.3693,-0.35329028029996584,51.57956661616709,West Harrow,underground_stations_csv
+760,West Kensington,LU,True,524684.9763,178398.058900001,-0.20545700029973243,51.490790555082114,West Kensington,underground_stations_csv
+761,Westminster,LU,True,530195.6727,179668.226399999,-0.1256586526219809,51.5009642958388,Westminster,underground_stations_csv
+762,West Ruislip,LU,True,508378.6627,186795.997400001,-0.43764707604605596,51.56962926058854,West Ruislip,underground_stations_csv
+763,Whitechapel,"EZL,LO,LU",True,534644.6261,181850.3379,-0.06076871394741355,51.51953209733413,Whitechapel,underground_stations_csv
+764,White City,LU,True,523307.8235,180748.416200001,-0.22446214525403546,51.5122152625013,White City,underground_stations_csv
+765,Willesden Green,LU,True,523328.566,184883.4222,-0.22271672855408042,51.54937241454188,Willesden Green,underground_stations_csv
+766,Willesden Junction,"LO,LU",True,521858.4876,182959.8201,-0.2445731603163596,51.53240375197415,Willesden Junction,underground_stations_csv
+767,Wimbledon,"LU,TRM",True,524800.3804,170683.6656,-0.2065150560922177,51.42143496760067,Wimbledon,underground_stations_csv
+768,Wimbledon Park,LU,True,525282.3792,172099.7465,-0.19908634010842738,51.434055248289106,Wimbledon Park,underground_stations_csv
+769,Woodford,LU,True,540949.981,191740.0184,0.03401185348011002,51.60686112070409,Woodford,underground_stations_csv
+770,Wood Green,LU,True,531014.9221,190428.396500001,-0.10985901912398979,51.5974714659873,Wood Green,underground_stations_csv
+771,Woodside Park,LU,True,525718.4454,192588.1262,-0.1855114363532535,51.61808637995582,Woodside Park,underground_stations_csv
+773,Hammersmith (H&C),LU,True,523325.1097,178697.986300001,-0.2249293587788519,51.49378399419851,Hammersmith (H&C Line),underground_stations_csv
+774,Edgware Road (Bak),LU,True,527046.7044,181758.9463,-0.1702481178612425,51.52046920147198,Edgware Road (Bakerloo),underground_stations_csv
+775,Shepherd's Bush Market,LU,True,523197.0859,180064.2324,-0.22629592219219624,51.50609054189476,Shepherd's Bush Market,underground_stations_csv
+776,Pimlico,LU,True,529670.6464,178332.5964,-0.13370871250340682,51.489081972458365,Pimlico,underground_stations_csv
+777,Vauxhall LU,LU,True,530336.7953,177973.004799999,-0.12425212298282715,51.48569743810505,Vauxhall,underground_stations_csv
+778,Brixton LU,LU,True,531052.3817,175428.6555,-0.1148949328839154,51.46266709356466,Brixton,underground_stations_csv
+779,Hatton Cross,LU,True,509608.3222,175362.561799999,-0.42346421038625753,51.46662784627763,Hatton Cross,underground_stations_csv
+780,Heathrow Terminals 123 LU,"EZL,LU",True,507585.6702,175839.6403,-0.4524258114844233,51.47130365988795,Heathrow Terminals 1-2-3,underground_stations_csv
+781,Heathrow Terminal 4 LU,"EZL,LU",True,508081.9464,174430.162599999,-0.44571396376058325,51.45854050640025,Heathrow Terminal 4,underground_stations_csv
+783,Heathrow Terminal 5 LU,"EZL,LU",True,505109.3841,175923.8204,-0.4880396396312293,51.4725252187983,Heathrow Terminal 5,underground_stations_csv
+784,Southwark,LU,True,531592.3412,180073.990499999,-0.1053973366341109,51.50428757953954,Southwark,underground_stations_csv
+787,Bermondsey,LU,True,534459.7378,179416.223200001,-0.06435917646629304,51.49770238120657,Bermondsey,underground_stations_csv
+788,Canada Water,"LO,LU",True,535456.6419,179467.0078,-0.049987164956990765,51.49792096344705,Canada Water,underground_stations_csv
+789,North Greenwich,LU,True,539215.8219,179859.374399999,0.004287576712352386,51.50053431205634,North Greenwich,underground_stations_csv
+831,Nine Elms,LU,True,529989.2567,177345.628799999,-0.12948529538068784,51.48013931574214,Nine Elms,underground_stations_csv
+832,Battersea Power Station,LU,True,529024.8784,177247.2655,-0.1434008238398742,51.47947593806482,Battersea Power Station,underground_stations_csv
+850,All Saints,DLR,False,537983.0,181009.0,-0.01301,51.511165000000005,All Saints,naptan_rse_tmu
+851,Bow Church,DLR,False,537383.0,182845.0,-0.02094,51.52781,Bow Church Station,naptan_rse_tmu
+852,Canary Wharf LU,"DLR,EZL,LU",True,537677.3398,180139.731799999,-0.01775363971134798,51.50343011540573,Canary Wharf,underground_stations_csv
+853,Langdon Park,DLR,False,537884.5,181446.0,-0.01426,51.515119999999996,Langdon Park,naptan_rse_tmu
+854,Crossharbour,DLR,False,537939.5,179286.5,-0.01431,51.4957,Crossharbour,naptan_rse_tmu
+855,Heron Quays,DLR,False,537429.0,180104.0,-0.02134,51.50317,Heron Quays,naptan_rse_tmu
+856,Island Gardens,DLR,False,538262.0,178419.0,-0.01001,51.48782,Island Gardens,naptan_rse_tmu
+857,Mudchute,DLR,False,537918.0,178771.0,-0.014825,51.491074999999995,Mudchute,naptan_rse_tmu
+858,Poplar,DLR,False,537661.5,180616.0,-0.017795,51.507715000000005,Poplar,naptan_rse_tmu
+859,Pudding Mill Lane,DLR,False,537908.0,183549.0,-0.0131,51.53401,Pudding Mill Lane,naptan_rse_tmu
+861,South Quay,DLR,False,537790.0,179771.0,-0.016275,51.50009,South Quay,naptan_rse_tmu
+862,Limehouse DLR,DLR,False,536079.5,181079.5,-0.040395,51.51226,Limehouse,naptan_rse_tmu
+864,Tower Gateway,DLR,False,533765.5,180820.0,-0.073825,51.51048,Tower Gateway Station DLR,naptan_rse_tmu
+865,Westferry,DLR,False,537095.5,180760.5,-0.025890000000000003,51.50915,Westferry,naptan_rse_tmu
+866,West India Quay,DLR,False,537474.0,180580.0,-0.02051,51.50744,West India Quay,naptan_rse_tmu
+867,Devons Road,DLR,False,537638.0,182281.0,-0.01748,51.52268,Devons Road Station,naptan_rse_tmu
+879,Cutty Sark,DLR,False,538242.0,177723.0,-0.01057,51.481575,Cutty Sark for Maritime Greenwich,naptan_rse_tmu
+882,Blackwall,DLR,False,538426.0,180679.0,-0.006765,51.508095,Blackwall,naptan_rse_tmu
+883,East India,DLR,False,538736.0,180848.33333333334,-0.0022333333333333333,51.50953666666667,East India Station,naptan_rse_tmu
+884,Canning Town,"DLR,LU",True,539428.3256,181377.274,0.00794669828970189,51.51412171801386,Canning Town,underground_stations_csv
+886,Royal Victoria,DLR,False,540182.5,180858.0,0.018604999999999997,51.50927,Royal Victoria Station,naptan_rse_tmu
+887,Custom House DLR,"DLR,EZL",False,540779.0,180902.33333333334,0.02721,51.50952,Custom House Station,naptan_rse_tmu
+888,Prince Regent,DLR,False,541245.5,180894.5,0.033925,51.50933499999999,Prince Regent,naptan_rse_tmu
+889,Star Lane,DLR,False,539139.5,182116.5,0.00408,51.520835000000005,Star Lane Station,naptan_rse_tmu
+890,Royal Albert,DLR,False,542068.0,180779.0,0.04572,51.50809,Royal Albert DLR Station,naptan_rse_tmu
+891,Beckton Park,DLR,False,542698.0,180928.0,0.05485,51.50927,Beckton Park,naptan_rse_tmu
+893,Cyprus,DLR,False,543318.5,180827.5,0.06375,51.50821,Cyprus,naptan_rse_tmu
+894,Gallions Reach,DLR,False,543887.0,180904.0,0.07196,51.50875,Gallions Reach Station,naptan_rse_tmu
+895,Beckton,DLR,False,543084.0,181501.0,0.06064,51.51432,Beckton Station,naptan_rse_tmu
+897,Deptford Bridge,DLR,False,537433.0,176899.0,-0.022535,51.47437,Deptford Bridge,naptan_rse_tmu
+898,Elverson Road,DLR,False,537880.0,176287.0,-0.01634,51.46876,Elverson Road,naptan_rse_tmu
+928,Greenwich,DLR,False,537961.3333333334,177331.66666666666,-0.01476,51.47812666666667,Greenwich Station,naptan_rse_tmu
+940,Lewisham DLR,DLR,False,538096.3333333334,175895.0,-0.013383333333333332,51.46518666666666,Lewisham Rail Station,naptan_rse_tmu
+9586,Imperial Wharf,LO,False,526300.6666666666,176671.0,-0.18281333333333336,51.47491,Imperial Wharf Station,naptan_rse_tmu

@@ -1,0 +1,15 @@
+{
+  "best_bic": -1904055.1900389201,
+  "best_seed": 7,
+  "seeds_reaching_best_basin": 1,
+  "n_seeds": 8,
+  "ari_vs_adopted_k5": 0.4635666392563995,
+  "sizes": [
+    11,
+    31,
+    39,
+    72,
+    95,
+    156
+  ]
+}

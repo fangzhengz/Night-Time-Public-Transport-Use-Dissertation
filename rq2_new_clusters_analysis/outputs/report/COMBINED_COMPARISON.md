@@ -1,0 +1,55 @@
+# Combined comparison: canonical/original vs adopted/sensitivity clusters
+
+## Material Passport
+
+- Origin Date: 2026-08-08T16:56:17.273316+00:00
+- Verification Status: ANALYZED
+- Version Label: rq2_new_clusters_comparison_v1
+
+## What this answers
+
+For each mode, does the alternative clustering (rail: all-modes merged K=5; bus: StopArea CLR K=4, adopted 2026-07-29 as the bus clustering result) tell a better- or worse-supported cluster-to-context story than the original/canonical one, on three legs of evidence that previously only existed in separate report files:
+
+1. internal coherence -- does the cluster label explain its own continuous profile metrics (Kruskal-Wallis epsilon-squared)?
+2. external LNWC association (chi-square / Cramer's V, or the 7-part composition permutation R2 for rail).
+3. external IMD2025 weak-line association (cluster x IMD score, epsilon-squared).
+
+## 1. Internal coherence: metric ~ cluster (epsilon-squared)
+
+| mode   | metric                       | clustering_canonical                                   |   k_canonical |   epsilon2_canonical | clustering_sensitivity                           |   k_sensitivity |   epsilon2_sensitivity |   epsilon2_delta |
+|:-------|:-----------------------------|:-------------------------------------------------------|--------------:|---------------------:|:-------------------------------------------------|----------------:|-----------------------:|-----------------:|
+| bus    | deep_night_share             | original hub-first min36 raw_share, K=3 (pre-StopArea) |         3.000 |                0.199 | StopArea CLR, K=4 (adopted 2026-07-29)           |           4.000 |                  0.573 |            0.375 |
+| bus    | direction_balance            | original hub-first min36 raw_share, K=3 (pre-StopArea) |         3.000 |                0.009 | StopArea CLR, K=4 (adopted 2026-07-29)           |           4.000 |                  0.061 |            0.051 |
+| bus    | log_total_activity           | original hub-first min36 raw_share, K=3 (pre-StopArea) |         3.000 |                0.518 | StopArea CLR, K=4 (adopted 2026-07-29)           |           4.000 |                  0.601 |            0.083 |
+| bus    | post_2300_share              | original hub-first min36 raw_share, K=3 (pre-StopArea) |       nan     |              nan     | StopArea CLR, K=4 (adopted 2026-07-29)           |           4.000 |                  0.303 |          nan     |
+| bus    | post_midnight_persistence    | original hub-first min36 raw_share, K=3 (pre-StopArea) |         3.000 |                0.296 | StopArea CLR, K=4 (adopted 2026-07-29)           |           4.000 |                  0.570 |            0.274 |
+| bus    | post_midnight_share          | original hub-first min36 raw_share, K=3 (pre-StopArea) |         3.000 |                0.290 | StopArea CLR, K=4 (adopted 2026-07-29)           |         nan     |                nan     |          nan     |
+| bus    | weekend_ratio                | original hub-first min36 raw_share, K=3 (pre-StopArea) |         3.000 |                0.041 | StopArea CLR, K=4 (adopted 2026-07-29)           |           4.000 |                  0.076 |            0.035 |
+| rail   | common_window_persistence    | Underground-only (270 st.)                             |         5.000 |                0.250 | all-modes merged, NaPTAN-matched refit (403 st.) |         nan     |                nan     |          nan     |
+| rail   | direction_balance            | Underground-only (270 st.)                             |         5.000 |                0.651 | all-modes merged, NaPTAN-matched refit (403 st.) |           5.000 |                  0.634 |           -0.017 |
+| rail   | log_total_activity           | Underground-only (270 st.)                             |         5.000 |                0.396 | all-modes merged, NaPTAN-matched refit (403 st.) |           5.000 |                  0.218 |           -0.178 |
+| rail   | midnight_share_common_window | Underground-only (270 st.)                             |         5.000 |                0.294 | all-modes merged, NaPTAN-matched refit (403 st.) |         nan     |                nan     |          nan     |
+| rail   | night_tube_extension_share   | Underground-only (270 st.)                             |         5.000 |                0.109 | all-modes merged, NaPTAN-matched refit (403 st.) |         nan     |                nan     |          nan     |
+| rail   | post_2300_share              | Underground-only (270 st.)                             |       nan     |              nan     | all-modes merged, NaPTAN-matched refit (403 st.) |           5.000 |                  0.412 |          nan     |
+| rail   | weekend_common_ratio         | Underground-only (270 st.)                             |         5.000 |                0.467 | all-modes merged, NaPTAN-matched refit (403 st.) |           5.000 |                  0.280 |           -0.187 |
+
+## 2. External association: LNWC and IMD2025
+
+| mode   | clustering                                                                  |   K |   n_lnwc | lnwc_association                                                                         |   lnwc_cramers_v |   n_imd |   imd_epsilon2 |   lnwc_composition_r2 |
+|:-------|:----------------------------------------------------------------------------|----:|---------:|:-----------------------------------------------------------------------------------------|-----------------:|--------:|---------------:|----------------------:|
+| bus    | original (hub-first min36 raw_share, K=3, pre-StopArea)                     |   3 |     4100 | cluster x LNWC (direct LSOA join)                                                        |            0.215 |    4100 |          0.050 |               nan     |
+| bus    | adopted (StopArea CLR, K=4)                                                 |   4 |     3383 | cluster x LNWC (direct LSOA join)                                                        |            0.253 |    3383 |          0.060 |               nan     |
+| rail   | canonical (Underground-only, 270 st.)                                       |   5 |      254 | cluster x dominant LNWC (1200m Voronoi catchment)                                        |            0.443 |     254 |          0.123 |                 0.311 |
+| rail   | adopted (all-modes merged refit, 403 st. clustered / 387 st. LNWC-eligible) |   5 |      387 | cluster x dominant LNWC (800m Voronoi catchment, equal-weight LSOA aggregation, rebuilt) |            0.405 |     387 |          0.059 |                 0.261 |
+
+## Reading
+
+- **Bus (StopArea CLR K=4, adopted 2026-07-29, vs the original hub-first min36 K=3)**: internal coherence changes on deep_night_share, direction_balance, log_total_activity, post_midnight_persistence, weekend_ratio (most notably the original's weak spots, direction_balance and weekend_ratio). External association moves: LNWC Cramer's V +0.037, IMD epsilon-squared +0.010. Adoption of StopArea CLR K=4 was a methodological decision (BIC-preferred K for the CLR transform; see `rq1_bus_stoparea_clustering/outputs/clr/diagnostics/kdiag.csv`), not one driven by this external-association comparison -- it carries a known stability caveat (bootstrap min-cluster Jaccard 0.401 at K=4 vs 0.883 at K=3) that should be disclosed alongside these numbers, not resolved by them.
+
+- **Rail (all-modes K=5, NaPTAN-matched 403-station refit vs canonical K=5, Underground-only)**: this rail result was rerun 2026-08-07 after Paddington NR (NLC 3087) and Paddington TfL (NLC 670) were correctly consolidated as one physical station. The preprocessing now merges 14 co-located groups (29 NLCs into 14 units), and still excludes the 16 stations that have no NaPTAN Greater-London coordinate match before GMM fitting (not just downstream from LNWC/IMD), by filtering the input to `numbat_all_area_test`'s own `02`-`07` pipeline and rerunning it unmodified -- see `numbat_all_area_test/README.md`'s "NaPTAN-matched station scope" section and `outputs/report/VALIDATION_REPORT.md` plus `outputs/data/rail_allmodes_k_selection_panel.csv`. This mirrors canonical's own scope convention exactly: canonical's 270-station clustering already includes several border Underground stations outside the strict Greater London boundary (Amersham, Chesham, Epping, etc.) and only excludes them downstream from LNWC/IMD, not from the clustering itself. Under the equal-budget five-seed, n_init=200 panel, K=5 is now also the best BIC solution (-1,900,159.5, versus -1,900,063.5 for K=6 and -1,898,546.3 for K=7). The stability evidence points in the same direction: mean pairwise seed ARI is 0.964 for K=5, compared with 0.486 for K=6 and 0.469 for K=7; mean bootstrap minimum-cluster Jaccard is 0.301, 0.135, and 0.116, respectively. The night-persistent group's survival Jaccard is 0.988 at K=5, 0.789 at K=6, and 0.469 at K=7. K=5 therefore remains the adopted solution after the correction, conditional on this feature definition and diag-GMM family. For internal coherence, none of the directly matched metrics improve; direction_balance, log_total_activity, weekend_common_ratio weaken, with log_total_activity dropping the most. External association (computed over the 387 stations that also fall within the strict Greater London/LNWC extent, same as canonical's own 254-station LNWC-eligible subset of its 270) is consistently weaker than canonical: LNWC Cramer's V 0.405 vs canonical's 0.443, IMD epsilon-squared 0.059 vs canonical's 0.123 (still a large drop). So correcting the station accounting to remove the duplicate physical observation was methodologically necessary and did change the partition meaningfully, but it does not reverse the headline finding: widening rail scope to all NUMBAT modes still does not out-perform canonical Underground-only on the cluster-to-context story.
+
+## Interpretation limits
+
+- Sample sizes differ across rows (rail LNWC n changes from 254 canonical to 387 in the adopted all-modes result because of the larger station pool; bus n drops from 4,100 (original hub-first) to 3,372 (StopArea, min_direction>=36) mainly because of the different LSOA allocation method and threshold, not a deliberate exclusion decision) -- effect sizes are not on an identical universe and should be read as directional evidence, not a controlled like-for-like test.
+- Both clusterings compared here are now adopted, not sensitivity checks: bus StopArea CLR K=4 and rail all-modes K=5 (rerun 2026-08-07). Bus was adopted because internal and external evidence both improved over canonical; rail was adopted for scope-defensibility reasons despite external association staying weaker than canonical's Underground-only result (see the rail paragraph above and README.md) -- the two adoptions rest on different kinds of justification and should not be conflated. See the per-script reports for full caveats.
+- The pooled, cluster-blind continuous-metric x LNWC/IMD test is intentionally not part of this comparison (see run_imd_analysis.py's docstring).

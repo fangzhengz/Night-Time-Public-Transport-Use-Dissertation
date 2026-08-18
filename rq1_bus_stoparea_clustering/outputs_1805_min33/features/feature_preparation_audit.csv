@@ -1,0 +1,9 @@
+metric,value
+input_lsoas,3797.0
+retained_lsoas,3383.0
+excluded_lsoas,414.0
+feature_columns_per_variant,66.0
+raw_share_max_boarding_sum_error,8.881784197001252e-16
+raw_share_max_alighting_sum_error,8.881784197001252e-16
+clr_max_boarding_zero_sum_error,9.85878045867139e-14
+clr_max_alighting_zero_sum_error,1.1013412404281553e-13

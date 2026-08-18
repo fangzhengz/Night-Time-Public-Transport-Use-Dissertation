@@ -1,0 +1,5 @@
+distance_measure,description,n,k,kruskal_H,p_value,epsilon_squared
+dist_wmean_m,activity-weighted mean StopArea distance (primary),3383,4,328.3096906083447,7.410631998815389e-71,0.09627395401253172
+dist_min_m,minimum StopArea distance,3383,4,343.9516629750616,3.042925593370377e-74,0.10090312606542219
+dist_mean_m,unweighted mean StopArea distance,3383,4,312.71125483005017,1.7640375243954378e-67,0.09165766641907373
+dist_centre_wmean_m,CONTROL: activity-weighted distance to Charing Cross,3383,4,401.48453444491315,1.0558281606343018e-86,0.11792972312663899

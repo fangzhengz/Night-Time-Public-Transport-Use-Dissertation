@@ -1,0 +1,15 @@
+component,metric,value
+bus,input_rows,3797.0
+bus,fitted_rows,3383.0
+bus,matched_loac_rows,3383.0
+bus,unmatched_loac_rows,0.0
+bus,match_rate,1.0
+bus,clusters,4.0
+rail,input_rows,403.0
+rail,stations_eligible_for_loac_analysis,387.0
+rail,stations_outside_loac_extent,16.0
+rail,stations_inside_without_loac_coverage,0.0
+rail,mean_loac_coverage_ratio,0.9741773538
+rail,minimum_loac_coverage_ratio,0.5113723716
+rail,lowest_eligibility_cluster,0.0
+rail,clusters,5.0

@@ -1,0 +1,15 @@
+NLC,Station,cluster,lon,lat,station_in_lnwc_extent,lnwc_coverage_ratio,exclusion_reason
+506,Amersham,0,-0.6077052134228341,51.674145407023566,False,,no LNWC-covered catchment area
+531,Buckhurst Hill,0,0.0468240751565627,51.625982897027,False,,no LNWC-covered catchment area
+539,Chalfont & Latimer,0,-0.5607234520464773,51.66803142622906,False,,no LNWC-covered catchment area
+543,Chesham,0,-0.6109804023947352,51.70522161796168,False,,no LNWC-covered catchment area
+544,Chigwell,0,0.0755949749891976,51.61765286220907,False,,no LNWC-covered catchment area
+546,Chorleywood,0,-0.5185530310182181,51.65429398451199,False,,no LNWC-covered catchment area
+554,Croxley,0,-0.4417680549234005,51.6470771785801,False,,no LNWC-covered catchment area
+557,Debden,0,0.0837668965623632,51.6453918793904,False,,no LNWC-covered catchment area
+572,Epping,0,0.1139996191841897,51.69356092525262,False,,no LNWC-covered catchment area
+636,Loughton,0,0.055338101699993,51.64131224348847,False,,no LNWC-covered catchment area
+646,Moor Park,0,-0.4322869639728746,51.62986629669337,False,,no LNWC-covered catchment area
+687,Rickmansworth,0,-0.4737058106627786,51.64028836634988,False,,no LNWC-covered catchment area
+725,Theydon Bois,0,0.1033276639997498,51.671832474283256,False,,no LNWC-covered catchment area
+748,Watford,0,-0.4174120635262017,51.65748010048808,False,,no LNWC-covered catchment area

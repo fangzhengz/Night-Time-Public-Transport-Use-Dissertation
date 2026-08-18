@@ -1,0 +1,7 @@
+=== bus: X (3784, 72) ===
+BIC-best: covariance=full, K=3, BIC=-2137124.1
+  spherical: best K=12 (BIC -1701832.5)
+  diag: best K=12 (BIC -2032600.4)
+  tied: best K=11 (BIC -2036457.6)
+  full: best K=3 (BIC -2137124.1)
+kdiag (cov=full) silhouette: K2=0.180, K3=0.142, K4=0.024, K5=-0.002, K6=-0.015, K7=-0.027, K8=-0.033, K9=-0.022, K10=-0.029, K11=-0.042, K12=-0.032

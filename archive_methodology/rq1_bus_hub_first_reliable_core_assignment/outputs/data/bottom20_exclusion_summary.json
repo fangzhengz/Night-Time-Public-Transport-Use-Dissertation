@@ -1,0 +1,8 @@
+{
+  "exclude_quantile": 0.2,
+  "total_activity_cutoff": 243.44448400000002,
+  "n_total": 3593,
+  "n_excluded": 719,
+  "n_core": 2874,
+  "pct_core": 79.98886724185917
+}

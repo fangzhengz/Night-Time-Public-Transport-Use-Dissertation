@@ -1,0 +1,4 @@
+metric,n_stops,eta_squared_lsoa
+log_total_activity,18449,0.6336766908190209
+post_midnight_share,18379,0.4294899887671255
+weekend_ratio,18362,0.8008320185573624

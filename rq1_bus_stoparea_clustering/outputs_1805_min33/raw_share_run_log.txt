@@ -1,0 +1,58 @@
+[raw_share] fitting 4 covariance families x K=2..12; n=3383, n_init=20
+  spherical K= 2 BIC=-1386059.0 min_n=1538 (3.4s)
+  spherical K= 3 BIC=-1406175.1 min_n=1016 (0.5s)
+  spherical K= 4 BIC=-1416095.5 min_n= 599 (0.9s)
+  spherical K= 5 BIC=-1424653.2 min_n= 540 (0.9s)
+  spherical K= 6 BIC=-1431406.4 min_n= 382 (1.7s)
+  spherical K= 7 BIC=-1435475.0 min_n= 313 (2.1s)
+  spherical K= 8 BIC=-1439934.7 min_n= 206 (1.7s)
+  spherical K= 9 BIC=-1444078.9 min_n= 192 (1.8s)
+  spherical K=10 BIC=-1447524.9 min_n= 181 (2.1s)
+  spherical K=11 BIC=-1450306.4 min_n= 153 (2.2s)
+  spherical K=12 BIC=-1452431.7 min_n= 140 (2.2s)
+  diag      K= 2 BIC=-1608836.7 min_n=1441 (0.6s)
+  diag      K= 3 BIC=-1645562.0 min_n= 500 (0.9s)
+  diag      K= 4 BIC=-1660573.5 min_n= 392 (0.8s)
+  diag      K= 5 BIC=-1667943.4 min_n= 240 (0.9s)
+  diag      K= 6 BIC=-1677427.0 min_n= 230 (1.9s)
+  diag      K= 7 BIC=-1685241.3 min_n= 173 (1.6s)
+  diag      K= 8 BIC=-1689966.3 min_n= 139 (1.8s)
+  diag      K= 9 BIC=-1692771.6 min_n= 115 (1.8s)
+  diag      K=10 BIC=-1695367.3 min_n= 121 (2.1s)
+  diag      K=11 BIC=-1698983.4 min_n=  93 (2.2s)
+  diag      K=12 BIC=-1701255.9 min_n=  91 (1.8s)
+  tied      K= 2 BIC=-1746771.1 min_n=1170 (0.9s)
+  tied      K= 3 BIC=-1748263.3 min_n= 226 (4.1s)
+  tied      K= 4 BIC=-1750031.7 min_n=  51 (8.8s)
+  tied      K= 5 BIC=-1750831.2 min_n=  27 (10.9s)
+  tied      K= 6 BIC=-1751060.4 min_n=  44 (12.0s)
+  tied      K= 7 BIC=-1751732.8 min_n=  26 (14.2s)
+  tied      K= 8 BIC=-1752754.4 min_n=  14 (16.9s)
+  tied      K= 9 BIC=-1753335.1 min_n=  14 (17.1s)
+  tied      K=10 BIC=-1753613.3 min_n=  13 (16.8s)
+  tied      K=11 BIC=-1754614.6 min_n=  12 (21.5s)
+  tied      K=12 BIC=-1754062.9 min_n=  13 (22.0s)
+  full      K= 2 BIC=-1768464.0 min_n=1449 (2.3s)
+  full      K= 3 BIC=-1781315.4 min_n= 476 (4.5s)
+  full      K= 4 BIC=-1772202.5 min_n= 161 (4.6s)
+  full      K= 5 BIC=-1758345.5 min_n= 160 (7.2s)
+  full      K= 6 BIC=-1743296.2 min_n= 118 (10.1s)
+  full      K= 7 BIC=-1731895.2 min_n=  99 (10.7s)
+  full      K= 8 BIC=-1716741.3 min_n=  91 (16.5s)
+  full      K= 9 BIC=-1701008.1 min_n=  81 (17.9s)
+  full      K=10 BIC=-1685501.4 min_n=  81 (17.7s)
+  full      K=11 BIC=-1668501.3 min_n=  92 (20.7s)
+  full      K=12 BIC=-1653427.7 min_n=  71 (21.8s)
+[raw_share] reporting covariance=full; Global BIC minimum family used directly.
+[raw_share] refitting K=[3, 4] at n_init=100 across seeds [42, 7, 123, 2026, 999]; best likelihood retained
+  K=3: best seed=7 BIC=-1781394.8 (scan -1781315.4, improvement 79.4); seed BIC range=77.5; ARI vs scan=0.981
+  K=4: best seed=7 BIC=-1773672.3 (scan -1772202.5, improvement 1469.8); seed BIC range=1351.5; ARI vs scan=0.774
+[raw_share] bootstrap K=[2, 3, 4, 5, 6, 7, 8], replicates=20
+  K=2: ARI mean=0.694; min Jaccard mean=0.796
+  K=3: ARI mean=0.856; min Jaccard mean=0.798
+  K=4: ARI mean=0.720; min Jaccard mean=0.430
+  K=5: ARI mean=0.755; min Jaccard mean=0.152
+  K=6: ARI mean=0.711; min Jaccard mean=0.074
+  K=7: ARI mean=0.515; min Jaccard mean=0.073
+  K=8: ARI mean=0.478; min Jaccard mean=0.057
+[raw_share] complete in 778.4s: D:\SDS2025_workspace\CASA_FYP\FYP\rq1_bus_stoparea_clustering\outputs_1805_min33\raw_share\report\RESULTS.md

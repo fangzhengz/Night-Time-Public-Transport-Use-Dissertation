@@ -1,0 +1,6 @@
+orig_cluster,london_cluster,jaccard,orig_cluster_n_common,london_cluster_n,intersection
+0,0,0.5852534562211982,201,143,127
+1,2,0.7567567567567568,36,29,28
+2,3,0.78125,94,77,75
+3,1,0.7857142857142857,13,12,11
+4,4,0.3359375,44,127,43

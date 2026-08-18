@@ -1,0 +1,1 @@
+BUS full-week, hub-first input (days ['Weekday', 'Saturday', 'Sunday']): X (3784, 72) | dropped<1: 6 | per-direction row-sum 1.00/2.00 (<=2.00)

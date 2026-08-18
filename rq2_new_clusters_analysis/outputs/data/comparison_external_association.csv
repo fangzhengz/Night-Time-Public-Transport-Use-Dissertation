@@ -1,0 +1,5 @@
+mode,clustering,K,n_lnwc,lnwc_association,lnwc_cramers_v,n_imd,imd_epsilon2,lnwc_composition_r2
+bus,"original (hub-first min36 raw_share, K=3, pre-StopArea)",3,4100,cluster x LNWC (direct LSOA join),0.215354823245382,4100,0.0498061531805207,
+bus,"adopted (StopArea CLR, K=4)",4,3383,cluster x LNWC (direct LSOA join),0.2525849041000049,3383,0.059532181512163,
+rail,"canonical (Underground-only, 270 st.)",5,254,cluster x dominant LNWC (1200m Voronoi catchment),0.4425760644743757,254,0.1228053396766781,0.3111292733075314
+rail,"adopted (all-modes merged refit, 403 st. clustered / 387 st. LNWC-eligible)",5,387,"cluster x dominant LNWC (800m Voronoi catchment, equal-weight LSOA aggregation, rebuilt)",0.4054616916440321,387,0.0586288479052754,0.2607614290619694

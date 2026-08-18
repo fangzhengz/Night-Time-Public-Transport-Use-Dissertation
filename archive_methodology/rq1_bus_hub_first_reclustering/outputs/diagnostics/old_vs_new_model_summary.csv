@@ -1,0 +1,3 @@
+version,n_lsoa,n_features,BIC_best_covariance,BIC_best_K,BIC
+old_fullweek_direct_lsoa_raw_share,4100,72,full,3,-2297631.868217264
+new_hub_first_fullweek_alpha5,3593,72,full,3,-2079512.1085246648

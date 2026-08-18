@@ -1,0 +1,140 @@
+{
+  "generated_utc": "2026-07-24T01:23:57.858540+00:00",
+  "parameters": {
+    "rail_k": 5,
+    "bus_k": 3,
+    "rail_catchment_metres": 1200,
+    "permutations": 999,
+    "random_seed": 42
+  },
+  "coverage": {
+    "bus": {
+      "input_rows": 4100,
+      "matched_lnwc_rows": 4100,
+      "unmatched_lnwc_rows": 0,
+      "match_rate": 1.0,
+      "clusters": 3
+    },
+    "rail": {
+      "input_rows": 270,
+      "stations_eligible_for_lnwc_analysis": 254,
+      "stations_outside_lnwc_extent": 16,
+      "stations_inside_without_lnwc_coverage": 0,
+      "mean_lnwc_coverage_ratio": 0.9795989976682674,
+      "minimum_lnwc_coverage_ratio": 0.5113665341937627,
+      "lowest_eligibility_cluster": 4,
+      "lowest_cluster_eligibility_rate": 0.7222222222222222,
+      "clusters": 5
+    }
+  },
+  "statistics": {
+    "bus": {
+      "chi_square": 380.2971391394077,
+      "p_value": 5.588813450889818e-74,
+      "degrees_of_freedom": 12,
+      "cramers_v": 0.215354823245382,
+      "n": 4100
+    },
+    "rail_dominant": {
+      "chi_square": 199.00755001115675,
+      "p_value": 1.6271296988430076e-29,
+      "degrees_of_freedom": 24,
+      "cramers_v": 0.4425760644743757,
+      "n": 254
+    },
+    "rail_composition_permutation": {
+      "pseudo_f_between_ss": 24.85237251192828,
+      "total_ss": 79.8779627764672,
+      "r_squared": 0.3111292733075314,
+      "permutation_p": 0.001,
+      "n_permutations": 999,
+      "n": 254
+    }
+  },
+  "top_enrichments": {
+    "bus": [
+      {
+        "cluster": 0,
+        "lnwc_group": 1,
+        "enrichment_ratio": 1.314102564102564
+      },
+      {
+        "cluster": 0,
+        "lnwc_group": 3,
+        "enrichment_ratio": 1.1653959336543604
+      },
+      {
+        "cluster": 1,
+        "lnwc_group": 1,
+        "enrichment_ratio": 1.2099445975667475
+      },
+      {
+        "cluster": 1,
+        "lnwc_group": 2,
+        "enrichment_ratio": 1.159292435758234
+      },
+      {
+        "cluster": 2,
+        "lnwc_group": 7,
+        "enrichment_ratio": 2.5298231180584123
+      },
+      {
+        "cluster": 2,
+        "lnwc_group": 6,
+        "enrichment_ratio": 1.4095814095814094
+      }
+    ],
+    "rail": [
+      {
+        "cluster": 0,
+        "lnwc_group": 4,
+        "enrichment_ratio": 1.3826180125256704
+      },
+      {
+        "cluster": 0,
+        "lnwc_group": 5,
+        "enrichment_ratio": 1.341604999824285
+      },
+      {
+        "cluster": 1,
+        "lnwc_group": 1,
+        "enrichment_ratio": 2.1681104822210004
+      },
+      {
+        "cluster": 1,
+        "lnwc_group": 3,
+        "enrichment_ratio": 2.150935154518887
+      },
+      {
+        "cluster": 2,
+        "lnwc_group": 1,
+        "enrichment_ratio": 1.5966222927028217
+      },
+      {
+        "cluster": 2,
+        "lnwc_group": 2,
+        "enrichment_ratio": 1.5034077401756138
+      },
+      {
+        "cluster": 3,
+        "lnwc_group": 1,
+        "enrichment_ratio": 3.2063981973450706
+      },
+      {
+        "cluster": 3,
+        "lnwc_group": 2,
+        "enrichment_ratio": 0.698412166561606
+      },
+      {
+        "cluster": 4,
+        "lnwc_group": 7,
+        "enrichment_ratio": 3.6991977468450243
+      },
+      {
+        "cluster": 4,
+        "lnwc_group": 6,
+        "enrichment_ratio": 2.6862447410007184
+      }
+    ]
+  }
+}

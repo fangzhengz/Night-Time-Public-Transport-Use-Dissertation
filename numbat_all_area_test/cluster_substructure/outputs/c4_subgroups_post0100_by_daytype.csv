@@ -1,0 +1,21 @@
+day,direction,group,mean_post_0100_share_of_week
+MON,entry,C4 sub1 inner hub (n=59),0.00015786387225981825
+MON,entry,C4 sub0 outer (n=108),0.000283157022533297
+MON,exit,C4 sub1 inner hub (n=59),0.0005462596511327757
+MON,exit,C4 sub0 outer (n=108),0.0007309154604379004
+TWT,entry,C4 sub1 inner hub (n=59),0.00017603803484931798
+TWT,entry,C4 sub0 outer (n=108),0.0003120780326943775
+TWT,exit,C4 sub1 inner hub (n=59),0.0008242435168095489
+TWT,exit,C4 sub0 outer (n=108),0.0011869475463133854
+FRI,entry,C4 sub1 inner hub (n=59),0.006002074733428074
+FRI,entry,C4 sub0 outer (n=108),0.004607095153335023
+FRI,exit,C4 sub1 inner hub (n=59),0.009506340993066372
+FRI,exit,C4 sub0 outer (n=108),0.009399352143654439
+SAT,entry,C4 sub1 inner hub (n=59),0.008203151935832756
+SAT,entry,C4 sub0 outer (n=108),0.006397188826984563
+SAT,exit,C4 sub1 inner hub (n=59),0.012072926346532946
+SAT,exit,C4 sub0 outer (n=108),0.012189873210973869
+SUN,entry,C4 sub1 inner hub (n=59),0.0002008177696397436
+SUN,entry,C4 sub0 outer (n=108),0.0004780443562847558
+SUN,exit,C4 sub1 inner hub (n=59),0.00011018803974320517
+SUN,exit,C4 sub0 outer (n=108),0.0002537291741006051

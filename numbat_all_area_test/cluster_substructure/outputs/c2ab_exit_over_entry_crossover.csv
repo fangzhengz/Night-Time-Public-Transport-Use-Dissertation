@@ -1,0 +1,11 @@
+day,group,exit_over_entry_from
+MON,C2b night-origin core (n=16),01:00
+MON,C2a remainder (n=66),22:45
+TWT,C2b night-origin core (n=16),01:00
+TWT,C2a remainder (n=66),00:00
+FRI,C2b night-origin core (n=16),04:30
+FRI,C2a remainder (n=66),21:00
+SAT,C2b night-origin core (n=16),never (by window end)
+SAT,C2a remainder (n=66),21:00
+SUN,C2b night-origin core (n=16),00:15
+SUN,C2a remainder (n=66),21:00

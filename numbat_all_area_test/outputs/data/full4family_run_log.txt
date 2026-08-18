@@ -1,0 +1,67 @@
+X shape: (420, 344)
+  cov=spherical K=2 BIC=-1414903.3
+  cov=spherical K=3 BIC=-1431992.8
+  cov=spherical K=4 BIC=-1440144.4
+  cov=spherical K=5 BIC=-1446813.2
+  cov=spherical K=6 BIC=-1451208.2
+  cov=spherical K=7 BIC=-1454214.7
+  cov=spherical K=8 BIC=-1459007.5
+  cov=spherical K=9 BIC=-1459992.7
+  cov=spherical K=10 BIC=-1462332.9
+  cov=spherical K=11 BIC=-1463560.5
+  cov=spherical K=12 BIC=-1464105.5
+  cov=diag K=2 BIC=-1480613.7
+  cov=diag K=3 BIC=-1490429.4
+  cov=diag K=4 BIC=-1496339.0
+  cov=diag K=5 BIC=-1499102.4
+  cov=diag K=6 BIC=-1501451.4
+  cov=diag K=7 BIC=-1499670.3
+  cov=diag K=8 BIC=-1501283.8
+  cov=diag K=9 BIC=-1499155.5
+  cov=diag K=10 BIC=-1498731.7
+  cov=diag K=11 BIC=-1496826.6
+  cov=diag K=12 BIC=-1495004.7
+  cov=tied K=2 BIC=-1282236.5
+  cov=tied K=3 BIC=-1280318.7
+  cov=tied K=4 BIC=-1278665.1
+  cov=tied K=5 BIC=-1277035.9
+  cov=tied K=6 BIC=-1275073.1
+  cov=tied K=7 BIC=-1273547.5
+  cov=tied K=8 BIC=-1271603.5
+  cov=tied K=9 BIC=-1270936.0
+  cov=tied K=10 BIC=-1268955.2
+  cov=tied K=11 BIC=-1267394.4
+  cov=tied K=12 BIC=-1265435.7
+  cov=full K=2 BIC=-934276.7
+  cov=full K=3 BIC=-584161.8
+  cov=full K=4 BIC=-227441.7
+  cov=full K=5 BIC=129185.5
+  cov=full K=6 BIC=486475.7
+  cov=full K=7 BIC=845189.3
+  cov=full K=8 BIC=1203790.7
+  cov=full K=9 BIC=1563507.4
+  cov=full K=10 BIC=1921218.0
+  cov=full K=11 BIC=2281540.7
+  cov=full K=12 BIC=2639890.1
+covariance          diag          full     spherical          tied
+K                                                                 
+2          -1.480614e+06 -9.342767e+05 -1.414903e+06 -1.282237e+06
+3          -1.490429e+06 -5.841618e+05 -1.431993e+06 -1.280319e+06
+4          -1.496339e+06 -2.274417e+05 -1.440144e+06 -1.278665e+06
+5          -1.499102e+06  1.291855e+05 -1.446813e+06 -1.277036e+06
+6          -1.501451e+06  4.864757e+05 -1.451208e+06 -1.275073e+06
+7          -1.499670e+06  8.451893e+05 -1.454215e+06 -1.273547e+06
+8          -1.501284e+06  1.203791e+06 -1.459007e+06 -1.271603e+06
+9          -1.499155e+06  1.563507e+06 -1.459993e+06 -1.270936e+06
+10         -1.498732e+06  1.921218e+06 -1.462333e+06 -1.268955e+06
+11         -1.496827e+06  2.281541e+06 -1.463561e+06 -1.267394e+06
+12         -1.495005e+06  2.639890e+06 -1.464105e+06 -1.265436e+06
+
+Overall BIC-best: covariance=diag, K=6, BIC=-1501451.4
+  spherical: best K=12 (BIC -1464105.5)
+  diag: best K=6 (BIC -1501451.4)
+  tied: best K=2 (BIC -1282236.5)
+  full: best K=2 (BIC -934276.7)
+
+Saved: D:\SDS2025_workspace\CASA_FYP\FYP\numbat_all_area_test\outputs\data\rail_allmodes_bic_grid_full4family.csv
+Saved: D:\SDS2025_workspace\CASA_FYP\FYP\numbat_all_area_test\outputs\figures\rail_allmodes_bic_grid_full4family.png

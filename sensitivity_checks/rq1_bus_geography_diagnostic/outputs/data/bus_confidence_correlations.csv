@@ -1,0 +1,4 @@
+pair,spearman_r
+max_posterior vs distance_to_centre,-0.13427591973563563
+max_posterior vs total_activity,0.23021526879260715
+entropy vs distance_to_centre,0.1049546092669963

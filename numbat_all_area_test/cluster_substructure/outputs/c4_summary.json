@@ -1,0 +1,16 @@
+{
+  "parent_cluster": 4,
+  "parent_n": 167,
+  "chosen_sub_k": 2,
+  "seed_ari_mean": 0.9268783385177027,
+  "stability_threshold": 0.9,
+  "nested_sizes": {
+    "0": 89,
+    "1": 26,
+    "2": 90,
+    "3": 31,
+    "7": 108,
+    "8": 59
+  },
+  "feature_source": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\numbat_all_area_test\\outputs\\data\\X_rail_allmodes.parquet"
+}

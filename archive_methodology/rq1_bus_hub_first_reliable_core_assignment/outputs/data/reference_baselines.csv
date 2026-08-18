@@ -1,0 +1,4 @@
+version,activity_eta2,timing_mean_eta2
+old_nonhubfirst_alpha5_k3 (n=4100),0.518,
+"hub_first_alpha5_k3 (n=3593, no exclusion)",0.518,0.2989
+"hub_first_alpha0_k3 (n=3593, no exclusion)",0.5222,0.284

@@ -1,0 +1,23 @@
+n_core=2874 (cutoff=243.44)
+Fitting full covariance K=2..12, n_init=20
+  K= 2 BIC=-1677864.9 sil=0.079 activity_eta2=0.450 timing_mean_eta2=0.030 pass=False min_share=0.460 (6.4s)
+  K= 3 BIC=-1667665.8 sil=0.099 activity_eta2=0.027 timing_mean_eta2=0.323 pass=True min_share=0.105 (3.1s)
+  K= 4 BIC=-1667459.2 sil=0.030 activity_eta2=0.488 timing_mean_eta2=0.302 pass=False min_share=0.078 (5.7s)
+  K= 5 BIC=-1650211.2 sil=0.029 activity_eta2=0.484 timing_mean_eta2=0.340 pass=False min_share=0.055 (6.1s)
+  K= 6 BIC=-1634328.6 sil=-0.000 activity_eta2=0.556 timing_mean_eta2=0.356 pass=False min_share=0.047 (8.1s)
+  K= 7 BIC=-1616577.1 sil=0.001 activity_eta2=0.530 timing_mean_eta2=0.386 pass=False min_share=0.041 (14.1s)
+  K= 8 BIC=-1599171.7 sil=0.003 activity_eta2=0.515 timing_mean_eta2=0.493 pass=False min_share=0.026 (16.6s)
+  K= 9 BIC=-1581722.7 sil=-0.007 activity_eta2=0.519 timing_mean_eta2=0.418 pass=False min_share=0.029 (21.1s)
+  K=10 BIC=-1562967.6 sil=-0.006 activity_eta2=0.537 timing_mean_eta2=0.457 pass=False min_share=0.026 (21.7s)
+  K=11 BIC=-1544577.0 sil=-0.013 activity_eta2=0.507 timing_mean_eta2=0.423 pass=False min_share=0.020 (26.5s)
+  K=12 BIC=-1525807.7 sil=0.003 activity_eta2=0.527 timing_mean_eta2=0.511 pass=False min_share=0.020 (23.1s)
+Bootstrap K=[2, 3, 4, 5, 6, 7, 8], n=20, n_init=3
+  K=2: ARI mean=0.346; min-cluster Jaccard mean=0.504
+  K=3: ARI mean=0.510; min-cluster Jaccard mean=0.509
+  K=4: ARI mean=0.662; min-cluster Jaccard mean=0.496
+  K=5: ARI mean=0.525; min-cluster Jaccard mean=0.235
+  K=6: ARI mean=0.449; min-cluster Jaccard mean=0.064
+  K=7: ARI mean=0.439; min-cluster Jaccard mean=0.034
+  K=8: ARI mean=0.478; min-cluster Jaccard mean=0.099
+Done in 343.4s
+D:\SDS2025_workspace\CASA_FYP\FYP\rq1_bus_hub_first_reliable_core_assignment\outputs\diagnostics\bottom20_excluded_full_covariance_kdiag.csv

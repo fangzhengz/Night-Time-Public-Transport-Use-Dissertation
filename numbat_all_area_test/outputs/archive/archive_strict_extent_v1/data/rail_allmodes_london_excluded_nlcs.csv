@@ -1,0 +1,33 @@
+unit,Station,mode_label,exclusion_reason
+1395,Bushey,LO,no NaPTAN coordinate match (outside Greater London extract)
+1402,Watford Junction,LO,no NaPTAN coordinate match (outside Greater London extract)
+1442,Carpenders Park,LO,no NaPTAN coordinate match (outside Greater London extract)
+1455,Watford High Street,LO,no NaPTAN coordinate match (outside Greater London extract)
+3147,Maidenhead,EZL,no NaPTAN coordinate match (outside Greater London extract)
+3149,Reading,EZL,no NaPTAN coordinate match (outside Greater London extract)
+3151,Taplow,EZL,no NaPTAN coordinate match (outside Greater London extract)
+3155,Twyford,EZL,no NaPTAN coordinate match (outside Greater London extract)
+3170,Iver,EZL,no NaPTAN coordinate match (outside Greater London extract)
+3171,Langley,EZL,no NaPTAN coordinate match (outside Greater London extract)
+3172,Slough,EZL,no NaPTAN coordinate match (outside Greater London extract)
+3176,Burnham,EZL,no NaPTAN coordinate match (outside Greater London extract)
+506,Amersham,LU,station point outside Greater London/LNWC extent
+531,Buckhurst Hill,LU,station point outside Greater London/LNWC extent
+539,Chalfont & Latimer,LU,station point outside Greater London/LNWC extent
+543,Chesham,LU,station point outside Greater London/LNWC extent
+544,Chigwell,LU,station point outside Greater London/LNWC extent
+546,Chorleywood,LU,station point outside Greater London/LNWC extent
+554,Croxley,LU,station point outside Greater London/LNWC extent
+557,Debden,LU,station point outside Greater London/LNWC extent
+572,Epping,LU,station point outside Greater London/LNWC extent
+587,Grange Hill,LU,station point outside Greater London/LNWC extent
+636,Loughton,LU,station point outside Greater London/LNWC extent
+646,Moor Park,LU,station point outside Greater London/LNWC extent
+6814,Cheshunt,LO,no NaPTAN coordinate match (outside Greater London extract)
+687,Rickmansworth,LU,station point outside Greater London/LNWC extent
+6872,Brentwood,EZL,no NaPTAN coordinate match (outside Greater London extract)
+688,Roding Valley,LU,station point outside Greater London/LNWC extent
+6888,Shenfield,EZL,no NaPTAN coordinate match (outside Greater London extract)
+6949,Theobalds Grove,LO,no NaPTAN coordinate match (outside Greater London extract)
+725,Theydon Bois,LU,station point outside Greater London/LNWC extent
+748,Watford,LU,station point outside Greater London/LNWC extent

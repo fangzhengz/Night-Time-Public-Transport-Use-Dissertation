@@ -1,0 +1,6 @@
+band,n,"C0 low activity, weak night-persistence","C1 relatively high activity, stronger night-persistence","C2 moderate activity and persistence, transitional",C3 moderate activity with destination characteristics
+0-400m,975,8.9,54.3,26.2,10.7
+400-800m,782,17.3,31.3,34.1,17.3
+800-1200m,494,21.1,28.5,30.0,20.4
+1200-2000m,445,23.4,25.4,31.2,20.0
+>2000m,687,25.3,15.4,37.8,21.4

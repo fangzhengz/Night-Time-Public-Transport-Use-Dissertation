@@ -1,0 +1,15 @@
+{
+  "fixed_cluster_rows":403,
+  "eligible_rows":387,
+  "ineligible_rows":16,
+  "coverage_rate":0.9602977667,
+  "mean_catchment_london_coverage":0.9756591656,
+  "minimum_catchment_london_coverage":0.5070377688,
+  "median_intersecting_lsoa":13.0,
+  "rare_dominant_codes_collapsed":[
+    "COA",
+    "DIU",
+    "GRQ",
+    "HDU"
+  ]
+}

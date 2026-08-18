@@ -1,0 +1,19 @@
+component,metric,value
+LNWC,rows,4994.0
+LNWC,unique_lsoa,4994.0
+LSOA boundaries,rows,4994.0
+bus,input_rows,3383.0
+bus,matched_lnwc_rows,3383.0
+bus,unmatched_lnwc_rows,0.0
+bus,match_rate,1.0
+bus,clusters,4.0
+rail,input_rows,403.0
+rail,stations_without_coords,0.0
+rail,stations_eligible_for_lnwc_analysis,389.0
+rail,stations_outside_lnwc_extent,16.0
+rail,stations_inside_without_lnwc_coverage,0.0
+rail,mean_lnwc_coverage_ratio,0.9725474753169843
+rail,minimum_lnwc_coverage_ratio,0.22833916532941176
+rail,lowest_eligibility_cluster,0.0
+rail,lowest_cluster_eligibility_rate,0.8426966292134831
+rail,clusters,5.0

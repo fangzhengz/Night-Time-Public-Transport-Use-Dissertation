@@ -1,0 +1,26 @@
+{
+  "variant": "fullweek_padded",
+  "K": 5,
+  "n_init": 100,
+  "verify_n_init": 300,
+  "verify_ari": 1.0,
+  "bic_n_init_100": -1903892.098801174,
+  "ari_vs_canonical": 0.884670898868286,
+  "n_stations": 404,
+  "n_changed": 16,
+  "share_changed": 0.039603960396039604,
+  "canonical_sizes": {
+    "0": 122,
+    "1": 25,
+    "2": 12,
+    "3": 163,
+    "4": 82
+  },
+  "padded_sizes": {
+    "0": 118,
+    "1": 26,
+    "2": 12,
+    "3": 166,
+    "4": 82
+  }
+}

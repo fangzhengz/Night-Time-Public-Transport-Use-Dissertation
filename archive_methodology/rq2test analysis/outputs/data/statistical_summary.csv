@@ -1,0 +1,4 @@
+mode,analysis,chi_square,p_value,degrees_of_freedom,cramers_v,n,note,r_squared
+bus,cluster_x_lnwc_chi_square,380.2971391394077,5.588813450889818e-74,12.0,0.215354823245382,4100,Exploratory; ordinary chi-square ignores spatial autocorrelation.,
+rail,cluster_x_dominant_lnwc_chi_square,199.00755001115675,1.6271296988430076e-29,24.0,0.4425760644743757,254,Secondary categorical reduction; composition is the primary rail result.,
+rail,composition_label_permutation,,0.001,,,254,Exploratory Euclidean composition test with label permutations.,0.3111292733075314

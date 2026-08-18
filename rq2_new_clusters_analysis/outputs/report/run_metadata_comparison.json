@@ -1,0 +1,5 @@
+{
+  "generated_utc": "2026-08-08T16:56:17.273316+00:00",
+  "duration_seconds": 0.051400184631347656,
+  "command": "py -3 src/build_comparison_report.py"
+}

@@ -1,0 +1,5 @@
+variant,bic_covariance,bic_K,bic_min_cluster_n,runner_up_K,bic_margin_over_runner_up
+daytype_raw_share,full,3,552,4,5523.9007122705225
+daytype_clr_a1,full,5,377,6,17401.045776025043
+daytype_clr_a033,full,6,64,4,728.3692883120384
+daytype_raw_share_strict,tied,12,1,11,997.5878532372881

@@ -1,0 +1,45 @@
+[1/3] BIC grid over ['diag', 'full']
+[2/3] K-sweep diagnostics using covariance=diag (canonical family)
+  [kdiag] K=2 done
+  [kdiag] K=3 done
+  [kdiag] K=4 done
+  [kdiag] K=5 done
+  [kdiag] K=6 done
+  [kdiag] K=7 done
+  [kdiag] K=8 done
+  [kdiag] K=9 done
+  [kdiag] K=10 done
+  [kdiag] K=11 done
+  [kdiag] K=12 done
+[3/3] Saving labels for K in [3, 4, 5, 6, 7, 8] using covariance=diag
+D:\SDS2025_workspace\CASA_FYP\FYP\numbat_all_area_test\src\03_cluster_allmodes.py:141: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1),
+D:\SDS2025_workspace\CASA_FYP\FYP\numbat_all_area_test\src\03_cluster_allmodes.py:141: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1),
+D:\SDS2025_workspace\CASA_FYP\FYP\numbat_all_area_test\src\03_cluster_allmodes.py:141: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1),
+D:\SDS2025_workspace\CASA_FYP\FYP\numbat_all_area_test\src\03_cluster_allmodes.py:141: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1),
+D:\SDS2025_workspace\CASA_FYP\FYP\numbat_all_area_test\src\03_cluster_allmodes.py:141: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1),
+D:\SDS2025_workspace\CASA_FYP\FYP\numbat_all_area_test\src\03_cluster_allmodes.py:141: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1),
+D:\SDS2025_workspace\CASA_FYP\FYP\numbat_all_area_test\src\03_cluster_allmodes.py:141: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1),
+D:\SDS2025_workspace\CASA_FYP\FYP\numbat_all_area_test\src\03_cluster_allmodes.py:141: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1),
+D:\SDS2025_workspace\CASA_FYP\FYP\numbat_all_area_test\src\03_cluster_allmodes.py:141: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1),
+D:\SDS2025_workspace\CASA_FYP\FYP\numbat_all_area_test\src\03_cluster_allmodes.py:141: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1),
+D:\SDS2025_workspace\CASA_FYP\FYP\numbat_all_area_test\src\03_cluster_allmodes.py:141: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1),
+D:\SDS2025_workspace\CASA_FYP\FYP\numbat_all_area_test\src\03_cluster_allmodes.py:141: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1),
+=== rail_allmodes: X (420, 344) ===
+BIC-best (of ['diag', 'full']): covariance=diag, K=6, BIC=-1501451.4
+  diag: best K=6 (BIC -1501451.4)
+  full: best K=2 (BIC -934276.7)
+kdiag (cov=diag) silhouette: K2=0.316, K3=0.149, K4=0.130, K5=0.116, K6=0.087, K7=0.113, K8=0.092, K9=0.095, K10=0.060, K11=0.067, K12=0.083
+kdiag (cov=diag) BIC: K2=-1480613.7, K3=-1490429.4, K4=-1496339.0, K5=-1499102.4, K6=-1501451.4, K7=-1499670.3, K8=-1501283.8, K9=-1499155.5, K10=-1498731.7, K11=-1496826.6, K12=-1495004.7
+done

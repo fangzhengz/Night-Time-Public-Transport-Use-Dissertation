@@ -1,0 +1,66 @@
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: divide by zero encountered in log
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+D:\SDS2025_workspace\CASA_FYP\FYP\cluster_clean_version_fullweek\src\04_cluster.py:79: RuntimeWarning: invalid value encountered in multiply
+  "entropy": -np.where(post > 0, post * np.log(post), 0.0).sum(1)}
+=== rail: X (270, 344) ===
+BIC-best: covariance=diag, K=6, BIC=-975013.5
+  spherical: best K=12 (BIC -954831.4)
+  diag: best K=6 (BIC -975013.5)
+  tied: best K=2 (BIC -732247.4)
+  full: best K=2 (BIC -406271.5)
+kdiag (cov=diag) silhouette: K2=0.316, K3=0.160, K4=0.183, K5=0.142, K6=0.141, K7=0.112, K8=0.104, K9=0.110, K10=0.119, K11=0.109, K12=0.121
+
+=== bus: X (4100, 72) ===
+BIC-best: covariance=full, K=4, BIC=-2157608.2
+  spherical: best K=12 (BIC -1822357.1)
+  diag: best K=12 (BIC -2147817.4)
+  tied: best K=12 (BIC -2001239.0)
+  full: best K=4 (BIC -2157608.2)
+kdiag (cov=full) silhouette: K2=0.113, K3=0.159, K4=0.083, K5=0.013, K6=-0.004, K7=-0.004, K8=-0.022, K9=-0.010, K10=-0.039, K11=-0.014, K12=0.002
+
+done
+EXIT 0

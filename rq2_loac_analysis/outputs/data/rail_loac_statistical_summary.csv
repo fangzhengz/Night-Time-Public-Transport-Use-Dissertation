@@ -1,0 +1,3 @@
+analysis,chi_square,p_value,degrees_of_freedom,cramers_v,n,r_squared
+rail_cluster_x_loac_dominant_supergroup_chi_square,159.23314597581447,6.258030874782599e-22,24.0,0.320723852231263,387,
+rail_loac_composition_permutation,,0.001,,,387,0.14273740581622468
