@@ -16,7 +16,8 @@ This repository contains code, processed data, and results for a dissertation st
 
 1. **RQ1**: Where and when do night-time transit users concentrate? (clustering)
 2. **RQ2**: How do these clusters align with night-worker residence and deprivation?
-3. **Bus×Rail**: Do bus activity clusters organise around rail nodes?
+
+A third, exploratory line of inquiry was also attempted — **Bus×Rail**: do bus activity clusters organise around rail nodes? — but it was not adopted into the final RQ framework and is retained here only as a supplementary sensitivity analysis (see below).
 
 ### Key Results
 
@@ -165,7 +166,9 @@ This script reads locked cluster labels and intermediate result CSVs already in 
 - **Primary sidecar**: LOAC supergroup classification (separate ecological perspective)
 - **Key papers**: `rq2_associations/lnwc_imd/README.md` + `rq2_associations/independent_variables/README.md`
 
-### Bus×Rail Spatial Relationship
+### Bus×Rail Spatial Relationship (supplementary, not adopted)
+
+An exploratory sensitivity analysis, not part of the final RQ framework — kept here for transparency about a direction that was tried.
 
 - **Finding**: Bus night-persistent clusters concentrate within 400 m of rail stations (54.3% vs 33.5% baseline)
 - **Design**: Point-in-polygon distance + permutation test for cluster×rail-type contingency
