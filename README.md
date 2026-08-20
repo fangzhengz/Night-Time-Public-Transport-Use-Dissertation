@@ -320,7 +320,7 @@ For individual analyses, see the README.md and RESULTS.md files in each folder f
 
 ## License
 
-This repository is provided for educational and research purposes. Code is released under [MIT/GPL/CC0 — **specify**]. Data files are subject to their original licenses (see `DATA_SOURCES.md`). Dissertation text is copyright [Your Name].
+This repository is provided for educational and research purposes. Code is released under the [MIT License](LICENSE). Data files are subject to their original licenses (see `DATA_SOURCES.md`). Dissertation text is copyright Fangzheng Zhou.
 
 ---
 
