@@ -2,7 +2,7 @@
 
 **Title**: Mapping Night-Time Transit Activity Clusters and Their Relationship to Night-Worker and Deprivation Indicators in London
 
-**Author**: [Your Name]  
+**Author**: Fangzheng Zhou  
 **Institution**: CASA, UCL  
 **Academic Year**: 2025–2026
 
