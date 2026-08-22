@@ -1,39 +1,41 @@
-# Raw data (>10MB, never upload)
-/巴士数据/
-/地铁进出站数据/
-/参考文献/
-/往期和参考论文/
-*/data/source/
-**/*.parquet
-**/*.pkl
-**/*.pickle
-NaPTAN_data/*.xml
-
-# Tool caches and build artifacts
-.codex_review*/
-.codex_tmp/
-.codex_doc_review*/
-.agents/
-.claude/
-.ipynb_checkpoints/
 __pycache__/
-*.pyc
-*.pyo
-node_modules/
-*.inspect.ndjson
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
 
-# Broken symlinks (must be explicitly removed before git)
-# None should remain after cleanup, but flag if found
+# Provider-restricted or large raw data
+data/raw/**
+!data/raw/.gitkeep
+*.parquet
+*.gpkg
+*.gdb/
+*.xlsx
+*.xls
+巴士数据/
+地铁进出站数据/
+map/
+night_time_work_data/
+IMDdata*/
+rq2_facility_diversity_analysis/
 
-# Large regenerable intermediates
-**/outputs/preprocessed/*.parquet
-**/outputs/**/*.xlsx
-**/outputs_*/**/preprocessed/
+# Local full-run intermediates and logs
+outputs/
+analysis/**/outputs/
+analysis/**/outputs_*/
+results/generated_figures/
+*.log
+*.aux
+*.bbl
+*.blg
+*.lof
+*.lot
+*.out
+*.toc
 
-# Draft versions (keep only current docx in dissertation/)
-dissertation_working/qa_*/
-dissertation_working/*backup*
-dissertation_working/*_tmp/
-dissertation_working/Main_body_part*.docx
-dissertation_working/main_body_V[4-9]*.docx
-dissertation_working/legacy_reference/
+# Curated historical evidence is intentionally versioned despite nested
+# directory names such as outputs/ and data/.
+!research_record/
+!research_record/**

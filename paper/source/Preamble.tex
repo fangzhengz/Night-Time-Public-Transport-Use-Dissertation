@@ -1,0 +1,119 @@
+% I may change the way this is done in a future version, 
+%  but given that some people needed it, if you need a different degree title 
+%  (e.g. Master of Science, Master in Science, Master of Arts, etc)
+%  uncomment the following 3 lines and set as appropriate (this *has* to be before \maketitle)
+% \makeatletter
+% \renewcommand {\@degree@string} {Master of Things}
+% \makeatother
+
+% ============================================================
+% FRONT MATTER — placeholders only, to be filled in later.
+% Fill in \title, \author, \department, the abstract text and
+% the acknowledgements text once finalised. Page numbering and
+% the Table of Contents update automatically on recompile.
+% ============================================================
+
+% This is an MSc dissertation — override the built-in degree string
+% (the class only ships phd/mphil/mres by default).
+\makeatletter
+\renewcommand {\@degree@string} {Master of Science}
+\makeatother
+
+\title{Night-Time Public Transport Use in London: Temporal Typologies and Socio-Spatial Contexts of Rail and Bus Activity}
+\author{Fangzheng Zhou}
+\department{Centre for Advanced Spatial Analysis, Bartlett Faculty of the Built Environment}
+\date{20 August 2026}
+
+% ------------------------------------------------------------
+% Custom CASA0010-style title page (the UCL class default
+% \maketitle layout doesn't match the CASA0010 cover format,
+% so we bypass it and build the page directly).
+% ------------------------------------------------------------
+\setcounter{page}{1}
+\thispagestyle{plain}
+\begin{center}
+\vspace*{4em}
+{\Large\bfseries Night-Time Public Transport Use in London: Temporal Typologies and Socio-Spatial Contexts of Rail and Bus Activity}\\[3em]
+Fangzheng Zhou\\[3em]
+CASA0010: Dissertation 25/26\\[1em]
+Supervisor: Esra Suel, Clara Peiret-García\\[1em]
+Word Count: 11205\\[1em]
+Code Repository:\\
+\parbox{0.9\textwidth}{\centering\footnotesize
+  \href{https://github.com/fangzhengz/Night-Time-Public-Transport-Use-Dissertation}{\nolinkurl{https://github.com/fangzhengz/}}\\
+  \href{https://github.com/fangzhengz/Night-Time-Public-Transport-Use-Dissertation}{\nolinkurl{Night-Time-Public-Transport-Use-Dissertation}}}\\[3em]
+This dissertation is submitted in part requirement for the MSc in the\\
+Centre for Advanced Spatial Analysis, Bartlett Faculty of the Built Environment, UCL\\[2em]
+Submission Date: 20 August 2026
+\end{center}
+\clearpage
+
+% ------------------------------------------------------------
+% Abstract — page 2, per CASA0010 ordering (before Declaration).
+% ------------------------------------------------------------
+\begin{abstract} % 300 word limit
+\singlespacing
+Urban transport planning has traditionally prioritised daytime commuting, leaving night-time mobility comparatively less understood despite the growing importance of London's 24-hour economy. This dissertation examines how public transport use between 18:00 and 05:00 is organised across London's Rail and Bus systems, how the two modes differ, and how these patterns relate to night-work geography and wider socio-spatial context.
+
+Using Transport for London's NUMBAT 2024 and BUSTO 2024/25 datasets, temporal profiles were constructed for 403 Rail stations and 3,383 bus-served LSOAs. Gaussian Mixture Models, applied separately to each mode, identified recurring night-time usage patterns. These were characterised by their temporal, directional, day-type and spatial properties, then related to the London Night Workers Classification (LNWC) and 20 area-level socio-economic, housing and employment indicators.
+
+The results show that night-time public transport use is not a homogeneous off-peak condition. Rail activity is differentiated by direction, spatial position, interchange role and late-night duration: central stations are generally more departure-oriented and outer stations more arrival-oriented, but persistence follows a different pattern, remaining highest at some lower-volume inner and eastern stations rather than the most intensive central night-work areas. Bus use instead follows a smoother gradient from persistent central and inner activity towards earlier-declining outer areas. Night-work geography corresponds most clearly with these central--peripheral contrasts but does not fully account for the observed rhythms. These central clusters are further associated with younger populations, private renting, low car access and high facility intensity, while the outer clusters combine weaker realised activity with relatively high resident employment in night-related sectors, suggesting a possible divergence between the residential geography of night-related employment and the concentration of night-time transport activity.
+
+The study demonstrates the value of treating the night as a dedicated analytical window and analysing Rail and Bus separately, providing a reproducible framework for relating transport-derived patterns to independently measured urban context while distinguishing realised transport use from underlying demand.
+\end{abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+
+% ------------------------------------------------------------
+% Declaration — page 3, with its own heading (the class's
+% \makedeclaration prints body text only, with no heading).
+% ------------------------------------------------------------
+\chapter*{Declaration}
+\addcontentsline{toc}{chapter}{Declaration}
+I hereby declare that this dissertation is all my own original work and that all sources have been acknowledged.
+
+It is 11,205 words in length.
+
+\vspace{2\baselineskip}
+Signed: Fangzheng Zhou
+
+Date: 20 August 2026
+
+\setcounter{tocdepth}{2}
+% Setting this higher means you get contents entries for
+%  more minor section headers.
+
+\begingroup
+\singlespacing
+\setlength{\parskip}{0pt}
+\tableofcontents
+\listoffigures
+\listoftables
+\endgroup
+
+% --- List of Acronyms and Abbreviations ---
+\chapter*{List of Acronyms and Abbreviations}
+\addcontentsline{toc}{chapter}{List of Acronyms and Abbreviations}
+\begin{description}
+\item[ARI] Adjusted Rand Index
+\item[BH] Benjamini--Hochberg
+\item[BIC] Bayesian Information Criterion
+\item[CLR] Centred Log-Ratio
+\item[GMM] Gaussian Mixture Model
+\item[IMD] Indices of Multiple Deprivation
+\item[LNWC] London Night Workers Classification
+\item[LSOA] Lower Layer Super Output Area
+\item[NaPTAN] National Public Transport Access Nodes
+\item[ONS] Office for National Statistics
+\item[POI] Point of Interest
+\item[SIC] Standard Industrial Classification
+\item[TfL] Transport for London
+\end{description}
+
+\begin{acknowledgements}
+First and foremost, I would like to express my sincere gratitude to my supervisors, Dr.\ Esra Suel and Clara Peiret-García, for their invaluable guidance and support throughout my research. Their expertise and insights have been instrumental in shaping this study. Additionally, I extend my heartfelt thanks to partner supervisors from TfL, Howard Wong and Mikaella Mavrogeni. Your patient guidance and professional knowledge have also played a crucial role in this research, especially in terms of data and analysis methods.
+
+I am also deeply grateful to my classmates, friends, and family for their unwavering support and encouragement during this challenging research process. Their belief in me has been a constant source of motivation.
+
+Lastly, I extend my best wishes to my advisors, friends, and myself for success and fulfillment in our future academic and research endeavors.
+\end{acknowledgements}
+\addcontentsline{toc}{chapter}{Acknowledgements}

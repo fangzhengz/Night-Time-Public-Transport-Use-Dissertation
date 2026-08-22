@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the dissertation."
+title: "Night-Time Public Transport Use in London: Temporal Typologies and Socio-Spatial Contexts of Rail and Bus Activity"
+type: thesis
+authors:
+  - family-names: Zhou
+    given-names: Fangzheng
+institution: University College London
+date-released: 2026-08-20
+version: 1.0.0
+repository-code: "https://github.com/fangzhengz/Night-Time-Public-Transport-Use-Dissertation"

@@ -1,0 +1,10 @@
+Mode,Analytical unit,Total n,Final K,Covariance,Cluster,Cluster n,Share,Short descriptor
+Rail,Station,403,5,Diagonal,C0,89,0.22084367245657568,C0 outer arrival-oriented
+Rail,Station,403,5,Diagonal,C1,26,0.06451612903225806,C1 central departure-oriented
+Rail,Station,403,5,Diagonal,C2,90,0.22332506203473945,"C2 central interchange, direction-balanced"
+Rail,Station,403,5,Diagonal,C3,31,0.07692307692307693,"C3 late-night, extended-duration persistent"
+Rail,Station,403,5,Diagonal,C4,167,0.4143920595533499,C4 inner-middle ring mixed
+Bus,LSOA,3383,4,Full,C0,604,0.17853975761158736,"C0 low activity, weak night-persistence"
+Bus,LSOA,3383,4,Full,C1,1134,0.3352054389595034,"C1 relatively high activity, stronger night-persistence"
+Bus,LSOA,3383,4,Full,C2,1069,0.3159917233224948,"C2 moderate activity and persistence, transitional"
+Bus,LSOA,3383,4,Full,C3,576,0.17026308010641442,C3 moderate activity with destination characteristics

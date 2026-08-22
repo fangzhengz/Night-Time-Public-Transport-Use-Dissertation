@@ -1,0 +1,102 @@
+\addcontentsline{toc}{chapter}{Appendices}
+
+% The \appendix command resets the chapter counter, and changes the chapter numbering scheme to capital letters.
+\appendix
+
+\chapter{Supplementary Figures and Tables}
+\label{appendixlabel1}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{figures/appA_fig18.png}
+\caption[Rail usage types and LNWC context]{Supplementary spatial comparison of Rail usage types and LNWC context within the mode-specific contextual-analysis samples}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{figures/appA_fig19.png}
+\caption[Bus usage types and LNWC context]{Supplementary spatial comparison of Bus usage types and LNWC context within the mode-specific contextual-analysis samples}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/appA_fig20.png}
+\caption[Behavioural-descriptor effect sizes]{Effect-size ranking of post-clustering behavioural descriptors across the Rail and Bus usage types: (a) Rail; (b) Bus.}
+\end{figure}
+
+\clearpage
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{figures/appA_fig21.png}
+\caption[Rail time-series feature map]{Original time-series feature map of Rail.}
+\end{figure}
+
+\clearpage
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{figures/appA_fig22.png}
+\caption[Bus time-series feature map]{Original time-series feature map of the Bus.}
+\end{figure}
+
+\begin{landscape}
+\begingroup
+\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.12}
+\input{appendix_tables_generated.tex}
+\endgroup
+\end{landscape}
+
+\chapter{Research Log and Research Reflection}
+\label{appendixlabel2}
+
+\section{Research Log}
+
+Table~\ref{tab:appB1} summarises the formal supervision meetings held throughout the dissertation, the principal topics discussed, and the resulting actions taken in the development of the research.
+
+\small
+\begin{landscape}
+\begingroup
+\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{longtable}{@{}p{2.4cm} p{4.0cm} p{8.0cm} p{6.6cm}@{}}
+\caption[Research log]{Research log of dissertation supervision meetings.} \label{tab:appB1} \\
+\toprule
+Date & Stage & Discussion & Action \\
+\midrule
+\endfirsthead
+\multicolumn{4}{l}{\small\itshape (Table continued)} \\
+\toprule
+Date & Stage & Discussion & Action \\
+\midrule
+\endhead
+\bottomrule
+\multicolumn{4}{r}{\small\itshape (continued on next page)} \\
+\endfoot
+\bottomrule
+\endlastfoot
+12 May 2026 & Project Scoping and Data Familiarisation & Reviewed the datasets available for the project, including NUMBAT origin--destination data, BUSTO bus ridership data, and Mikaella Mavrogeni's London Night Workers Classification (LNWC). Discussed the limits of infrastructure-based ridership data, which records where and when travel occurs but not who is travelling, and considered how mobile-phone-derived flow data might complement it in identifying mismatches between transport provision and demand. & Review the literature on night-time mobility and economic activity; begin drafting a main research question and candidate sub-questions grounded in what the available data can and cannot show. \\
+26 May 2026 & Research Question Formulation & Presented an initial main research question and three candidate sub-questions structured around usage clustering, correspondence with LNWC, and service--demand mismatch. Discussed the definition of ``night-time'' for the analysis, proposing an 18:00--06:00 window with fine (30-minute) temporal bins, and considered whether a shorter or offset window would be more defensible. & Firm up the night-time window definition against precedent in the literature and the LNWC classification; refine the sub-question wording. \\
+9 June 2026 & Research Question Refinement & Revised RQ1 to an explicit clustering framing (identifying usage types by area) and RQ2 to a correlation framing linking clusters to LNWC and other socio-economic indicators; RQ3 (service--demand mismatch) retained with minor wording changes. Howard raised a definitional tension: the LNWC classification spans 18:00--05:00, but his substantive interest was in the stricter overnight period (00:00--05:00) least served by daytime transport; discussed whether splitting the clustering by time window would be needed to keep RQ1 and RQ3 compatible. & Retain a single 18:00--05:00 clustering window to preserve the RQ2 linkage to LNWC, while noting a narrower overnight sub-analysis as a possible later refinement. \\
+25 June 2026 & Data Construction and Aggregation Strategy & Presented the decision to aggregate bus stops to LSOA level rather than clustering at stop level, because a large share of the roughly 20,000 individual bus stops had sparse or missing counts, particularly at night. Reported that restricting clustering to a ``night-peak'' sub-window, rather than the full 18:00--05:00 period, produced weaker, less-separated clusters, so the full window was reinstated. Discussed the resulting difference in temporal resolution between rail (15-minute bins, per TfL guidance) and bus (1-hour bins, per BUSTO guidance), and whether combining modes into a single feature vector was feasible given the different vector lengths. & Finalise LSOA-level aggregation for bus; retain the full 18:00--05:00 window; run rail and bus clustering as separate models with mode-specific temporal resolution rather than forcing a shared vector length. \\
+7 July 2026 & Feature Engineering Review & Presented an exploratory four-cluster solution built on full-week station/LSOA vectors. In reviewing how entries and exits were represented, the supervisors identified that the feature construction subtracted exits from entries into a single net-flow value per time bin, which discards directional information; clarified that entries and exits should instead be represented as two separate vectors per unit. & Rebuild the feature vectors to preserve entries and exits separately, later formalised as the direction-specific normalisation step (Methodology \S 3.3.1). \\
+17 July 2026 & Scope Review and Methodological Challenge & Reviewed the progress presentation and document. With roughly five weeks to submission, narrowed the dissertation's scope to RQ1 (clustering) and RQ2 (LNWC and socio-spatial linkage); RQ3 (service--demand mismatch) was deprioritised as time-permitting rather than a committed deliverable. Howard questioned the plausibility of the then-current bus K=3 solution, in which one cluster grouped inner-London areas (Westminster, Camden) together with outer-London areas (Kingston, Richmond Park), asking whether this reflected a genuine usage pattern or an artefact of aggregating stop-level data to LSOA level. Clara reframed the partial overlap between the clustering results and Mikaella's LNWC classification as a validation opportunity rather than a concern about novelty. & Tighten and better justify the existing RQ1/RQ2 analysis rather than expanding scope; investigate the aggregation and low-ridership issues behind the implausible bus cluster geography; test whether including full National Rail alongside the Underground changes the rail result. \\
+28 July 2026 & Bus Methodology Endorsement & Presented a revised bus clustering pipeline using a minimum-ridership threshold and a centred-log-ratio (CLR) transformation of activity shares, alongside a refitted all-modes rail solution after removing mistakenly included non-London stations. Clara endorsed the CLR-based bus solution as substantively convincing, citing a clean central-London cluster, a mixed-residential ring, an outer ring, and a Heathrow grouping with central London consistent with prior TfL cluster analyses, but did not accept excluding low-ridership stops outright, suggesting instead that clustering jointly on activity shape and raw volume might let low-volume stops separate out naturally. New requests: examine the spatial relationship between bus clusters and rail/Underground stations, interpret the direction of entry/exit imbalance (residential origin versus destination) rather than only its spatial pattern, and add area deprivation (IMD) as an independent variable in RQ2. & Reconcile the shape-versus-volume tension in the bus clustering methodology; add a bus--rail spatial proximity analysis and a direction-of-flow interpretation to the results; add IMD to the RQ2 variable set. \\
+4 August 2026 & Analysis Closure and Write-up Priorities & Reviewed submitted draft Methodology and Results chapters. Esra, Clara and Howard agreed that the analysis phase was complete and that no further modelling was required before submission. Howard raised the dissertation's central methodological caution, illustrated with a Leicester Square example: station-level entry/exit counts describe who uses an area, not who lives there or who they are, so results must be framed at the area level rather than attributed to individuals. Esra reinforced this and set the rule that findings should be written as ``areas of type X have characteristic Y'' rather than ``people in area X do Y.'' Additional feedback covered explaining technical terminology (GMM, BIC, ARI) for a non-specialist reader, moving detailed K-selection justification to the appendix, and ensuring figures were self-explanatory. RQ3 (service--demand mismatch) was confirmed out of scope for the final submission. & Revise the Results and Discussion chapters to consistently use area-level, non-individual-level framing; move detailed K-selection technical justification into the appendix; simplify terminology in the main text; finalise the narrative arc connecting research questions, results and discussion ahead of submission. \\
+\end{longtable}
+\endgroup
+\end{landscape}
+\normalsize
+
+\section{Research Process Reflection}
+
+My dissertation did not begin with a fixed research design; it began with a dataset and an open question about what that dataset could support. At the first supervision meeting, before any research questions had been written down, the discussion centred on a basic limitation of infrastructure-based transport data: entry and exit counts show where and when travel happens, but not who is travelling. That distinction, raised by Esra Suel in the very first meeting, turned out to be the single idea that shaped the whole project. Every later version of the research questions, and eventually the ecological-fallacy caution that closed the analysis phase in August, traces back to that early observation.
+
+The early stage of the project was consequently more exploratory than I expected. Between May and early July, the research questions were rewritten several times, not because the underlying interest changed, but because each supervision meeting exposed a gap between what I had proposed and what the data could actually support. The definition of ``night-time'' is a small but representative example: I first tried a narrower ``night-peak'' sub-window, expecting it to sharpen the contrast between usage types. Instead, restricting the window weakened the clustering, so I returned to the full 18:00--05:00 window already used by the LNWC classification, a decision that also preserved a clean way to connect the clustering results to LNWC in RQ2. Rather than presupposing the right time frame in advance, I had to let the clustering evidence and the analytical fit tell me which one worked.
+
+A second recurring theme was that data-preprocessing decisions I initially treated as minor turned out to have first-order consequences. The bus data illustrates this most clearly. Aggregating roughly 20,000 individual stops up to LSOA level was necessary because most stops had sparse or missing counts at night, but that aggregation then interacted with the shape of the resulting clusters in ways that took most of July and August to fully understand: raw counts dominated the cluster structure more than the shape of usage over time, one solution mixed geographically implausible areas together, and a subsequent compositional (CLR) transformation intended to fix this introduced its own distortion around stops with many zero-activity bins. Reaching a bus clustering solution that was both statistically defensible and substantively plausible to supervisors who know the network required testing several intermediate fixes in sequence rather than arriving at the answer directly. The equivalent process for rail was comparatively short, largely because the Underground network has far less low-ridership noise to contend with.
+
+Supervision meetings consistently functioned as a corrective against scope growth rather than a source of new directions. The clearest example was the 17 July meeting, where, with roughly five weeks left, the three-question design built around clustering, LNWC correspondence and service--demand mismatch was narrowed to the first two; the third question was not abandoned so much as postponed indefinitely by time pressure. I found this useful discipline: it forced me to make the existing clustering and LNWC analysis more defensible rather than adding a new analytical strand to compensate for unresolved questions in the first two.
+
+The final and most consequential piece of guidance came on 4 August, after the analysis itself was declared finished. Howard's Leicester Square example, that a station's night-time users are not the same people as the area's night-time residents, gave precise language to the distinction Esra had raised in the first meeting. It meant that even a statistically solid result had to be rewritten carefully: claims had to describe area-level types and their characteristics, never the people using them. Managing that boundary consistently across the Results and Discussion chapters, while still making the analysis feel substantively meaningful, was the last, and in retrospect the most important, methodological skill the dissertation required

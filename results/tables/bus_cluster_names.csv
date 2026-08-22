@@ -1,0 +1,5 @@
+cluster,role,name_en,short,n,log_total_activity,direction_balance,post_midnight_share,post_midnight_persistence,weekend_ratio,mean_silhouette
+0,peripheral_low_flow,"C0 low activity, weak night-persistence",low activity,604,5.5684,-0.2157,0.0214,0.0309,0.7551,0.2653
+1,night_persistent,"C1 relatively high activity, stronger night-persistence",night-persistent,1134,7.9721,-0.088,0.0924,0.1551,0.8284,0.4958
+2,moderate_to_high_flow,"C2 moderate activity and persistence, transitional","moderate, transitional",1069,6.3968,-0.1516,0.0714,0.1134,0.7993,-0.1973
+3,moderate_directional,C3 moderate activity with destination characteristics,moderate alighting-oriented,576,6.2112,-0.2175,0.0408,0.0611,0.7755,0.0787

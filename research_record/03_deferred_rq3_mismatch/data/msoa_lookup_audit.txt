@@ -1,0 +1,8 @@
+OA-level rows fetched: 26369
+Unique LSOA21CD: 4994
+Unique MSOA21CD: 1002
+MSOA21 codes with ambiguous (split/merge) MSOA11 match: 1/1002
+LSOA21 rows with no MSOA11CD match: 0/4994
+OD flow data MSOA11 universe: 983 unique codes
+Overlap between OD MSOA11 universe and this lookup's MSOA11CD set: 982 (99.9%)
+OD MSOA11 codes with no match in this lookup: ['E02000190']

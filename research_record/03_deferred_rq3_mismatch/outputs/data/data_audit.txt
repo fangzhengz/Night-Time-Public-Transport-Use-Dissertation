@@ -1,0 +1,8 @@
+Rail day-type used: TWT
+Bus day-type used: Weekday
+Night hours: [18, 19, 20, 21, 22, 23, 0, 1, 2, 3, 4, 5]
+Rail stations matched to MSOA11: 424/456
+Bus source LSOAs matched to MSOA11: 3797/3797
+MSOAs with both PT and OD coverage: 979
+MSOAs with PT but no OD coverage: 0
+MSOAs with OD but no PT coverage (no station/stop in that MSOA at all): 4
