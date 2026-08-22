@@ -116,6 +116,9 @@ def validate() -> list[str]:
     record_required = {
         "README.md",
         "STATUS.csv",
+        "SOURCE_COVERAGE.csv",
+        "00_early_pipeline_history/README.md",
+        "00_early_pipeline_history/legacy_output_inventory.csv",
         "03_deferred_rq3_mismatch/STATUS.md",
         "03_deferred_rq3_mismatch/outputs/report/RESULTS_SUMMARY.md",
         "04_exploratory_bus_rail_relation/STATUS.md",
@@ -124,11 +127,18 @@ def validate() -> list[str]:
     missing_record = sorted(item for item in record_required if not (record / item).is_file())
     assert not missing_record, f"Missing research-record evidence: {missing_record}"
     record_index = rows(record / "STATUS.csv")
-    assert len(record_index) == 22
+    assert len(record_index) == 35
     assert all(item["category"] and item["status"] and item["path"] for item in record_index)
+    for item in record_index:
+        study_dir = record / item["path"]
+        assert study_dir.is_dir(), f"Missing indexed research-record directory: {item['path']}"
+        assert (study_dir / "README.md").is_file(), f"Missing indexed README: {item['path']}"
+    coverage_index = rows(record / "SOURCE_COVERAGE.csv")
+    assert len(coverage_index) == 43
+    assert all(item["source_location"] and item["coverage_type"] and item["status"] for item in coverage_index)
     for active_script in (ROOT / "scripts" / "run_pipeline.py", ROOT / "scripts" / "publish_results.py"):
         assert "research_record" not in active_script.read_text(encoding="utf-8")
-    checks.append("separate, indexed research record")
+    checks.append("35-study research record and 43-row source-coverage ledger")
     return checks
 
 

@@ -1,0 +1,29 @@
+{
+  "generated_utc": "2026-07-02T23:20:22.772725+00:00",
+  "duration_seconds": 409.05194544792175,
+  "command": "py -3 src/run_validation.py",
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "parameters": {
+    "K_values": [
+      3,
+      4,
+      5
+    ],
+    "covariances": [
+      "diag",
+      "tied"
+    ],
+    "seeds": [
+      11,
+      23,
+      37,
+      53,
+      71,
+      89
+    ],
+    "bootstraps": 10,
+    "bootstrap_seed": 20260702,
+    "reference_seed": 42
+  }
+}

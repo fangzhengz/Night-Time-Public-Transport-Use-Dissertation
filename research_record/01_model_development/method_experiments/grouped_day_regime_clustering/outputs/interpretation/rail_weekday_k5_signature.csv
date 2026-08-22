@@ -1,0 +1,6 @@
+dataset,K,cluster,n,pct_units,vol_mean,net_dir,t_median,evening_18_20,late_00plus,hump_22_23,max_post,entropy,rep_units
+rail_weekday,5,0,9,3.3,18052.9,0.394,19:45,0.476,0.015,0.152,1.0,0.01,Tottenham Court Road | Piccadilly Circus | Leicester Square | Embankment | Charing Cross LU
+rail_weekday,5,1,177,65.6,5387.9,-0.409,19:30,0.556,0.027,0.1,0.98,0.06,Paddington TfL | Canary Wharf LU | South Kensington | Hammersmith (DIS) | Finsbury Park LU
+rail_weekday,5,2,29,10.7,1905.9,-0.474,19:15,0.605,0.026,0.081,0.97,0.1,Parsons Green | North Acton | Putney Bridge | Uxbridge | Gunnersbury
+rail_weekday,5,3,50,18.5,14974.6,0.098,19:15,0.597,0.017,0.089,0.96,0.1,Waterloo LU | King's Cross St. Pancras | Liverpool Street LU | Victoria LU | Oxford Circus
+rail_weekday,5,4,5,1.9,7016.7,-0.321,20:00,0.491,0.029,0.142,1.0,0.0,North Greenwich | Kentish Town | Chalk Farm | Chalfont & Latimer | Theydon Bois

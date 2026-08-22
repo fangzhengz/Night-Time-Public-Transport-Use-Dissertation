@@ -32,6 +32,8 @@ Rail and Bus are modelled separately. Their cluster identifiers are mode-specifi
 - [`results/figures/`](results/figures/) contains descriptively named copies of the exact figures embedded in the submitted dissertation.
 - [`results/recomputed_figures/`](results/recomputed_figures/) contains figures rebuilt from the adopted clean pipeline.
 - [`research_record/`](research_record/) preserves method development, sensitivity and stability checks, deferred RQ3 work, and exploratory analyses that were not used as dissertation results.
+- [`research_record/SOURCE_COVERAGE.csv`](research_record/SOURCE_COVERAGE.csv) records how the original local analysis branches were retained, represented or explicitly excluded.
+- [`docs/workspace_coverage_audit.md`](docs/workspace_coverage_audit.md) documents the final workspace-to-repository coverage audit and remediation.
 
 ## Pipeline order
 
@@ -74,7 +76,7 @@ tests/                           frozen-result regression tests
 
 Historical alternatives remain recoverable through Git history but are not part of this branch's active analytical path. Runtime products are excluded from Git; `scripts/publish_results.py` promotes adopted tables and diagnostics plus rebuilt figures into `results/recomputed_figures/`. It never overwrites the paper-matched figures in `results/figures/`.
 
-The curated [`research_record/`](research_record/) makes the wider research process visible without mixing it into the adopted pipeline. Its files retain their historical assumptions and sample definitions; each study is status-labelled and should not be treated as a result reported in the submitted dissertation.
+The curated [`research_record/`](research_record/) makes the wider research process visible without mixing it into the adopted pipeline. Its 35 indexed studies retain their historical assumptions and sample definitions; each is status-labelled and should not be treated as a result reported in the submitted dissertation. The early code layer and source-coverage ledger also account for superseded exploratory outputs that were intentionally not copied file by file.
 
 ## Citation
 

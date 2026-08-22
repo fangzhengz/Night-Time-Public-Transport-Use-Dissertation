@@ -1,0 +1,125 @@
+{
+  "experiment_id": "rail-ilr-sensitivity-20260721-170345",
+  "started_at": "2026-07-21T16:02:26.419489+00:00",
+  "finished_at": "2026-07-21T16:03:45.770017+00:00",
+  "duration_seconds": 79.36429979999957,
+  "command": "C:\\Users\\fangz\\AppData\\Local\\Programs\\Python\\Python313\\python.exe D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rq1_rail_ilr_sensitivity\\src\\run_rail_ilr_sensitivity.py --bootstrap 200 --seed-runs 20 --output-root outputs_repro",
+  "working_directory": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rq1_rail_ilr_sensitivity",
+  "script": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rq1_rail_ilr_sensitivity\\src\\run_rail_ilr_sensitivity.py",
+  "output_root": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rq1_rail_ilr_sensitivity\\outputs_repro",
+  "parameters": {
+    "bootstrap": 200,
+    "seed_runs": 20,
+    "n_init": 20,
+    "bootstrap_n_init": 3,
+    "seed_n_init": 20,
+    "random_state": 42,
+    "reg_covar": 1e-06,
+    "max_iter": 300,
+    "primary_covariance": "diag",
+    "covariance_grid": [
+      "spherical",
+      "diag",
+      "tied",
+      "full"
+    ],
+    "K_range": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "stability_Ks": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "empirical_prior_alpha": 1.0
+  },
+  "environment": {
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "pyarrow": "24.0.0",
+    "scipy": "1.16.3",
+    "scikit_learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "inputs": {
+    "raw_share_features": {
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\cluster_clean_version_fullweek\\outputs\\features\\X_rail.parquet",
+      "sha256": "477505e614bb8fb9326f4fad1e9efdcc6fa2a2adfdfd4d0350863b82b260e00e",
+      "size_bytes": 1005267
+    },
+    "direction_totals": {
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\cluster_clean_version_fullweek\\outputs\\features\\rail_meta.csv",
+      "sha256": "2716773ed01e4e369a8ffbbfa662ab29a601aade1eaffb88fd1857d0b94871ea",
+      "size_bytes": 16251
+    },
+    "raw_k5_labels": {
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\cluster_clean_version_fullweek\\outputs\\labels\\rail_k5_labels.csv",
+      "sha256": "1e2d9c80929372484ac95c349b76598d95cf3fdfb2a3af562b09595389d3ae60",
+      "size_bytes": 9933
+    },
+    "raw_k6_labels": {
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\cluster_clean_version_fullweek\\outputs\\labels\\rail_k6_labels.csv",
+      "sha256": "ff794a67e7cdd0ed74866a19bf0e1de8037d2a1122579667282a811851596775",
+      "size_bytes": 9925
+    },
+    "raw_k_diagnostics": {
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\cluster_clean_version_fullweek\\outputs\\diagnostics\\rail_kdiag.csv",
+      "sha256": "f2639174d2e14f828700aee235000d67df4f471ad71e7f06c7bf2a97678bb558",
+      "size_bytes": 1708
+    },
+    "station_identifiers_optional": {
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\cluster_clean_version_grouped\\outputs\\preprocessed\\rail_coords.csv",
+      "sha256": "9be7d44ed9a7169d8a43cdc894aea4c22d82e1f18092f2f476ad6eda4ec2f225",
+      "size_bytes": 23026
+    },
+    "analysis_script": {
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rq1_rail_ilr_sensitivity\\src\\run_rail_ilr_sensitivity.py",
+      "sha256": "435acb48cf454068d33c1781e62ba9d930f0f85227635e031071a84ac6db793b",
+      "size_bytes": 54749
+    }
+  },
+  "coordinate_audit": {
+    "n_stations": 270,
+    "raw_share_columns": 344,
+    "parts_per_direction": 172,
+    "ilr_columns": 342,
+    "centered_sample_rank": 269,
+    "pseudocount_alpha": 1.0,
+    "raw_zero_cell_count": 6989,
+    "minimum_posterior_share": 2.2128188844408775e-10,
+    "max_closure_error": 1.7763568394002505e-15,
+    "max_raw_share_recovery_error": 6.938893903907228e-18,
+    "max_sampled_distance_error_clr_vs_ilr": 2.842170943040401e-14
+  },
+  "result_summary": {
+    "verdict_status": "CHALLENGED",
+    "raw_vs_ilr_k5_ARI": 0.21552934479528815,
+    "raw_vs_ilr_k5_NMI": 0.3511187214905124,
+    "raw_vs_ilr_k5_best_match_share": 0.5111111111111111,
+    "raw_vs_ilr_k5_weakest_jaccard": 0.2073170731707317,
+    "ilr_k5_bootstrap_ARI_mean": 0.5594727434063811,
+    "ilr_k5_bootstrap_weakest_cluster_jaccard": 0.0914691752429414,
+    "strong_label_agreement": false,
+    "acceptable_internal_recurrence": false,
+    "diag_BIC_best_K": 9,
+    "stability_range_best_silhouette_K": 3,
+    "stability_range_best_bootstrap_ARI_K": 4
+  },
+  "external_characterization_variables_loaded": false,
+  "raw_pipeline_modified": false
+}

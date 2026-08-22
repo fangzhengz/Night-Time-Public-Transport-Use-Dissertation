@@ -1,0 +1,14 @@
+metric,value
+n_busto_used_stops,19589.0
+n_stops_matched_bus_stops_csv,19530.0
+n_stops_matched_lsoa,18451.0
+pct_lsoa_stops_matched_xml_atco,99.3116904232833
+pct_lsoa_stops_with_official_stop_area,99.30085090239011
+pct_lsoa_stops_with_parent_stop_area,7.408812530486153
+n_logical_hubs,10667.0
+n_cross_lsoa_logical_hubs,1735.0
+n_exact_one_direction_zero_lsoa,15.0
+n_zero_lsoa_supported_by_hub_split,10.0
+n_high_activity_ge_450_zero_lsoa,2.0
+n_high_activity_ge_450_supported_by_hub_split,2.0
+max_abs_lsoa_total_reconstruction_diff,3.637978807091713e-12

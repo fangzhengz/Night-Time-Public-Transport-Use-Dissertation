@@ -1,0 +1,6 @@
+numpy>=2.3
+pandas>=2.3
+pyarrow>=24.0
+scipy>=1.16
+scikit-learn>=1.8
+matplotlib>=3.10

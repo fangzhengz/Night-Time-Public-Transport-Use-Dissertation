@@ -1,0 +1,9 @@
+mode,metric,value
+rail,rows,270.0
+rail,clusters,5.0
+rail,max_meta_total_relative_error,8.667498728186552e-16
+rail,missing_primary_metrics,0.0
+bus,rows,4100.0
+bus,clusters,3.0
+bus,max_meta_total_relative_error,6.072431758842385e-16
+bus,missing_primary_metrics,0.0

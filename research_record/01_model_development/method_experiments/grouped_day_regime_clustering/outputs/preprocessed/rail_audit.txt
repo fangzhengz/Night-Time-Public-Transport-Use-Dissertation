@@ -1,0 +1,6 @@
+source rows: 259200 | NLC: 270 | day_types: ['FRI', 'MON', 'SAT', 'SUN', 'TWT']
+  weekday: window [1080,1500) -> 28 bins, 270 stations, src=['MON', 'TWT']
+  Friday: window [1080,1740) -> 44 bins, 270 stations, src=['FRI']
+  Saturday: window [1080,1740) -> 44 bins, 270 stations, src=['SAT']
+  Sunday: window [1080,1500) -> 28 bins, 270 stations, src=['SUN']
+coords matched: 270/270 (missing 0)

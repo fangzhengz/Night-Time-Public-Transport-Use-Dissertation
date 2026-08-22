@@ -1,0 +1,15 @@
+{
+  "generated_utc": "2026-07-21T14:23:56.858771+00:00",
+  "duration_seconds": 2.3890438079833984,
+  "command": "python src\\01_run_bus_context_analysis.py",
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "geopandas": "1.1.1",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2"
+  }
+}

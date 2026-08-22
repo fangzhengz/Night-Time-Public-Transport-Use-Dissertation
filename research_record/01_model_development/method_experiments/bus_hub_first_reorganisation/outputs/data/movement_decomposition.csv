@@ -1,0 +1,8 @@
+dimension,category,n_stops,n_hubs,n_stops_changed_lsoa,total_activity,activity_changed_lsoa,pct_activity_changed_within_category
+logical_hub_source,official_bus_stop_area,16980,10161,2173,5314304.7322,856161.48319,16.110507890193357
+logical_hub_source,parent_stop_area_identifier,1370,510,365,1605189.3547,489594.23303,30.50071517085921
+logical_hub_source,singleton_bus_stop_fallback,1239,1239,0,112725.31098,0.0,0.0
+coordinate_source,bus_stop_point_medoid_fallback,1204,1192,1,128352.02029,434.15038000000004,0.3382497439612371
+coordinate_source,missing,59,59,0,25565.80201,0.0,0.0
+coordinate_source,official_bus_stop_area,17992,10575,2409,6384898.77794,1170647.6952,18.334632010841265
+coordinate_source,official_bus_stop_area_medoid,334,80,128,493402.79764,174673.87064,35.401880872075395

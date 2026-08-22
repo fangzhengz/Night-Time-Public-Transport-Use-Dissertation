@@ -1,0 +1,10 @@
+{
+  "analysis_output_root": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rq1_rail_ilr_sensitivity\\outputs",
+  "n_stations": 270,
+  "n_pairs": 36315,
+  "zero_activity_spearman_rho": -0.4293903853051562,
+  "raw_k5_zero_eta_squared": 0.17658275836737589,
+  "ilr_k5_zero_eta_squared": 0.942101951558372,
+  "raw_distance_zero_pattern_rho": 0.11092825874331573,
+  "ilr_distance_zero_pattern_rho": 0.884864518507624
+}

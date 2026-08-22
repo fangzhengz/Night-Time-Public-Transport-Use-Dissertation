@@ -1,0 +1,7 @@
+=== bus_weekend: X (3742, 24) ===
+BIC-best: covariance=full, K=6, BIC=-540268.8
+  spherical: best K=12 (BIC -420228.9)
+  diag: best K=12 (BIC -495624.4)
+  tied: best K=11 (BIC -503467.6)
+  full: best K=6 (BIC -540268.8)
+kdiag (cov=full) silhouette: K2=0.223, K3=0.111, K4=0.034, K5=0.017, K6=-0.023, K7=-0.035, K8=-0.068, K9=-0.061, K10=-0.069, K11=-0.077, K12=-0.077

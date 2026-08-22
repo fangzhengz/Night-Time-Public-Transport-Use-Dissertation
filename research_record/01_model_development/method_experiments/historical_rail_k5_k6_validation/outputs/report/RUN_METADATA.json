@@ -1,0 +1,61 @@
+{
+  "experiment_id": "rail-k-selection-20260719-225119",
+  "started_at": "2026-07-19T21:50:55.204969+00:00",
+  "finished_at": "2026-07-19T21:51:19.104672+00:00",
+  "duration_seconds": 23.899717899999814,
+  "command": "C:\\Users\\fangz\\AppData\\Local\\Programs\\Python\\Python313\\python.exe D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rail_k_selection_validation\\src\\run_rail_k_validation.py --bootstrap 200 --seed-runs 20",
+  "working_directory": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rail_k_selection_validation",
+  "script": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rail_k_selection_validation\\src\\run_rail_k_validation.py",
+  "output_root": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\rail_k_selection_validation\\outputs",
+  "n_stations": 270,
+  "n_features": 344,
+  "parameters": {
+    "bootstrap": 200,
+    "seed_runs": 20,
+    "reference_n_init": 20,
+    "bootstrap_n_init": 3,
+    "seed_n_init": 20,
+    "random_state": 42,
+    "reg_covar": 1e-06,
+    "max_iter": 300,
+    "covariance_type": "diag"
+  },
+  "environment": {
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "pyarrow": "24.0.0",
+    "scipy": "1.16.3",
+    "scikit_learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "inputs": {
+    "features": {
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\cluster_clean_version_fullweek\\outputs\\features\\X_rail.parquet",
+      "sha256": "477505e614bb8fb9326f4fad1e9efdcc6fa2a2adfdfd4d0350863b82b260e00e"
+    },
+    "labels_k5": {
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\cluster_clean_version_fullweek\\outputs\\labels\\rail_k5_labels.csv",
+      "sha256": "1e2d9c80929372484ac95c349b76598d95cf3fdfb2a3af562b09595389d3ae60"
+    },
+    "labels_k6": {
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\cluster_clean_version_fullweek\\outputs\\labels\\rail_k6_labels.csv",
+      "sha256": "ff794a67e7cdd0ed74866a19bf0e1de8037d2a1122579667282a811851596775"
+    },
+    "original_kdiag": {
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\cluster_clean_version_fullweek\\outputs\\diagnostics\\rail_kdiag.csv",
+      "sha256": "f2639174d2e14f828700aee235000d67df4f471ad71e7f06c7bf2a97678bb558"
+    },
+    "coords_audit_only": {
+      "path": "D:\\SDS2025_workspace\\CASA_FYP\\FYP\\cluster_clean_version_grouped\\outputs\\preprocessed\\rail_coords.csv",
+      "sha256": "9be7d44ed9a7169d8a43cdc894aea4c22d82e1f18092f2f476ad6eda4ec2f225"
+    }
+  },
+  "transition_summary": {
+    "adjusted_rand_index": 0.7702580519303458,
+    "best_match_count": 221,
+    "best_match_share": 0.8185185185185185
+  },
+  "external_characterization_variables_loaded": false
+}

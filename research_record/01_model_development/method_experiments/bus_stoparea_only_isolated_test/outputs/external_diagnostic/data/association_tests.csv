@@ -1,0 +1,11 @@
+k,domain,n,effect_name,effect_size,effect_class,secondary_effect_name,secondary_effect_size,test_statistic_name,test_statistic,asymptotic_p,permutation_p,expected_cells_lt5,permutation_p_bh
+3,distance_to_centre_km,3791,eta_squared,0.05373055534296843,small,kruskal_epsilon_squared,0.0510056499298364,kruskal_H,195.2094019342203,4.081473322278901e-43,0.001,0,0.001
+3,log_total_activity,3791,eta_squared,0.49659629950896683,large,kruskal_epsilon_squared,0.534956615032728,kruskal_H,2028.4156577439735,0.0,0.001,0,0.001
+3,london_plan_inner_outer,3791,cramers_v,0.17065222712091493,small,none,,chi_squared,110.40219431745572,1.0628405340792319e-24,0.001,0,0.001
+3,howard_four_borough_check,357,cramers_v,0.2415543459414447,small,central_outer_total_variation,0.15141995476250314,chi_squared,20.830415229422094,2.997317884445609e-05,0.001,0,0.001
+3,distance_adjusted_for_log_activity,3791,incremental_r2,0.009880308544526374,negligible,full_model_r2,0.0852142551007189,reduced_activity_only_r2,0.07608569671556764,,0.001,0,0.001
+4,distance_to_centre_km,3791,eta_squared,0.09286654380222509,medium,kruskal_epsilon_squared,0.09021847281159666,kruskal_H,344.65735653751653,2.1403974723424307e-74,0.001,0,0.001
+4,log_total_activity,3791,eta_squared,0.6267439756186338,large,kruskal_epsilon_squared,0.6705092767516879,kruskal_H,2542.218631058642,0.0,0.001,0,0.001
+4,london_plan_inner_outer,3791,cramers_v,0.23823242279790013,small,none,,chi_squared,215.15701944874888,2.236501992767241e-46,0.001,0,0.001
+4,howard_four_borough_check,357,cramers_v,0.4303966514839631,medium,central_outer_total_variation,0.4201746670017592,chi_squared,66.13113610627306,2.8732513389931437e-14,0.001,0,0.001
+4,distance_adjusted_for_log_activity,3791,incremental_r2,0.0273767417956199,small,full_model_r2,0.10137946003786558,reduced_activity_only_r2,0.07608569671556764,,0.001,0,0.001

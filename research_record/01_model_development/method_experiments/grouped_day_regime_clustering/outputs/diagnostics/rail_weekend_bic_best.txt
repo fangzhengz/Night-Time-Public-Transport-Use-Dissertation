@@ -1,0 +1,7 @@
+=== rail_weekend: X (270, 88) ===
+BIC-best: covariance=tied, K=2, BIC=-226666.3
+  spherical: best K=12 (BIC -199566.1)
+  diag: best K=8 (BIC -209541.8)
+  tied: best K=2 (BIC -226666.3)
+  full: best K=2 (BIC -209156.1)
+kdiag (cov=tied) silhouette: K2=0.394, K3=0.199, K4=0.141, K5=0.116, K6=0.132, K7=0.126, K8=0.122, K9=0.090, K10=0.073, K11=0.076, K12=0.107

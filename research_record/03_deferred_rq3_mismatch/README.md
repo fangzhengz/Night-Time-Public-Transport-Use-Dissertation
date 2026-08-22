@@ -10,9 +10,9 @@ This folder contains code and data for Research Question 3 (night-worker–night
 
 - **Code** (in `src/`): Preserved for reference and potential future work
 - **Data** (in `data/`): Small reference lookups retained
-- **Outputs**: Deliberately excluded from this archive
+- **Outputs** (in `outputs/`): Preserved as a stale historical snapshot so the attempted analysis remains inspectable; they are not valid final evidence
 
-The bug in the original config.py (paths pointing at cluster labels instead of LNWC data) was fixed on 2026-08-08, but outputs were generated 2026-08-07 (before the fix), making them stale. Rather than regenerate stale RQ3 outputs for a dropped research question, only the corrected code is preserved.
+The bug in the original `config.py` (paths pointing at cluster labels instead of LNWC data) was fixed on 2026-08-08, but the retained outputs were generated on 2026-08-07, before that correction. They are kept to document what was attempted, not to support a claim or reproduce the submitted dissertation. A future reuse must rerun the corrected code from authorised inputs into a new output directory.
 
 ### Reason for removal
 

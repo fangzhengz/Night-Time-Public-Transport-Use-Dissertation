@@ -1,0 +1,17 @@
+dataset,w,BIC_best_cov,BIC_best_K,silhouette@bestK,overnight_sep@bestK,top_overnight_share@bestK,top_ov_cluster_size@bestK,bootstrap_ARI@bestK
+rail_weekday,1.0,tied,2,0.49,0.0046,0.0405,253,0.582
+rail_weekday,0.5,tied,2,0.512,0.0037,0.0404,252,0.646
+rail_weekday,0.3,tied,2,0.555,0.0031,0.0403,255,0.766
+rail_weekday,0.0,tied,2,0.568,0.0031,0.0403,255,0.804
+rail_weekend,1.0,tied,2,0.394,0.0019,0.1666,40,0.739
+rail_weekend,0.5,tied,2,0.384,0.0039,0.1691,39,0.562
+rail_weekend,0.3,tied,2,0.374,0.0078,0.1738,37,0.589
+rail_weekend,0.0,tied,2,0.4,0.0077,0.1742,26,0.576
+bus_weekday,1.0,full,5,0.011,0.0701,0.346,433,0.714
+bus_weekday,0.5,full,8,-0.011,0.0859,0.4013,46,0.618
+bus_weekday,0.3,full,7,-0.026,0.0958,0.3436,306,0.563
+bus_weekday,0.0,full,6,-0.023,0.0788,0.3484,315,0.561
+bus_weekend,1.0,full,6,-0.023,0.09,0.3401,427,0.642
+bus_weekend,0.5,full,7,-0.031,0.102,0.3818,346,0.605
+bus_weekend,0.3,full,8,-0.035,0.1167,0.4605,69,0.571
+bus_weekend,0.0,diag,12,-0.087,0.1081,0.4436,211,0.57

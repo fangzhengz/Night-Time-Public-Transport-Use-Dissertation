@@ -1,0 +1,9 @@
+{
+  "selected_k": 3,
+  "covariance": "full",
+  "same_seed_n_init": 20,
+  "label_ari": 1.0,
+  "labels_exactly_equal": true,
+  "bic_absolute_difference": 0.0,
+  "verdict": "REPRODUCIBLE"
+}

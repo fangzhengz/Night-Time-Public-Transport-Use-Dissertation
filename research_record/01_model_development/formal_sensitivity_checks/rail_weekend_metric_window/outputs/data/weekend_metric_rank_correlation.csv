@@ -1,0 +1,4 @@
+,canonical_common_window_fri_excluded,full_window_fri_excluded,full_window_bus_aligned
+canonical_common_window_fri_excluded,1.0,0.989,0.978
+full_window_fri_excluded,0.989,1.0,0.983
+full_window_bus_aligned,0.978,0.983,1.0

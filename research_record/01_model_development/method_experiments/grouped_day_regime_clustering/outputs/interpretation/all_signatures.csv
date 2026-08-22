@@ -1,0 +1,18 @@
+dataset,K,cluster,n,pct_units,vol_mean,net_dir,t_median,evening_18_20,late_00plus,hump_22_23,max_post,entropy,rep_units
+rail_weekday,5,0,9,3.3,18052.9,0.394,19:45,0.476,0.015,0.152,1.0,0.01,Tottenham Court Road | Piccadilly Circus | Leicester Square | Embankment | Charing Cross LU
+rail_weekday,5,1,177,65.6,5387.9,-0.409,19:30,0.556,0.027,0.1,0.98,0.06,Paddington TfL | Canary Wharf LU | South Kensington | Hammersmith (DIS) | Finsbury Park LU
+rail_weekday,5,2,29,10.7,1905.9,-0.474,19:15,0.605,0.026,0.081,0.97,0.1,Parsons Green | North Acton | Putney Bridge | Uxbridge | Gunnersbury
+rail_weekday,5,3,50,18.5,14974.6,0.098,19:15,0.597,0.017,0.089,0.96,0.1,Waterloo LU | King's Cross St. Pancras | Liverpool Street LU | Victoria LU | Oxford Circus
+rail_weekday,5,4,5,1.9,7016.7,-0.321,20:00,0.491,0.029,0.142,1.0,0.0,North Greenwich | Kentish Town | Chalk Farm | Chalfont & Latimer | Theydon Bois
+rail_weekend,4,0,102,37.8,13232.2,-0.323,20:30,0.428,0.133,0.108,0.99,0.03,Stratford | Brixton LU | Canary Wharf LU | Finsbury Park LU | Vauxhall LU
+rail_weekend,4,1,96,35.6,6701.7,-0.344,20:00,0.481,0.071,0.106,0.99,0.04,Camden Town | Wimbledon | Whitechapel | Elephant & Castle LU | Barking
+rail_weekend,4,2,15,5.6,42037.5,0.232,20:30,0.419,0.077,0.146,0.97,0.07,Tottenham Court Road | Leicester Square | Piccadilly Circus | Embankment | Highbury & Islington
+rail_weekend,4,3,57,21.1,33490.5,0.08,20:00,0.473,0.059,0.119,0.98,0.06,King's Cross St. Pancras | Waterloo LU | Victoria LU | London Bridge LU | Liverpool Street LU
+bus_weekday,4,0,1376,38.8,1365.7,-0.075,20:00,0.493,0.115,0.086,0.96,0.11,BRIXTON STATION | STRATFORD BUS STATION | ELEPHANT & CASTLE / LONDON ROAD | VICTORIA STATION | SHEPHERD'S BUSH STATION
+bus_weekday,4,1,909,25.6,325.1,-0.178,20:00,0.481,0.14,0.081,0.96,0.11,KING'S COLLEGE HOSPITAL | HIGH STREET NORTH | KING STREET | RUSSELL SQUARE | HIGH STREET NORTH
+bus_weekday,4,2,1145,32.3,237.9,-0.216,19:00,0.55,0.076,0.076,0.98,0.04,BRENT CROSS SHOPPING CENTRE | KENTON STATION | MILL HILL BROADWAY STATION | ST HELIER HOSPITAL | QUEEN ELIZABETH HOSPITAL / MAIN ENTRANCE
+bus_weekday,4,3,118,3.3,1451.4,0.085,20:00,0.428,0.186,0.092,0.99,0.03,LIVERPOOL STREET STATION | HAYMARKET / CHARLES IL STREET | HATTON CROSS STATION | ALDWYCH / DRURY LANE | GREAT TITCHFIELD ST / OXFORD CIRCUS STN
+bus_weekend,4,0,57,1.5,1055.7,0.048,20:00,0.391,0.196,0.101,0.99,0.02,HATTON CROSS STATION | FINSBURY PARK STATION | GREAT SOUTH WEST ROAD | GREENFORD STATION | LOWER ROAD / BELVEDERE STATION
+bus_weekend,4,1,927,24.8,756.8,-0.103,20:00,0.435,0.144,0.092,0.96,0.09,LIVERPOOL STREET STATION | HAYMARKET / CHARLES IL STREET | STRATFORD BUS STATION | GREAT TITCHFIELD ST / OXFORD CIRCUS STN | ALDWYCH / DRURY LANE
+bus_weekend,4,2,1191,31.8,286.9,-0.182,20:00,0.492,0.06,0.094,0.99,0.02,NEWHAM UNIVERSITY HOSP / NEW VIC COLLEGE | DAGENHAM HEATHWAY STATION | RAINHAM TESCO | BRENT PARK TESCO | KENTON / CHARLTON ROAD
+bus_weekend,4,3,1567,41.9,2055.9,-0.1,20:00,0.439,0.123,0.096,0.97,0.08,BRIXTON STATION | NORTH GREENWICH STATION | VICTORIA STATION | SHEPHERD'S BUSH STATION | CLAPHAM JUNCTION STATION

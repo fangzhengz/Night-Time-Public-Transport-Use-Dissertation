@@ -1,0 +1,12 @@
+{
+  "n_lsoa": 3593,
+  "n_features": 72,
+  "alpha0_rank": 58,
+  "alpha5_rank": 58,
+  "median_tv": 0.0018153301370652107,
+  "p95_tv": 0.026802558480457046,
+  "max_tv": 0.6138045520500963,
+  "pairwise_distance_correlation_500_sample": 0.9553848377693412,
+  "pairwise_distance_median_abs_change": 0.0036938377565282343,
+  "pairwise_distance_p95_abs_change": 0.025921402675198633
+}

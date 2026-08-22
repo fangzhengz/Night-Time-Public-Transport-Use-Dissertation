@@ -1,0 +1,5 @@
+dataset,K,cluster,n,pct_units,vol_mean,net_dir,t_median,evening_18_20,late_00plus,hump_22_23,max_post,entropy,rep_units
+rail_weekend,4,0,102,37.8,13232.2,-0.323,20:30,0.428,0.133,0.108,0.99,0.03,Stratford | Brixton LU | Canary Wharf LU | Finsbury Park LU | Vauxhall LU
+rail_weekend,4,1,96,35.6,6701.7,-0.344,20:00,0.481,0.071,0.106,0.99,0.04,Camden Town | Wimbledon | Whitechapel | Elephant & Castle LU | Barking
+rail_weekend,4,2,15,5.6,42037.5,0.232,20:30,0.419,0.077,0.146,0.97,0.07,Tottenham Court Road | Leicester Square | Piccadilly Circus | Embankment | Highbury & Islington
+rail_weekend,4,3,57,21.1,33490.5,0.08,20:00,0.473,0.059,0.119,0.98,0.06,King's Cross St. Pancras | Waterloo LU | Victoria LU | London Bridge LU | Liverpool Street LU

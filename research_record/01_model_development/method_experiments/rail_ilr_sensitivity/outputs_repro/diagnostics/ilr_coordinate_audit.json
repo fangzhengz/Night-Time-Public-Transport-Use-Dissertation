@@ -1,0 +1,13 @@
+{
+  "n_stations": 270,
+  "raw_share_columns": 344,
+  "parts_per_direction": 172,
+  "ilr_columns": 342,
+  "centered_sample_rank": 269,
+  "pseudocount_alpha": 1.0,
+  "raw_zero_cell_count": 6989,
+  "minimum_posterior_share": 2.2128188844408775e-10,
+  "max_closure_error": 1.7763568394002505e-15,
+  "max_raw_share_recovery_error": 6.938893903907228e-18,
+  "max_sampled_distance_error_clr_vs_ilr": 2.842170943040401e-14
+}

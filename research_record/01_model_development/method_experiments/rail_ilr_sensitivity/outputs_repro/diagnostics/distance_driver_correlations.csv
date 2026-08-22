@@ -1,0 +1,7 @@
+﻿representation,driver,spearman_rho,p_value,station_pairs
+raw_euclidean,absolute_log_activity_difference,0.3128155436484239,0.0,36315
+raw_euclidean,absolute_zero_count_difference,0.11207788367316363,7.828357919924503e-102,36315
+raw_euclidean,zero_pattern_hamming_difference,0.11092825874331573,8.813594283042874e-100,36315
+ilr_euclidean,absolute_log_activity_difference,0.02319630712611344,9.831535456652602e-06,36315
+ilr_euclidean,absolute_zero_count_difference,0.8659696312924902,0.0,36315
+ilr_euclidean,zero_pattern_hamming_difference,0.884864518507624,0.0,36315

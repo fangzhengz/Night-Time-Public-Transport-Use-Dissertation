@@ -1,0 +1,5 @@
+stop rows: 2025161 | stops: 19589 | day_types: ['Saturday', 'Sunday', 'Weekday']
+bus-stop geo file: 21515 stops | LSOA polygons: 4994
+stops matched to an LSOA (point-in-polygon within): 20307/21515 = 94.4%
+BUSTO stops with no LSOA: 1138 (rows 3.67% dropped)
+LSOA-level long rows: 261636 | unique LSOAs: 4111 | hour bins: [np.int16(1080), np.int16(1140), np.int16(1200), np.int16(1260), np.int16(1320), np.int16(1380), np.int16(1440), np.int16(1500), np.int16(1560), np.int16(1620), np.int16(1680), np.int16(1740)]

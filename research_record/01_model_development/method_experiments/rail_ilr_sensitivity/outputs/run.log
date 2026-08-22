@@ -1,0 +1,11 @@
+[1/9] Loading fixed Rail inputs
+      stations=270, raw_features=344
+[2/9] Building empirical-prior Helmert ILR coordinates
+      ILR shape=(270, 342), centered_rank=269, distance_error=2.842e-14
+[3/9] Running four-covariance BIC grid
+[4/9] Fitting primary diagonal-GMM K=2..12
+[5/9] Running 200 paired station bootstraps for K=3..8
+[6/9] Running 20 full-data seed refits for K=3..8
+[7/9] Comparing raw-share and ILR labels
+[8/9] Rendering figures and validation reports
+[9/9] Complete in 87.2s -> D:\SDS2025_workspace\CASA_FYP\FYP\rq1_rail_ilr_sensitivity\outputs

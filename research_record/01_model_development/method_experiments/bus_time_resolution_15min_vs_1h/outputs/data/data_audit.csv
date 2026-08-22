@@ -1,0 +1,9 @@
+metric,value
+source_rows,997034
+source_unique_lsoa,4111
+analysis_lsoa,4100
+x15_shape,"[4100, 288]"
+x60_shape,"[4100, 72]"
+total_activity_max_abs_difference,3.637978807091713e-11
+x15_existing_max_abs_difference,0.0
+x60_existing_max_abs_difference,8.326672684688674e-17

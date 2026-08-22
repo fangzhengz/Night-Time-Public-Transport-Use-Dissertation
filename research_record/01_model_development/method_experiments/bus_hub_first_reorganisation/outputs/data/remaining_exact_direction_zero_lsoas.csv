@@ -1,0 +1,8 @@
+lsoa,alightings,boardings,total_activity,direction_ratio,exact_direction_zero,near_zero_ratio_lt_0_01,eligible_two_direction_clustering,exclusion_reason
+E01000195,0.0,120.58844,120.58844,0.0,True,False,False,zero_alighting_direction
+E01000800,193.61013,0.0,193.61013,0.0,True,False,False,zero_boarding_direction
+E01003189,0.0,26.01711,26.01711,0.0,True,False,False,zero_alighting_direction
+E01003196,0.0,82.10828,82.10828,0.0,True,False,False,zero_alighting_direction
+E01003271,0.0,9.81904,9.81904,0.0,True,False,False,zero_alighting_direction
+E01003988,6.77931,0.0,6.77931,0.0,True,False,False,zero_boarding_direction
+E01004108,0.2450199999999999,0.0,0.2450199999999999,0.0,True,False,False,zero_boarding_direction

@@ -1,0 +1,55 @@
+{
+  "version": "bus_clr_k4_context_v1",
+  "sample_n": 3365,
+  "k4_cluster_sizes": {
+    "0": 558,
+    "1": 1132,
+    "2": 607,
+    "3": 1068
+  },
+  "lnwc": {
+    "chi_square": 650.7259616192767,
+    "p_value": 1.5880164583319567e-126,
+    "degrees_of_freedom": 18,
+    "cramers_v": 0.25389018105001304,
+    "n": 3365,
+    "min_expected": 34.82317979197622,
+    "cells_expected_lt5": 0,
+    "cells_expected_lt1": 0
+  },
+  "imd": {
+    "kruskal_h": 203.90695216108338,
+    "degrees_of_freedom": 3,
+    "p_value": 6.038630005913654e-44,
+    "epsilon_squared": 0.059775945302315794,
+    "n": 3365
+  },
+  "k_sensitivity": [
+    {
+      "K": 3,
+      "n": 3365,
+      "lnwc_chi_square": 622.3692096784554,
+      "lnwc_df": 12,
+      "lnwc_p_value": 1.7667059740128542e-125,
+      "lnwc_cramers_v": 0.3041000680102063,
+      "lnwc_min_expected": 58.91233283803863,
+      "imd_kruskal_h": 212.88063576793508,
+      "imd_df": 2,
+      "imd_p_value": 5.936866605800762e-47,
+      "imd_epsilon_squared": 0.06272475781318711
+    },
+    {
+      "K": 4,
+      "n": 3365,
+      "lnwc_chi_square": 650.7259616192767,
+      "lnwc_df": 18,
+      "lnwc_p_value": 1.5880164583319567e-126,
+      "lnwc_cramers_v": 0.25389018105001304,
+      "lnwc_min_expected": 34.82317979197622,
+      "imd_kruskal_h": 203.90695216108338,
+      "imd_df": 3,
+      "imd_p_value": 6.038630005913654e-44,
+      "imd_epsilon_squared": 0.059775945302315794
+    }
+  ]
+}

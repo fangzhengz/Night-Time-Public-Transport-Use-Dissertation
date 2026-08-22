@@ -1,0 +1,12 @@
+{
+  "selected_k": 3,
+  "selection_basis": "lowest within-Hellinger BIC among pre-screened stable/non-tiny K=2..8 solutions",
+  "structural_screen_pass": true,
+  "zero_eta2_reduction_vs_clr": -0.03721792626763176,
+  "zero_reduction_gate": 0.25,
+  "zero_gate_pass": false,
+  "timing_eta2_retention_vs_clr": 0.8995365267637013,
+  "timing_retention_gate": 0.85,
+  "timing_gate_pass": true,
+  "transform_acceptance_pass": false
+}

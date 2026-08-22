@@ -1,0 +1,7 @@
+{
+  "n_mapped_lsoas": 3593,
+  "n_queen_edges": 8290,
+  "observed_same_cluster_edge_share": 0.48962605548854043,
+  "random_label_expected_share": 0.4079931995052693,
+  "observed_to_expected_ratio": 1.2000838643444518
+}

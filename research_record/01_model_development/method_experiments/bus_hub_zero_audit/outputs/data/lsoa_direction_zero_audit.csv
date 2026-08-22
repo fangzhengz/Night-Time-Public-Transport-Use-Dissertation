@@ -1,0 +1,16 @@
+lsoa,boardings,alightings,total_activity,missing_direction,hub_split_supported,n_supporting_hubs,supporting_hubs,high_activity_ge_450,recommended_status
+E01002735,7643.06084,0.0,7643.06084,alightings,True,1,940GZZLUFPK,True,exclude_from_two_direction_clustering
+E01001916,639.82525,0.0,639.82525,alightings,True,1,940GZZLUPYB,True,exclude_from_two_direction_clustering
+E01000611,259.19577,0.0,259.19577,alightings,True,1,940GZZLUSUT,False,exclude_from_two_direction_clustering
+E01000294,0.0,216.83585,216.83585,boardings,True,1,490G00003637,False,exclude_from_two_direction_clustering
+E01004659,216.66832,0.0,216.66832,alightings,True,1,490G00000351,False,exclude_from_two_direction_clustering
+E01000195,120.58843999999999,0.0,120.58843999999999,alightings,False,0,,False,exclude_from_two_direction_clustering
+E01003196,82.10828,0.0,82.10828,alightings,False,0,,False,exclude_from_two_direction_clustering
+E01001380,53.7735,0.0,53.7735,alightings,True,1,490G00020107,False,exclude_from_two_direction_clustering
+E01003189,26.017109999999995,0.0,26.017109999999995,alightings,False,0,,False,exclude_from_two_direction_clustering
+E01003987,0.0,25.94222,25.94222,boardings,True,2,490G00012072|910GSBRMNDS,False,exclude_from_two_direction_clustering
+E01003271,9.81904,0.0,9.81904,alightings,False,0,,False,exclude_from_two_direction_clustering
+E01001960,0.0,3.6677099999999996,3.6677099999999996,boardings,True,1,490G00006487,False,exclude_from_two_direction_clustering
+E01004108,0.0,0.2450199999999999,0.2450199999999999,boardings,False,0,,False,exclude_from_two_direction_clustering
+E01000319,0.0,0.12762,0.12762,boardings,True,1,490G00012419,False,exclude_from_two_direction_clustering
+E01000446,0.0,0.06558,0.06558,boardings,True,1,490G00015607,False,exclude_from_two_direction_clustering

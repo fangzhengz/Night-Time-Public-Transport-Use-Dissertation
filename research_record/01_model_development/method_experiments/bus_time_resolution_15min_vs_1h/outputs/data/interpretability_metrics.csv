@@ -1,0 +1,73 @@
+resolution,covariance,K,metric,epsilon_squared
+15min,diag,3,log_total_activity,0.49755488538619047
+15min,diag,3,post_midnight_share,0.3542165620604625
+15min,diag,3,deep_night_share,0.2651119727718133
+15min,diag,3,direction_balance,0.007120940687356393
+15min,diag,3,weekend_ratio,0.04249127675897723
+15min,diag,3,LNWC association,0.22264764490143096
+1h,diag,3,log_total_activity,0.37948957620333584
+1h,diag,3,post_midnight_share,0.5436039280964282
+1h,diag,3,deep_night_share,0.3564072073873715
+1h,diag,3,direction_balance,0.018618907716423726
+1h,diag,3,weekend_ratio,0.09237642403000348
+1h,diag,3,LNWC association,0.2521055221993397
+15min,diag,4,log_total_activity,0.6552139145629634
+15min,diag,4,post_midnight_share,0.44275817423989106
+15min,diag,4,deep_night_share,0.29326756829199746
+15min,diag,4,direction_balance,0.04181216495339221
+15min,diag,4,weekend_ratio,0.09175956557468545
+15min,diag,4,LNWC association,0.2461071634116903
+1h,diag,4,log_total_activity,0.4830315654545432
+1h,diag,4,post_midnight_share,0.5600116991643292
+1h,diag,4,deep_night_share,0.3278736258645497
+1h,diag,4,direction_balance,0.03943643819783161
+1h,diag,4,weekend_ratio,0.14708347015330636
+1h,diag,4,LNWC association,0.2784383544918453
+15min,diag,5,log_total_activity,0.680262905419683
+15min,diag,5,post_midnight_share,0.4379609279580384
+15min,diag,5,deep_night_share,0.28381386352476623
+15min,diag,5,direction_balance,0.04598057614837574
+15min,diag,5,weekend_ratio,0.09986338586703522
+15min,diag,5,LNWC association,0.22688649694229404
+1h,diag,5,log_total_activity,0.48499379908498935
+1h,diag,5,post_midnight_share,0.5909381980821384
+1h,diag,5,deep_night_share,0.40462953184334954
+1h,diag,5,direction_balance,0.07577908297389595
+1h,diag,5,weekend_ratio,0.12996767488420075
+1h,diag,5,LNWC association,0.2576767797988764
+15min,tied,3,log_total_activity,0.07864379018483922
+15min,tied,3,post_midnight_share,0.05105757685609219
+15min,tied,3,deep_night_share,0.041572623003476986
+15min,tied,3,direction_balance,0.0
+15min,tied,3,weekend_ratio,0.010765772917981904
+15min,tied,3,LNWC association,0.09332791048548472
+1h,tied,3,log_total_activity,0.07550566914596302
+1h,tied,3,post_midnight_share,0.0350061098858583
+1h,tied,3,deep_night_share,0.0645373331386697
+1h,tied,3,direction_balance,0.02944015855404408
+1h,tied,3,weekend_ratio,0.06490748797687866
+1h,tied,3,LNWC association,0.16366448024433086
+15min,tied,4,log_total_activity,0.0041766956370583586
+15min,tied,4,post_midnight_share,0.0025287222207236015
+15min,tied,4,deep_night_share,0.001884116796358597
+15min,tied,4,direction_balance,0.0006985424566874506
+15min,tied,4,weekend_ratio,0.0007284535611646881
+15min,tied,4,LNWC association,0.04298194889855925
+1h,tied,4,log_total_activity,0.0836201793350555
+1h,tied,4,post_midnight_share,0.037261576645905625
+1h,tied,4,deep_night_share,0.06468784886872324
+1h,tied,4,direction_balance,0.024833637684357226
+1h,tied,4,weekend_ratio,0.06783586856131585
+1h,tied,4,LNWC association,0.140145468075861
+15min,tied,5,log_total_activity,0.10899324358736646
+15min,tied,5,post_midnight_share,0.04710470587102107
+15min,tied,5,deep_night_share,0.032837981544886
+15min,tied,5,direction_balance,0.001210823720197677
+15min,tied,5,weekend_ratio,0.022877438495974022
+15min,tied,5,LNWC association,0.09767873488308813
+1h,tied,5,log_total_activity,0.06525269397698917
+1h,tied,5,post_midnight_share,0.06677681701316293
+1h,tied,5,deep_night_share,0.0714497279348388
+1h,tied,5,direction_balance,0.005065943370550491
+1h,tied,5,weekend_ratio,0.02309720756384017
+1h,tied,5,LNWC association,0.08760537280070634

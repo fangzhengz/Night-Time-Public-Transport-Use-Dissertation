@@ -1,0 +1,4 @@
+RAIL weekday (pool ['weekday']): X (270, 56) | dropped<50: 0 | row-sum 2.00/2.00
+RAIL weekend (pool ['Friday', 'Saturday']): X (270, 88) | dropped<50: 0 | row-sum 2.00/2.00
+BUS weekday (pool ['Weekday']): X (3548, 24) | dropped<50: 563 | row-sum 1.00/2.00
+BUS weekend (pool ['Saturday', 'Sunday']): X (3742, 24) | dropped<50: 369 | row-sum 1.00/2.00

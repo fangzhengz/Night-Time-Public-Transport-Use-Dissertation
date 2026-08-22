@@ -1,0 +1,7 @@
+{
+  "command": "python -u src\\run_alpha_sensitivity.py --bootstrap 20",
+  "seed": 42,
+  "n_init": 20,
+  "bootstrap_n_init": 3,
+  "elapsed_seconds": 675.356791973114
+}
