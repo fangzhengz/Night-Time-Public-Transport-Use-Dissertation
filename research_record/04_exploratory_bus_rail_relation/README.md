@@ -25,6 +25,16 @@ bus cluster types co-occur with rail cluster types.
 
 ## Inputs (all read-only, nothing here modifies its sources)
 
+*Paths below are as this analysis was originally run, before the repository
+was reorganised into `analysis/01_data_preparation` …
+`05_reporting`. They point at the pre-reorganisation top-level folder names
+(e.g. `numbat_all_area_test`, `data_processing/rail_allmodes`,
+`rq2_new_clusters_analysis`) and will not resolve as-is in this repository.
+This is the same archival-snapshot caveat stated in
+[`research_record/README.md`](../README.md#reproducibility-status): update
+the paths to their `analysis/`-stage equivalents and rerun in isolation
+before reusing this study.*
+
 - Bus: `rq1_bus_stoparea_clustering/outputs/clr/labels/k4_labels.csv` — StopArea
   allocation, CLR transform, K=4, adopted 2026-07-29. 3,372 fitted LSOAs.
 - Rail: `numbat_all_area_test`'s all-modes K=5, **403 stations after the
@@ -35,6 +45,11 @@ bus cluster types co-occur with rail cluster types.
 - LSOA boundaries: `map/London_LSOA_2021_Boundaries.geojson`.
 
 ## Run order
+
+*The commands below are the original invocation for the record. Given the
+input paths above are pre-reorganisation, this folder is not currently
+runnable from a clean clone without first updating them — see the note
+above.*
 
 ```bash
 python src/01_build_link_table.py
