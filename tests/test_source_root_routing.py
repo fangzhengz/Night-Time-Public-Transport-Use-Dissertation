@@ -81,6 +81,41 @@ class SourceRootRoutingTests(unittest.TestCase):
                         f"{relative_path}:{attribute} does not use the authorised source root",
                     )
 
+    def test_adopted_input_interface_uses_ascii_directory_names(self) -> None:
+        checked_files = [
+            "authorised_data/README.md",
+            "scripts/run_pipeline.py",
+            "analysis/01_data_preparation/bus/src/preprocess_busto.py",
+            "analysis/01_data_preparation/bus/src/build_stoparea_data.py",
+            "analysis/01_data_preparation/rail/src/01_preprocess_rail_allmodes.py",
+            "analysis/01_data_preparation/rail/src/01c_match_naptan_coords.py",
+        ]
+        superseded_directory_names = [
+            "\u5df4\u58eb\u6570\u636e",
+            "\u5730\u94c1\u8fdb\u51fa\u7ad9\u6570\u636e",
+            "\u5730\u94c1\u8f66\u7ad9\u7a7a\u95f4\u6570\u636e",
+        ]
+        for relative_path in checked_files:
+            source = (ROOT / relative_path).read_text(encoding="utf-8-sig")
+            for directory_name in superseded_directory_names:
+                self.assertNotIn(
+                    directory_name,
+                    source,
+                    f"Superseded directory name remains in {relative_path}",
+                )
+
+        pipeline = load_module("pipeline_for_ascii_test", "scripts/run_pipeline.py")
+        for required_input in pipeline.REQUIRED_INPUTS:
+            self.assertTrue(
+                all(part.isascii() for part in Path(required_input).parts),
+                f"Non-ASCII path component in required input: {required_input}",
+            )
+        self.assertIn("bus_data/Bus_Stops.csv", pipeline.REQUIRED_INPUTS)
+        self.assertIn("rail_data", pipeline.REQUIRED_INPUTS)
+        self.assertIn(
+            "rail_station_spatial_data/Underground_Stations.csv", pipeline.REQUIRED_INPUTS
+        )
+
     def test_remaining_raw_routes_are_source_rooted(self) -> None:
         expected_snippets = {
             "analysis/02_mode_specific_clustering/rail/src/06_profiles_and_maps_allmodes.py": [

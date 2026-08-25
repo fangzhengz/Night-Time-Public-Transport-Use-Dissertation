@@ -39,7 +39,7 @@ LOGGER = logging.getLogger("preprocess_busto")
 SCRIPT_PATH = Path(__file__).resolve()
 FYP_ROOT = SCRIPT_PATH.parents[4]
 SOURCE_ROOT = Path(os.environ.get("CASA_FYP_SOURCE_ROOT", FYP_ROOT / "authorised_data")).expanduser().resolve()
-DEFAULT_INPUT_DIR = SOURCE_ROOT
+DEFAULT_INPUT_DIR = SOURCE_ROOT / "bus_data"
 DEFAULT_OUTPUT_DIR = FYP_ROOT / "outputs" / "preprocessed_busto_1805_min33"
 
 RAW_COLUMNS = [

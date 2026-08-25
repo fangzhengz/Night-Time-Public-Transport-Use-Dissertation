@@ -7,13 +7,15 @@ The expected local structure is:
 
 ```text
 authorised_data/
-├── 巴士数据/
+├── bus_data/
 │   ├── Bus_Stops.csv
 │   ├── NaPTAN_data/
 │   │   └── 490.xml
 │   └── ... BUSTO total-demand CSV files ...
-├── 地铁进出站数据/
-│   └── 地铁车站空间数据/Underground_Stations.csv
+├── rail_data/
+│   └── ... NUMBAT workbooks ...
+├── rail_station_spatial_data/
+│   └── Underground_Stations.csv
 ├── map/
 │   └── London_LSOA_2021_Boundaries.geojson
 ├── night_time_work_data/
@@ -27,6 +29,11 @@ authorised_data/
 └── data/raw/os_poi/
     └── poi_6438516.gpkg
 ```
+
+All repository-facing directory names are deliberately English and ASCII-only.
+If the provider files are stored in folders with different names, copy them into
+this structure or create local directory links with the English names shown
+above. Those local inputs and links are ignored by Git.
 
 The repository does not depend on a Windows drive letter. If the authorised
 inputs live elsewhere, pass their common parent directory explicitly:

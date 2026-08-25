@@ -45,10 +45,11 @@ STAGES = [
 ]
 
 REQUIRED_INPUTS = [
-    "巴士数据/NaPTAN_data",
-    "巴士数据/Bus_Stops.csv",
-    "地铁进出站数据",
-    "巴士数据/NaPTAN_data/490.xml",
+    "bus_data/NaPTAN_data",
+    "bus_data/Bus_Stops.csv",
+    "rail_data",
+    "rail_station_spatial_data/Underground_Stations.csv",
+    "bus_data/NaPTAN_data/490.xml",
     "map/London_LSOA_2021_Boundaries.geojson",
     "night_time_work_data/london_night_workers_classification_data.csv",
     "night_time_work_data/lnwc_variable_dictionary_pen_portaits.csv",
@@ -86,7 +87,7 @@ def main() -> None:
         parser.error("choose --dry-run or --full")
 
     source_root = args.source_root.resolve()
-    STAGES[0][1][3] = str(source_root)
+    STAGES[0][1][3] = str(source_root / "bus_data")
     missing = [item for item in REQUIRED_INPUTS if not (source_root / item).exists()]
     busto_pattern = "*TOTAL DEMAND BY ROUTE BY QUARTER HOUR*.csv"
     busto_found = any(source_root.rglob(busto_pattern)) if source_root.exists() else False

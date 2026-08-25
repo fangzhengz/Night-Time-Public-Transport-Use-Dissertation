@@ -24,8 +24,8 @@ ROOT = HERE.parents[1]
 FYP = HERE.parents[4]
 SOURCE_ROOT = Path(os.environ.get("CASA_FYP_SOURCE_ROOT", FYP / "authorised_data")).expanduser().resolve()
 
-NAPTAN_DIR = SOURCE_ROOT / "巴士数据" / "NaPTAN_data"
-BUS_STOPS_CSV = SOURCE_ROOT / "巴士数据" / "Bus_Stops.csv"
+NAPTAN_DIR = SOURCE_ROOT / "bus_data" / "NaPTAN_data"
+BUS_STOPS_CSV = SOURCE_ROOT / "bus_data" / "Bus_Stops.csv"
 # Adopted 18:00-05:00 source table.
 STOP_FLOW_PARQUET = (
     FYP / "outputs" / "preprocessed_busto_1805_min33" / "busto_stop_qhr_night.parquet"

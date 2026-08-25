@@ -34,7 +34,7 @@ DAY_TYPE_ORDER = ["MON", "TWT", "FRI", "SAT", "SUN"]
 
 FYP_ROOT = Path(__file__).resolve().parents[4]
 SOURCE_ROOT = Path(os.environ.get("CASA_FYP_SOURCE_ROOT", FYP_ROOT / "authorised_data")).expanduser().resolve()
-RAIL_DATA_DIR = SOURCE_ROOT / "地铁进出站数据"
+RAIL_DATA_DIR = SOURCE_ROOT / "rail_data"
 OUTPUT_DIR = Path(__file__).resolve().parents[1] / "outputs" / "data"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
