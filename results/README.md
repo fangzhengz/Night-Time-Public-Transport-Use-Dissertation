@@ -8,7 +8,13 @@ Two figure collections are kept because they answer different reproducibility qu
 - `diagnostics/` contains the Rail and Bus model-selection and posterior-membership summaries.
 - `figures/` contains descriptively named, byte-identical copies of the figures embedded in the submitted dissertation.
 - `recomputed_figures/` contains figures rebuilt from the adopted clean pipeline and committed aggregate tables.
+- `exploratory/` is a reader-facing index to completed side analyses, deferred RQ3 work and context alternatives that were not used as dissertation results.
+- `historical_and_sensitivity/` is a reader-facing index to model-development, stability, sensitivity and superseded-result records.
 - `manifest.csv` records the exact pipeline source and SHA-256 hash for each published rebuild output in the recomputed layer.
+
+The two non-final indexes contain links rather than duplicate copies. Their
+underlying files remain in `research_record/`, where each study's original
+status, sample and cautions are preserved in one authoritative location.
 
 Runtime intermediates stay under `analysis/**/outputs*` and are excluded from Git. A complete local run ends by executing `scripts/publish_results.py`, which refreshes the tables, diagnostics and `recomputed_figures/` before validation.
 

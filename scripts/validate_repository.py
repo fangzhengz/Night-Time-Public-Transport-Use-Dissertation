@@ -127,18 +127,18 @@ def validate() -> list[str]:
     missing_record = sorted(item for item in record_required if not (record / item).is_file())
     assert not missing_record, f"Missing research-record evidence: {missing_record}"
     record_index = rows(record / "STATUS.csv")
-    assert len(record_index) == 35
+    assert len(record_index) == 36
     assert all(item["category"] and item["status"] and item["path"] for item in record_index)
     for item in record_index:
         study_dir = record / item["path"]
         assert study_dir.is_dir(), f"Missing indexed research-record directory: {item['path']}"
         assert (study_dir / "README.md").is_file(), f"Missing indexed README: {item['path']}"
     coverage_index = rows(record / "SOURCE_COVERAGE.csv")
-    assert len(coverage_index) == 43
+    assert len(coverage_index) == 44
     assert all(item["source_location"] and item["coverage_type"] and item["status"] for item in coverage_index)
     for active_script in (ROOT / "scripts" / "run_pipeline.py", ROOT / "scripts" / "publish_results.py"):
         assert "research_record" not in active_script.read_text(encoding="utf-8")
-    checks.append("35-study research record and 43-row source-coverage ledger")
+    checks.append("36-study research record and 44-row source-coverage ledger")
     return checks
 
 

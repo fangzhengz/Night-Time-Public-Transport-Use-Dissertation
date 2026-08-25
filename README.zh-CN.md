@@ -13,8 +13,10 @@
 3. [`docs/metric_dictionary.md`](docs/metric_dictionary.md)：解释原始值、z-score、效应量和检验统计量之间的区别；
 4. [`results/tables/`](results/tables/)：最终统计表；
 5. [`results/figures/`](results/figures/)：按内容命名的最终图；
-6. [`research_record/`](research_record/)：与最终管路隔离的35项试验、敏感性、弃用 RQ3 和探索性分析记录；
-7. [`paper/CASA0010_dissertation_FangzhengZhou.pdf`](paper/CASA0010_dissertation_FangzhengZhou.pdf)：原样保留的已提交论文。
+6. [`results/exploratory/`](results/exploratory/)：未进入论文正式结果的探索性分析和弃用 RQ3 导航；
+7. [`results/historical_and_sensitivity/`](results/historical_and_sensitivity/)：旧结果、稳定性、诊断与敏感性检验导航；
+8. [`research_record/`](research_record/)：与最终管路隔离的36项研究记录原件；
+9. [`paper/CASA0010_dissertation_FangzhengZhou.pdf`](paper/CASA0010_dissertation_FangzhengZhou.pdf)：原样保留的已提交论文。
 
 GitHub 不分发受许可限制的原始 NUMBAT、BUSTO 和 OS Points of Interest 数据；仓库提供来源、校验边界和完整代码。分析代码按论文顺序位于 `analysis/01_data_preparation` 至 `analysis/05_reporting`。原始数据默认从仓库相对目录 [`authorised_data/`](authorised_data/README.md) 读取，不依赖任何 Windows 盘符；导师也可以使用 `--source-root` 指向其电脑上的任意授权数据目录。`python scripts/validate_repository.py` 可快速验证已提交结果，配置本地原始数据后可使用 `python scripts/run_pipeline.py --full` 完整重跑。
 

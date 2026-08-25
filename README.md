@@ -31,6 +31,8 @@ Rail and Bus are modelled separately. Their cluster identifiers are mode-specifi
 - [`results/tables/`](results/tables/) contains the compact machine-readable evidence reported in the dissertation.
 - [`results/figures/`](results/figures/) contains descriptively named copies of the exact figures embedded in the submitted dissertation.
 - [`results/recomputed_figures/`](results/recomputed_figures/) contains figures rebuilt from the adopted clean pipeline.
+- [`results/exploratory/`](results/exploratory/) provides a reader-facing index to completed side analyses and the deferred RQ3 record.
+- [`results/historical_and_sensitivity/`](results/historical_and_sensitivity/) provides a reader-facing index to historical outputs, diagnostics and sensitivity checks.
 - [`research_record/`](research_record/) preserves method development, sensitivity and stability checks, deferred RQ3 work, and exploratory analyses that were not used as dissertation results.
 - [`research_record/SOURCE_COVERAGE.csv`](research_record/SOURCE_COVERAGE.csv) records how the original local analysis branches were retained, represented or explicitly excluded.
 - [`docs/workspace_coverage_audit.md`](docs/workspace_coverage_audit.md) documents the final workspace-to-repository coverage audit and remediation.
@@ -67,7 +69,8 @@ analysis/02_mode_specific_clustering/  adopted Rail K=5 and Bus K=4 models
 analysis/03_lnwc_context/        behavioural summaries and LNWC analysis
 analysis/04_urban_context/       20-variable contextual analysis
 analysis/05_reporting/           final tables and figures
-results/                         compact final evidence and reader-facing figures
+results/                         final evidence plus clearly separated non-final result indexes
+research_record/                 authoritative historical code, outputs and status notes
 paper/                           submitted PDF and its LaTeX source snapshot
 docs/                            audit trail, definitions and reproducibility boundary
 scripts/                         validation, reporting and orchestration
@@ -76,7 +79,7 @@ tests/                           frozen-result regression tests
 
 Historical alternatives remain recoverable through Git history but are not part of this branch's active analytical path. Runtime products are excluded from Git; `scripts/publish_results.py` promotes adopted tables and diagnostics plus rebuilt figures into `results/recomputed_figures/`. It never overwrites the paper-matched figures in `results/figures/`.
 
-The curated [`research_record/`](research_record/) makes the wider research process visible without mixing it into the adopted pipeline. Its 35 indexed studies retain their historical assumptions and sample definitions; each is status-labelled and should not be treated as a result reported in the submitted dissertation. The early code layer and source-coverage ledger also account for superseded exploratory outputs that were intentionally not copied file by file.
+The curated [`research_record/`](research_record/) makes the wider research process visible without mixing it into the adopted pipeline. Its 36 indexed studies retain their historical assumptions and sample definitions; each is status-labelled and should not be treated as a result reported in the submitted dissertation. The early code layer and source-coverage ledger also account for superseded exploratory outputs that were intentionally not copied file by file.
 
 ## Citation
 
