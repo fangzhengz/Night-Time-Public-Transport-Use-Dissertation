@@ -2,9 +2,7 @@
 
 London's public-transport system does not settle into a single pattern after dark. Rail stations and bus-served neighbourhoods remain active in different ways, at different times and in different urban settings. This repository follows the dissertation's attempt to describe that heterogeneity: first identifying recurring patterns of observed use within each mode, then asking how those patterns sit within London's night-work and wider socio-spatial geography.
 
-The repository is both a guide to the submitted study and a reproducibility companion. Its main path follows the analysis ultimately used in the dissertation, while a separate research record preserves the alternatives, diagnostic checks and abandoned questions that helped shape that path. The original GitHub address cited in the dissertation is retained.
-
-The immutable submitted dissertation is available at [`paper/CASA0010_dissertation_FangzhengZhou.pdf`](paper/CASA0010_dissertation_FangzhengZhou.pdf). Its SHA-256 is `5314d6511254ed0331ffcb712e27bdf7317fe6e1587aa7ab510522bda5f45963`.
+The repository is both a guide to the submitted study and a reproducibility companion. Its main path follows the analysis ultimately used in the dissertation, while a separate research record preserves the alternatives, diagnostic checks and abandoned questions that helped shape that path.
 
 ## Adopted analytical specification
 
