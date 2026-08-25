@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -39,10 +40,11 @@ the final analysis-ready station population.
 """
 
 FYP_ROOT = Path(__file__).resolve().parents[4]
+SOURCE_ROOT = Path(os.environ.get("CASA_FYP_SOURCE_ROOT", FYP_ROOT / "authorised_data")).expanduser().resolve()
 DATA_DIR = Path(__file__).resolve().parents[1] / "outputs" / "data"
 
-NAPTAN_PATH = FYP_ROOT / "巴士数据" / "NaPTAN_data" / "490.xml"
-UNDERGROUND_STATIONS_CSV = FYP_ROOT / "地铁进出站数据" / "地铁车站空间数据" / "Underground_Stations.csv"
+NAPTAN_PATH = SOURCE_ROOT / "巴士数据" / "NaPTAN_data" / "490.xml"
+UNDERGROUND_STATIONS_CSV = SOURCE_ROOT / "地铁进出站数据" / "地铁车站空间数据" / "Underground_Stations.csv"
 NS = {"n": "http://www.naptan.org.uk/"}
 
 MERGED_META = DATA_DIR / "numbat_allmodes_station_meta_merged.csv"

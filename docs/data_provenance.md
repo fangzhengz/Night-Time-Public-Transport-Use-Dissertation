@@ -15,4 +15,21 @@ The code is open, but not every input can be redistributed. A clean clone theref
 
 Local raw data and Parquet intermediates are excluded by `.gitignore`. The preprocessing audit records file sizes, row counts and SHA-256 hashes, allowing an authorised rerun to establish that it used the same inputs without publishing those inputs.
 
-For the local full rebuild, place the licensed OS POI GeoPackage at `data/raw/os_poi/poi_6438516.gpkg` and use the other provider directory names reported by the preflight, or provide equivalent local junctions outside Git tracking. Run `python scripts/run_pipeline.py --dry-run` before computation; its preflight reports every missing source.
+For a local full rebuild, place the provider files under the repository-relative
+`authorised_data/` directory using the structure documented in
+[`authorised_data/README.md`](../authorised_data/README.md). The directory is
+ignored by Git, so restricted inputs cannot be committed accidentally. This
+default is portable and contains no Windows drive letter.
+
+If an authorised holder stores the same directory tree elsewhere, its common
+parent can be supplied on any operating system:
+
+```bash
+python scripts/run_pipeline.py --dry-run --source-root "/path/to/authorised_data"
+python scripts/run_pipeline.py --full --source-root "/path/to/authorised_data"
+```
+
+The resolved source root is propagated to every adopted stage. Generated
+intermediates and results remain inside the clone. Always run the dry-run
+first; its preflight reports every missing source, including the BUSTO file
+pattern.

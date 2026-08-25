@@ -3,6 +3,7 @@
 This is a presentation-only layer: it reads locked labels and current formal
 output tables, never fits/relabels a model or recomputes a statistical test.
 """
+import os
 from pathlib import Path
 import json
 import textwrap
@@ -16,13 +17,14 @@ from matplotlib.patches import Patch
 import geopandas as gpd
 
 ROOT = Path(__file__).resolve().parents[2]
+SOURCE_ROOT = Path(os.environ.get("CASA_FYP_SOURCE_ROOT", ROOT / "authorised_data")).expanduser().resolve()
 OUT = ROOT / "results" / "generated_figures"
 OUT.mkdir(parents=True, exist_ok=True)
 RAIL = ROOT / "analysis" / "02_mode_specific_clustering" / "rail" / "outputs" / "data"
 BUSROOT = ROOT / "analysis" / "02_mode_specific_clustering" / "bus" / "outputs_1805_min33"
 RQ2 = ROOT / "analysis" / "03_lnwc_context" / "outputs"
 CTX = ROOT / "analysis" / "04_urban_context" / "outputs"
-BOUNDARY = ROOT / "map" / "London_LSOA_2021_Boundaries.geojson"
+BOUNDARY = SOURCE_ROOT / "map" / "London_LSOA_2021_Boundaries.geojson"
 RAIL_COORDS = ROOT / "analysis" / "01_data_preparation" / "rail" / "outputs" / "data" / "rail_allmodes_coords.csv"
 
 RC = ["#0072B2", "#E69F00", "#009E73", "#CC79A7", "#56B4E9"]

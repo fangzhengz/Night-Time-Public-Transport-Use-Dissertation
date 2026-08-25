@@ -57,7 +57,7 @@ Rebuild the behavioural z-score panels from the committed aggregate tables with:
 python analysis/05_reporting/make_behavioural_figures.py
 ```
 
-The full rebuild requires the raw/licensed datasets listed in [`docs/data_provenance.md`](docs/data_provenance.md). Those files are intentionally not redistributed. After configuring them locally, inspect the planned commands with `python scripts/run_pipeline.py --dry-run`, then run `python scripts/run_pipeline.py --full`.
+The full rebuild requires the raw/licensed datasets listed in [`docs/data_provenance.md`](docs/data_provenance.md). Those files are intentionally not redistributed. Put them in the portable repository-relative [`authorised_data/`](authorised_data/README.md) directory, or point `--source-root` to their common parent anywhere on the reviewer’s computer. Inspect the resolved inputs with `python scripts/run_pipeline.py --dry-run`, then run `python scripts/run_pipeline.py --full`.
 
 ## Repository layout
 

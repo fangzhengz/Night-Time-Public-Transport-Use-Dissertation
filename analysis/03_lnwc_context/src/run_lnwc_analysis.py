@@ -18,7 +18,7 @@ service-intensity view of the station-level averaging only. The only
 structural change from the original ``run_analysis.py`` is scope: rail
 catchments are rebuilt from scratch over the current 403-station
 clustering-eligible all-modes refit (not reused from the 270-station
-canonical geojson), and bus uses the StopArea CLR 3,372-LSOA universe.
+canonical geojson), and bus uses the StopArea-allocated CLR 3,383-LSOA universe.
 Cluster labels and continuous metrics are read from this folder's own
 ``run_context_metrics.py`` output rather than a separate meta file.
 

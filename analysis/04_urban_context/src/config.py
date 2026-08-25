@@ -92,16 +92,18 @@ and activity volume is near-mechanically related to density. Its job is to
 calibrate the other contextual associations.
 """
 
+import os
 from pathlib import Path
 
 HERE = Path(__file__).resolve()
 ROOT = HERE.parents[1]
 FYP = HERE.parents[3]
+SOURCE_ROOT = Path(os.environ.get("CASA_FYP_SOURCE_ROOT", FYP / "authorised_data")).expanduser().resolve()
 
 # --- IoD 2025, full domain file (native LSOA 2021, 33,755 rows nationally;
-# all 3,372 fitted bus LSOAs and all 4,994 London LSOAs match 1:1) ---
+# all 3,383 fitted bus LSOAs and all 4,994 London LSOAs match 1:1) ---
 IMD_FULL = (
-    FYP / "IMDdata_2025"
+    SOURCE_ROOT / "IMDdata_2025"
     / "File_7_IoD2025_All_Ranks_Scores_Deciles_Population_Denominators.csv"
 )
 IMD_LSOA_COLUMN = "LSOA code (2021)"
@@ -403,14 +405,14 @@ BUS_LABELS = FYP / "analysis" / "02_mode_specific_clustering" / "bus" / "outputs
 BUS_K = 4
 EXPECTED_BUS_UNITS = 3383
 
-LSOA_BOUNDARIES = FYP / "map" / "London_LSOA_2021_Boundaries.geojson"
+LSOA_BOUNDARIES = SOURCE_ROOT / "map" / "London_LSOA_2021_Boundaries.geojson"
 LSOA_BOUNDARY_CODE_COLUMN = "LSOA21CD"
 
 # OS Points of Interest, June 2026, downloaded from EDINA Digimap on
 # 2026-08-07. The licensed raw file remains under the local raw-data mount;
 # this pipeline derives only LSOA-level total-count and Shannon-diversity
 # variables from it. These are external post-clustering context variables.
-OS_POI = FYP / "data" / "raw" / "os_poi" / "poi_6438516.gpkg"
+OS_POI = SOURCE_ROOT / "data" / "raw" / "os_poi" / "poi_6438516.gpkg"
 OS_POI_LAYER = "Points of Interest 2026_06"
 FACILITY_RAW_VARIABLES = ["poi_count", "shannon_group"]
 

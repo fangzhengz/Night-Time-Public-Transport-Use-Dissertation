@@ -7,6 +7,9 @@ venv/
 .vscode/
 
 # Provider-restricted or large raw data
+authorised_data/**
+!authorised_data/README.md
+!authorised_data/.gitkeep
 data/raw/**
 !data/raw/.gitkeep
 *.parquet

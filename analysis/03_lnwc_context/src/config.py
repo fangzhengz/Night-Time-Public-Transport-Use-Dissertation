@@ -35,11 +35,13 @@ structure (config.py + run_*.py + outputs/{data,figures,spatial,report,
 workbook}) so results are directly comparable script-for-script.
 """
 
+import os
 from pathlib import Path
 
 HERE = Path(__file__).resolve()
 ROOT = HERE.parents[1]
 FYP = HERE.parents[3]
+SOURCE_ROOT = Path(os.environ.get("CASA_FYP_SOURCE_ROOT", FYP / "authorised_data")).expanduser().resolve()
 
 # --- rail: analysis/02_mode_specific_clustering/rail, all-modes merged, NaPTAN-matched 403-station refit, K=5 ---
 # Preprocessing (raw extraction, co-located merge, NaPTAN coordinate match)
@@ -79,10 +81,10 @@ RAIL_CATCHMENT_METRES = 800
 RANDOM_SEED = 42
 N_PERMUTATIONS = 999
 
-LNWC = FYP / "night_time_work_data" / "london_night_workers_classification_data.csv"
-LNWC_PORTRAITS = FYP / "night_time_work_data" / "lnwc_variable_dictionary_pen_portaits.csv"
-LSOA_BOUNDARIES = FYP / "map" / "London_LSOA_2021_Boundaries.geojson"
-IMD_LSOA21 = FYP / "IMDdata_2025" / "imd2025_lsoa21_london.csv"
+LNWC = SOURCE_ROOT / "night_time_work_data" / "london_night_workers_classification_data.csv"
+LNWC_PORTRAITS = SOURCE_ROOT / "night_time_work_data" / "lnwc_variable_dictionary_pen_portaits.csv"
+LSOA_BOUNDARIES = SOURCE_ROOT / "map" / "London_LSOA_2021_Boundaries.geojson"
+IMD_LSOA21 = SOURCE_ROOT / "IMDdata_2025" / "imd2025_lsoa21_london.csv"
 
 # Bus cluster palette, copied verbatim from
 # analysis/02_mode_specific_clustering/bus/src/config.py (red-cyan-blue family, 2026-08-03)

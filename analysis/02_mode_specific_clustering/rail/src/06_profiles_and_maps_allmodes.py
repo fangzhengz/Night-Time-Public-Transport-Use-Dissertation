@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 import geopandas as gpd
@@ -25,13 +26,14 @@ BIC pair identified for the all-modes data -- see rail_allmodes_bic_best.txt).
 """
 
 FYP_ROOT = Path(__file__).resolve().parents[4]
+SOURCE_ROOT = Path(os.environ.get("CASA_FYP_SOURCE_ROOT", FYP_ROOT / "authorised_data")).expanduser().resolve()
 DATA_DIR = Path(__file__).resolve().parents[1] / "outputs" / "data"
 FIG_DIR = Path(__file__).resolve().parents[1] / "outputs" / "figures"
 FIG_DIR.mkdir(parents=True, exist_ok=True)
 
 # Coordinate matching now lives in data_processing/rail_allmodes/ (moved 2026-07-24).
 COORDS_PATH = FYP_ROOT / "analysis" / "01_data_preparation" / "rail" / "outputs" / "data" / "rail_allmodes_coords.csv"
-LSOA_GEOJSON = FYP_ROOT / "map" / "London_LSOA_2021_Boundaries.geojson"
+LSOA_GEOJSON = SOURCE_ROOT / "map" / "London_LSOA_2021_Boundaries.geojson"
 # Same source the RQ2 results panel (analysis/04_urban_context/src/
 # 06_build_cluster_panels.py::rail_profiles) reads. Profiles here are now
 # computed the same way -- share recomputed from this raw long table and

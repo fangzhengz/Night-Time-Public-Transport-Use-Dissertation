@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 """Configuration for StopArea-allocated bus clustering variants."""
+import os
 from pathlib import Path
 
 
 HERE = Path(__file__).resolve()
 ROOT = HERE.parents[1]
 FYP = HERE.parents[4]
+SOURCE_ROOT = Path(os.environ.get("CASA_FYP_SOURCE_ROOT", FYP / "authorised_data")).expanduser().resolve()
 
 # Adopted 18:00-05:00 window and minimum-direction threshold of 33.
 LONG_INPUT = (
@@ -26,8 +28,8 @@ STOPAREA_SUMMARY = (
     / "data"
     / "preprocessing_summary.csv"
 )
-LSOA_GEOJSON = FYP / "map" / "London_LSOA_2021_Boundaries.geojson"
-LSOA_LAD_LOOKUP = FYP / "IMDdata" / "ons_lsoa11_lsoa21_lad22_london_lookup.csv"
+LSOA_GEOJSON = SOURCE_ROOT / "map" / "London_LSOA_2021_Boundaries.geojson"
+LSOA_LAD_LOOKUP = SOURCE_ROOT / "IMDdata" / "ons_lsoa11_lsoa21_lad22_london_lookup.csv"
 
 OUT = ROOT / "outputs_1805_min33"
 FEATURES = OUT / "features"

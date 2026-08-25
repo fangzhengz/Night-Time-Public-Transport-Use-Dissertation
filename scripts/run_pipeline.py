@@ -2,16 +2,18 @@
 from __future__ import annotations
 
 import argparse
+import os
 import subprocess
 import sys
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_SOURCE_ROOT = ROOT / "authorised_data"
 PYTHON = sys.executable
 
 STAGES = [
-    ("bus raw preprocessing", [PYTHON, "analysis/01_data_preparation/bus/src/preprocess_busto.py", "--input-dir", str(ROOT), "--output-dir", "outputs/preprocessed_busto_1805_min33", "--start-min", "1080", "--end-min", "1740"]),
+    ("bus raw preprocessing", [PYTHON, "analysis/01_data_preparation/bus/src/preprocess_busto.py", "--input-dir", str(DEFAULT_SOURCE_ROOT), "--output-dir", "outputs/preprocessed_busto_1805_min33", "--start-min", "1080", "--end-min", "1740"]),
     ("bus StopArea allocation", [PYTHON, "analysis/01_data_preparation/bus/src/build_stoparea_data.py"]),
     ("bus feature construction", [PYTHON, "analysis/02_mode_specific_clustering/bus/src/01_prepare_features.py"]),
     ("bus clustering", [PYTHON, "analysis/02_mode_specific_clustering/bus/src/02_run_clustering.py", "--variant", "clr"]),
@@ -49,16 +51,35 @@ REQUIRED_INPUTS = [
     "巴士数据/NaPTAN_data/490.xml",
     "map/London_LSOA_2021_Boundaries.geojson",
     "night_time_work_data/london_night_workers_classification_data.csv",
+    "night_time_work_data/lnwc_variable_dictionary_pen_portaits.csv",
     "IMDdata_2025/File_7_IoD2025_All_Ranks_Scores_Deciles_Population_Denominators.csv",
+    "IMDdata_2025/imd2025_lsoa21_london.csv",
+    "IMDdata/ons_lsoa11_lsoa21_lad22_london_lookup.csv",
     "data/raw/os_poi/poi_6438516.gpkg",
 ]
+
+
+def build_stage_environment(source_root: Path) -> dict[str, str]:
+    """Return a subprocess environment that routes every stage to one raw-data root."""
+    environment = os.environ.copy()
+    environment["CASA_FYP_SOURCE_ROOT"] = str(source_root.resolve())
+    return environment
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="Print preflight and commands only")
     parser.add_argument("--full", action="store_true", help="Run the adopted pipeline")
-    parser.add_argument("--source-root", type=Path, default=ROOT, help="Local root containing restricted raw-data folders")
+    parser.add_argument(
+        "--source-root",
+        type=Path,
+        default=DEFAULT_SOURCE_ROOT,
+        help=(
+            "Root containing authorised raw-data folders. Defaults to the "
+            "repository-relative authorised_data directory; another computer "
+            "may supply any absolute or relative path."
+        ),
+    )
     parser.add_argument("--start-at", type=int, default=1, help="One-based stage number for a validated resume")
     args = parser.parse_args()
     if not args.dry_run and not args.full:
@@ -67,9 +88,15 @@ def main() -> None:
     source_root = args.source_root.resolve()
     STAGES[0][1][3] = str(source_root)
     missing = [item for item in REQUIRED_INPUTS if not (source_root / item).exists()]
+    busto_pattern = "*TOTAL DEMAND BY ROUTE BY QUARTER HOUR*.csv"
+    busto_found = any(source_root.rglob(busto_pattern)) if source_root.exists() else False
+    if not busto_found:
+        missing.append(f"BUSTO CSV matching {busto_pattern}")
+    print(f"Authorised source root: {source_root}")
     print("Input preflight:")
     for item in REQUIRED_INPUTS:
         print(f"  {'OK' if (source_root / item).exists() else 'MISSING'}  {item}")
+    print(f"  {'OK' if busto_found else 'MISSING'}  BUSTO CSV matching {busto_pattern}")
     print("\nAdopted stages:")
     if not 1 <= args.start_at <= len(STAGES):
         parser.error(f"--start-at must be between 1 and {len(STAGES)}")
@@ -79,9 +106,10 @@ def main() -> None:
         return
     if missing:
         raise SystemExit("Full run blocked by missing local inputs: " + ", ".join(missing))
+    stage_environment = build_stage_environment(source_root)
     for number, (name, command) in enumerate(STAGES[args.start_at - 1 :], args.start_at):
         print(f"\n[{number:02d}/{len(STAGES):02d}] {name}", flush=True)
-        subprocess.run(command, cwd=ROOT, check=True)
+        subprocess.run(command, cwd=ROOT, check=True, env=stage_environment)
 
 
 if __name__ == "__main__":
