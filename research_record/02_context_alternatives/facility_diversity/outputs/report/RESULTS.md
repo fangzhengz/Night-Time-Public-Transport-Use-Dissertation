@@ -1,4 +1,12 @@
-# Facility diversity sidecar results
+# Early direct-catchment facility results
+
+> **Archived method-development output.** These values come from the early
+> direct-catchment spatial implementation and are retained as a backup and
+> sensitivity record. The final dissertation did retain `log1p_poi_count` and
+> nine-Group `shannon_group`, but recalculated them through the common
+> LSOA-first 20-variable context pipeline. Use `results/tables/` for the formal
+> Rail (n = 389) and Bus (n = 3,383) results; do not cite the historical Rail
+> values below as final results.
 
 | mode   | variable        |    n |     kw_h |      p_value |   epsilon_squared |   distance_band_conditional_p |   q_value_bh |
 |:-------|:----------------|-----:|---------:|-------------:|------------------:|------------------------------:|-------------:|

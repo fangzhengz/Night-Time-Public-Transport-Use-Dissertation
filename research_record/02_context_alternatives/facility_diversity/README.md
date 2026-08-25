@@ -1,11 +1,24 @@
-# RQ2 facility diversity sidecar
+# Early facility-diversity implementation
 
-Night-time activity is shaped not only by who lives in an area but also by what the area contains. This side study grew from that distinction. It asks whether the concentration and diversity of facilities around each analytical unit add a functional portrait that resident-based indicators alone cannot provide.
+## Status: archived spatial-method sensitivity
 
-The folder is retained as a direct-catchment spatial sensitivity analysis.
-The formal dissertation variable set now lives in `rq2_independent_variables`,
-where POI metrics are calculated at LSOA level first and then aggregated using
-the same Rail context procedure as the other independent variables.
+This folder is an early implementation of the facility layer, not an analysis
+that was wholly excluded from the dissertation. Two headline measures developed
+here—`log1p_poi_count` and nine-Group `shannon_group`—were retained in the final
+20-variable context analysis.
+
+What changed was the spatial connection method. This early version assigns POIs
+directly to each analytical unit: fitted LSOA polygons for Bus and 800 m
+Voronoi-clipped station catchments for Rail. The adopted pipeline instead
+calculates both POI measures for every LSOA first, then uses the same established
+LSOA-based Rail aggregation procedure as the other contextual variables. That
+change places all 20 indicators on a consistent spatial estimand.
+
+The folder is therefore preserved as a backup and spatial-method sensitivity.
+Its direct-catchment Rail estimates, POI-density measures, Category-level
+Shannon index and no-Transport variants are not the formal dissertation results.
+The final values and tests are published under `results/tables/` and generated
+by `analysis/04_urban_context/`.
 
 This sidecar reproduces the facility layer described in the BtC paper using
 Ordnance Survey Points of Interest (POI). It keeps the adopted Rail K=5 and Bus
@@ -57,8 +70,10 @@ Digimap on 7 August 2026. The exact source citation and licensed product
 documentation are retained under `data/source/`; the raw GeoPackage is excluded
 from version control.
 
-For dissertation reporting, headline `log1p_poi_count` and `shannon_group`.
-Treat density, Category-level Shannon diversity and the no-Transport variants
-as sensitivity checks. In particular, Rail density partly reflects the geometry
-of the Voronoi-clipped catchments and should not be treated as the primary Rail
-result.
+For historical interpretation, compare the headline `log1p_poi_count` and
+`shannon_group` definitions with the adopted pipeline, but do not substitute the
+numerical results in this folder for the final 389-station Rail and 3,383-LSOA
+Bus context tables. Treat density, Category-level Shannon diversity and the
+no-Transport variants as sensitivity checks. In particular, Rail density partly
+reflects the geometry of the Voronoi-clipped catchments and should not be treated
+as a primary Rail result.

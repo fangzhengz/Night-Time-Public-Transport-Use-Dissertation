@@ -61,7 +61,7 @@
 - Rail all-modes范围、K值和稳定性电池，包括多个纠错前档案；
 - Bus day-type normalisation、activity-tiered core、alpha grid、hub-first reclustering、可靠核心阈值、Bus ILR等；
 - 1200m到800m的LNWC半径发展；
-- LOAC、Spatial Signatures、设施多样性和20变量开发过程；
+- LOAC、Spatial Signatures、设施多样性的早期直接集水区实现，以及最终20变量的统一LSOA优先开发过程；其中POI数量与九大类Shannon多样性进入正式20变量层，早期直接集水区结果仅作为空间方法敏感性保留；
 - 未完成且未进入论文的“地区流动与公共交通使用偏离”分析，以及最终未写入正文的Bus–Rail空间关系分析。
 
 ## 4. 初次审计发现并已补录的分支

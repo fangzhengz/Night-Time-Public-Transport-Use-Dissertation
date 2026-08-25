@@ -1,4 +1,4 @@
-"""Fixed-label RQ2 facility-count and facility-diversity sidecar."""
+"""Archived direct-catchment facility sensitivity for fixed cluster labels."""
 
 from __future__ import annotations
 
@@ -348,9 +348,19 @@ def main():
     audit = {"source": source_audit, "bus": bus_audit, "rail": rail_audit}
     (C.REPORT_OUT / "RUN_AUDIT.json").write_text(json.dumps(audit, indent=2), encoding="utf-8")
     primary = stats.loc[stats["variable"].isin(["log1p_poi_count", "shannon_group"])]
-    report = "# Facility diversity sidecar results\n\n" + primary.to_markdown(index=False) + "\n"
+    report_note = (
+        "# Early direct-catchment facility results\n\n"
+        "> **Archived method-development output.** These values come from the early\n"
+        "> direct-catchment spatial implementation and are retained as a backup and\n"
+        "> sensitivity record. The final dissertation retained `log1p_poi_count` and\n"
+        "> nine-Group `shannon_group`, but recalculated them through the common\n"
+        "> LSOA-first 20-variable context pipeline. Use `results/tables/` for the\n"
+        "> formal Rail (n = 389) and Bus (n = 3,383) results; do not cite the\n"
+        "> historical Rail values below as final results.\n\n"
+    )
+    report = report_note + primary.to_markdown(index=False) + "\n"
     (C.REPORT_OUT / "RESULTS.md").write_text(report, encoding="utf-8")
-    print("Facility diversity sidecar completed")
+    print("Archived direct-catchment facility sensitivity completed")
     print(primary.to_string(index=False))
 
 

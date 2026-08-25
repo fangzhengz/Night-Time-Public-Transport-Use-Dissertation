@@ -48,6 +48,7 @@ an old output from being mistaken for a second final result.
 | Study | Result entry | Status |
 |---|---|---|
 | LNWC 1,200 m to 800 m development | [Comparison report](../../research_record/02_context_alternatives/lnwc_radius_development/outputs/report/COMBINED_COMPARISON.md) | Only the final 800 m version belongs to the main evidence |
+| Early facility-diversity implementation | [Archived method and results](../../research_record/02_context_alternatives/facility_diversity/) | `log1p_poi_count` and nine-Group `shannon_group` were adopted through the final LSOA-first 20-variable pipeline; this direct-catchment implementation and its additional variants remain a spatial-method sensitivity |
 | Independent-variable development | [Result report](../../research_record/02_context_alternatives/independent_variable_development/outputs/report/RESULTS.md) | Supporting development record for the compact final 20-variable layer |
 | Historical Bus CLR × LNWC/IMD | [Result summary](../../research_record/02_context_alternatives/historical_bus_clr_lnwc_imd/outputs/report/RESULTS_SUMMARY.md) | Superseded 3,365-LSOA result |
 | Historical behavioural context metrics | [Result summary](../../research_record/01_model_development/method_experiments/historical_context_metrics/outputs/report/RESULTS_SUMMARY.md) | Superseded provisional descriptor layer |
