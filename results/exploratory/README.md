@@ -22,7 +22,7 @@ notes. This avoids two copies of an old result silently diverging.
 
 | Study | Result entry | Why it is separated from the main evidence |
 |---|---|---|
-| Proposed RQ3 mobility-use mismatch | [Status warning](../../research_record/03_deferred_rq3_mismatch/STATUS.md) · [historical result summary](../../research_record/03_deferred_rq3_mismatch/outputs/report/RESULTS_SUMMARY.md) | The RQ was dropped. Preserved outputs predate a configuration correction and must not be cited without a controlled rerun |
+| Incomplete mobility–public-transport mismatch analysis | [Status warning](../../research_record/03_incomplete_mobility_mismatch_analysis/STATUS.md) · [historical output summary](../../research_record/03_incomplete_mobility_mismatch_analysis/outputs/report/RESULTS_SUMMARY.md) | Considered during the research process but not implemented as a formal dissertation question. Preserved outputs predate a configuration correction and must not be cited without a controlled rerun |
 | Earlier RQ2 workspace | [Record](<../../research_record/01_model_development/method_experiments/rq2test analysis/>) | Preserves earlier direct-metric, IMD and 1,200 m/800 m work; these versions must not be pooled with the adopted context layer |
 
 For the study-level inventory, read

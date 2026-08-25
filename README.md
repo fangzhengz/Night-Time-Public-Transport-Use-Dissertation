@@ -29,9 +29,9 @@ Rail and Bus are modelled separately. Their cluster identifiers are mode-specifi
 - [`results/tables/`](results/tables/) contains the compact machine-readable evidence reported in the dissertation.
 - [`results/figures/`](results/figures/) contains descriptively named copies of the exact figures embedded in the submitted dissertation.
 - [`results/recomputed_figures/`](results/recomputed_figures/) contains figures rebuilt from the adopted clean pipeline.
-- [`results/exploratory/`](results/exploratory/) provides a reader-facing index to completed side analyses and the deferred RQ3 record.
+- [`results/exploratory/`](results/exploratory/) provides a reader-facing index to completed side analyses and the incomplete mobility–public-transport mismatch analysis.
 - [`results/historical_and_sensitivity/`](results/historical_and_sensitivity/) provides a reader-facing index to historical outputs, diagnostics and sensitivity checks.
-- [`research_record/`](research_record/) preserves method development, sensitivity and stability checks, deferred RQ3 work, and exploratory analyses that were not used as dissertation results.
+- [`research_record/`](research_record/) preserves method development, sensitivity and stability checks, incomplete analyses, and exploratory work that was not used as dissertation evidence.
 - [`research_record/SOURCE_COVERAGE.csv`](research_record/SOURCE_COVERAGE.csv) records how the original local analysis branches were retained, represented or explicitly excluded.
 - [`docs/workspace_coverage_audit.md`](docs/workspace_coverage_audit.md) documents the final workspace-to-repository coverage audit and remediation.
 

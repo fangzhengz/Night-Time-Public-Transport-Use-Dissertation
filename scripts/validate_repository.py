@@ -119,8 +119,8 @@ def validate() -> list[str]:
         "SOURCE_COVERAGE.csv",
         "00_early_pipeline_history/README.md",
         "00_early_pipeline_history/legacy_output_inventory.csv",
-        "03_deferred_rq3_mismatch/STATUS.md",
-        "03_deferred_rq3_mismatch/outputs/report/RESULTS_SUMMARY.md",
+        "03_incomplete_mobility_mismatch_analysis/STATUS.md",
+        "03_incomplete_mobility_mismatch_analysis/outputs/report/RESULTS_SUMMARY.md",
         "04_exploratory_bus_rail_relation/STATUS.md",
         "04_exploratory_bus_rail_relation/outputs/report/RESULTS.md",
     }

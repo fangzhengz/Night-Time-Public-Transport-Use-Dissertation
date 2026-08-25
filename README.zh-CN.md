@@ -13,7 +13,7 @@
 3. [`docs/metric_dictionary.md`](docs/metric_dictionary.md)：解释原始值、z-score、效应量和检验统计量之间的区别；
 4. [`results/tables/`](results/tables/)：最终统计表；
 5. [`results/figures/`](results/figures/)：按内容命名的最终图；
-6. [`results/exploratory/`](results/exploratory/)：未进入论文正式结果的探索性分析和弃用 RQ3 导航；
+6. [`results/exploratory/`](results/exploratory/)：未进入论文正式结果的探索性分析，以及未完成的“地区流动与公共交通使用偏离”分析导航；
 7. [`results/historical_and_sensitivity/`](results/historical_and_sensitivity/)：旧结果、稳定性、诊断与敏感性检验导航；
 8. [`research_record/`](research_record/)：与最终管路隔离的36项研究记录原件；
 9. [`paper/CASA0010_dissertation_FangzhengZhou.pdf`](paper/CASA0010_dissertation_FangzhengZhou.pdf)：原样保留的已提交论文。
